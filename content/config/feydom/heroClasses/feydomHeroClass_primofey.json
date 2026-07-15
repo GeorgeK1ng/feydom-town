@@ -1,0 +1,99 @@
+{
+	"feydomHeroClass_primofey" : 
+	{
+		"name" : "大妖",
+		"animation" :
+		{
+			"battle" : 
+			{
+				"female" : "feydom/heroClasses/primofey_battle",
+				"male"   : "feydom/heroClasses/vanguard_battle"
+			}
+		},	
+		"mapObject" : {
+			"filters" : {
+				"male" : { "male" : true },
+				"female" : { "female" : true }
+			},
+			"templates" : { 
+				"female" : 
+				{ 
+					"animation" : "feydom/heroClasses/primofey_map"
+				}, 
+				"male" : 
+				{ 
+					"animation" : "feydom/heroClasses/vanguard_map"
+				} 
+			} 
+		},
+		"commander" : "feydomCommander",
+		"faction" : "feydom",
+		"affinity" : "magic",
+		"primarySkills" :
+		{
+			"attack"     : 0,
+			"defence"    : 0,
+			"spellpower" : 2,
+			"knowledge"  : 3
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 15,
+			"defence"    : 15,
+			"spellpower" : 40,
+			"knowledge"  : 30
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 20,
+			"defence"    : 20,
+			"spellpower" : 30,
+			"knowledge"  : 30
+		},
+		"secondarySkills" :
+		{
+			"wisdom"       : 2,
+			"fireMagic"    : 2,
+			"airMagic"     : 8,
+			"waterMagic"   : 4,
+			"earthMagic"   : 8,
+			"tactics"      : 10,
+			"mysticism"    : 6,
+			"logistics"    : 2,
+			"offence"      : 6,
+			"archery"      : 2,
+			"intelligence" : 4,
+			"sorcery"      : 10,
+			"learning"     : 6,
+			"pathfinding"  : 0,
+			"armorer"      : 0,
+			"resistance"   : 2,
+			"firstAid"     : 2,
+			"scouting"     : 2,
+			"diplomacy"    : 4,
+			"navigation"   : 2,
+			"leadership"   : 2,
+			"luck"         : 2,
+			"ballistics"   : 0,
+			"estates"      : 2,
+			"scholar"      : 6,
+			"artillery"    : 2,
+			"eagleEye"     : 4,
+			"necromancy"   : 0
+		},
+		"defaultTavern" : 5,
+		"tavern" :
+		{
+			"castle"     : 3,
+			"rampart"    : 4,
+			"tower"      : 4,
+			"inferno"    : 4,
+			"necropolis" : 2,
+			"dungeon"    : 5,
+			"stronghold" : 6,
+			"fortress"   : 6,
+			"conflux"    : 4,
+			"feydom"     : 7                  
+		}
+	}
+}

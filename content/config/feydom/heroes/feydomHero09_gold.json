@@ -1,0 +1,73 @@
+{
+    "feydomHero09_gold" :
+    {
+        "class" : "feydomHeroClass_vanguard",
+        "female" : false,
+        "special" : false,
+        "spellbook": [ "fireWall" ],
+        "texts" :
+        {
+            "name" : "金角大王",
+            "biography" : "金角大王原是太上老君的弟子，负责看守炼丹炉，后因观音菩萨三次请求，太上老君才允许其下界为妖。其目的是考验唐僧取经的决心，并收缴其随身法宝。",
+            "specialty" :
+            {
+                "description" : "战斗中使敌人士气-1。",
+                "tooltip" : "特长敌人士气-1",
+                "name" : "士气-1"
+            }
+        },
+
+        "images" :
+        {
+            "specialtySmall" : "feydom/heroes/gold/specialty_small.bmp",
+            "specialtyLarge" : "feydom/heroes/gold/specialty_large.bmp",
+            "large" : "feydom/heroes/gold/portrait_large.png",
+            "small" : "feydom/heroes/gold/portrait_small.png"
+        },
+
+        "army" :
+        [
+            {
+                "creature" : "feydomLv1_wildRoot",
+                "max" : 28,
+                "min" : 20
+            },
+            {
+                "creature" : "feydomLv2_crowArcher",
+                "max" : 7,
+                "min" : 5
+            },
+            {
+                "creature" : "feydomLv3_feyman",
+                "max" : 4,
+                "min" : 3
+            }
+        ],
+
+        "skills" :
+        [
+            {
+                "level" : "basic",
+                "skill" : "tactics"
+            },
+            {
+                "level" : "basic",
+                "skill" : "wisdom"
+            }
+        ],
+    
+        "specialty" : {
+            "bonuses" : {
+                "moraleReduce":
+				{
+					"type" : "MORALE",
+					"val" : -1,
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [ "OPPOSITE_SIDE" ],
+					"stacking" : "面对-1士气特长的英雄"
+				}
+            }
+        }
+    }
+}

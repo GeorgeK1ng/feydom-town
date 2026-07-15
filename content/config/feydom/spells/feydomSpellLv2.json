@@ -1,0 +1,50 @@
+{
+	"feydomSpellLv2" : 
+	{
+		"type": "ability",	"targetType" : "CREATURE",
+		"name" : "破魔免箭",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 1, "power": 1, "defaultGainChance": 0, 		
+		"gainChance":{},"counters": {},		
+		
+		"graphics":	{
+			"iconEffect": "feydom/spells/feydomSpellLv2Effect"
+		},			
+
+		"animation":{
+			"affect":[{"defName" : "C07SPA1"}],
+		},
+		"sounds": {"cast": "WEAKNESS"},
+		"levels" : {
+			"base":{
+				"description": "破除目标的魔法抗性.",
+				"cost": 0, "power": 3, "range" : "0",
+				"targetModifier":{"smart":false},
+				"battleEffects":{
+					"main" : {
+						"ignoreImmunity" :true,
+						"type":"core:timed",
+						"cumulative":  false,
+						"bonus":{
+							"speedPlus":{
+								"type" : "NEGATE_ALL_NATURAL_IMMUNITIES",
+								"subtype":"immunityEnemyHero",
+								//"effectRange" : "ONLY_MELEE_FIGHT",
+								"duration" : "PERMANENT"
+							}
+						}
+					}
+				}	
+					},
+			"none":{},"basic":{},"advanced":{},"expert":{}
+		},
+		"targetCondition" : {"allOf" : {},"noneOf" : {},"anyOf" : {	
+		
+			
+		}},		
+		"flags" : {
+			"negative":true,
+			"nonMagical":true
+		}
+	}
+}

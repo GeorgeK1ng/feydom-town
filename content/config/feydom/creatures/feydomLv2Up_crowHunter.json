@@ -1,0 +1,134 @@
+{
+	"feydomLv2Up_crowHunter":
+	{
+		"name" :
+		{
+			"plural" : "白鸦猎手",
+			"singular" : "白鸦猎手"
+		},
+		"description" : "{技能说明}：\n{破魔免箭}白鸦猎手在远程攻击后，将对攻击目标施法，破除目标的魔法免疫能力。",
+		"hasDoubleWeek" : true,
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 16
+		},
+		"faction" : "feydom",
+		"aiValue" : 184,
+		"fightValue" : 115,
+        "level" : 2,
+		"attack" : 6,
+		"damage" :
+		{
+			 "max" : 4,
+			 "min" : 2
+		},
+		"defense" : 6,
+		"hitPoints" : 15,
+		"speed" : 6,
+		"shots" : 24,
+        "cost" :
+		{
+			"gold" : 125
+		},
+		"growth" : 10,
+		"horde" : 4,
+		"doubleWide" : false,
+		"graphics" :
+		{
+			"animation" : "feydom/creatures/battle/feydomLv2Up_battle.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "feydom/creatures/map/feydomLv2Up_map.def",
+			"iconSmall" : "feydom/creatures/iconSmall/feydomLv2Up_small.bmp",
+			"iconLarge" : "feydom/creatures/iconLarge/feydomLv2Up_large.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile": "PPLIZAX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ]
+			}
+		},
+		"sound" :
+		{
+			"attack": "ROCCWNCE.wav",
+			"defend": "ROCCDFND.wav",
+			"killed": "ROCCKILL.wav",
+			"move": "LCRSMOVE.wav",
+			"shoot": "LCRSSHOT.wav",
+			"wince": "ROCCWNCE.wav"
+		},
+		"abilities" :
+        {  "spellAfterAttack" :
+			{
+                "type":"SPELL_AFTER_ATTACK",
+                "subtype":"spell.feydomSpellLv2",
+				"addInfo": [1, 1, 0],
+                "val":100
+		    },
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			}
+		]
+	}
+}

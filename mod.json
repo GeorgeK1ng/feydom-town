@@ -1,0 +1,96 @@
+{
+	"name" : "Feydom",
+	"description" : "Feydom Town",
+	"author" : "美术大师：吓死蛮牛    制作总监：呆姬(主)    红枫居士(辅)    技能顾问：白云飘飘    背景音乐：《百妖谱》之怪异哉",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.01",
+	"modType" : "Town",
+	"chinese":
+	{
+		"name": "妖域",
+		"description": "新城镇妖域-东方秘境版"
+	},
+	"russian": {
+		"name" : "Царство Йокайев",
+		"description" : "Новый город царство йокайев",
+		"translations" : [
+			"translation/russian.json"
+		]	
+	},
+
+	"factions" :
+	[
+		"config/feydom/town/buildings.json",
+		"config/feydom/town/faction.json",
+		"config/feydom/town/siege.json",
+		"config/feydom/town/spells.json",
+		"config/feydom/town/structures.json",
+		"config/feydom/town/puzzle.json"
+	],
+	"heroClasses" :
+	[
+		"config/feydom/heroClasses/feydomHeroClass_vanguard.json",
+		"config/feydom/heroClasses/feydomHeroClass_primofey.json"
+	],
+
+	"heroes" :
+	[
+		"config/feydom/heroes/feydomHero01_feylordBull.json",
+		"config/feydom/heroes/feydomHero02_blueLion.json",
+		"config/feydom/heroes/feydomHero03_whiteElephant.json",
+		"config/feydom/heroes/feydomHero04_goldenRoc.json",
+		"config/feydom/heroes/feydomHero05_greatApe.json",
+		"config/feydom/heroes/feydomHero06_blueBull.json",
+		"config/feydom/heroes/feydomHero07_saintLion.json",
+		"config/feydom/heroes/feydomHero08_sixears.json",
+        "config/feydom/heroes/feydomHero09_gold.json",
+        "config/feydom/heroes/feydomHero10_silver.json",
+        "config/feydom/heroes/feydomHero11_yellowMouse.json",
+		"config/feydom/heroes/feydomHero12_leopard.json",
+		"config/feydom/heroes/feydomHero51_yellowBrow.json",
+		"config/feydom/heroes/feydomHero52_redKid.json",
+		"config/feydom/heroes/feydomHero53_rakshasi.json",
+		"config/feydom/heroes/feydomHero54_ladyFox.json",
+		"config/feydom/heroes/feydomHero55_ladyWhiteBone.json",
+		"config/feydom/heroes/feydomHero56_ladySpider.json",
+		"config/feydom/heroes/feydomHero57_ladyEarthFlow.json",
+		"config/feydom/heroes/feydomHero58_jadeRabbit.json",
+	],
+	"creatures" :
+	[
+		"config/feydom/creatures/feydomLv0_monkey.json",
+		"config/feydom/creatures/feydomLv1_wildRoot.json",
+		"config/feydom/creatures/feydomLv1Up_evilRoot.json",
+		"config/feydom/creatures/feydomLv2_crowArcher.json",
+		"config/feydom/creatures/feydomLv2Up_crowHunter.json",
+		"config/feydom/creatures/feydomLv3_feyman.json",
+		"config/feydom/creatures/feydomLv3Up_feyBlade.json",
+		"config/feydom/creatures/feydomLv3.json",
+		"config/feydom/creatures/feydomLv3Up.json",
+		"config/feydom/creatures/feydomLv4_feymaid.json",
+		"config/feydom/creatures/feydomLv4Up_feymaidWitch.json",
+		"config/feydom/creatures/feydomLv4.json",
+		"config/feydom/creatures/feydomLv4Up.json",
+		"config/feydom/creatures/feydomLv5_snowApe.json",
+		"config/feydom/creatures/feydomLv5Up_ancientApe.json",
+		"config/feydom/creatures/feydomLv6_feaster.json",
+		"config/feydom/creatures/feydomLv6Up_devourer.json",
+		"config/feydom/creatures/feydomLv7_headless.json",
+		"config/feydom/creatures/feydomLv7Up_battleBorn.json",
+		"config/feydom/creatures/feydomLv7.json",
+		"config/feydom/creatures/feydomLv7Up.json",
+		"config/feydom/creatures/feydomCommander.json"
+	],
+	"spells" :
+	[
+		"config/feydom/spells/feydomSpellLv7.json",
+		"config/feydom/spells/feydomSpellLv6.json",
+		"config/feydom/spells/feydomSpellLv6a.json",
+		"config/feydom/spells/feydomSpellLv6b.json",
+		"config/feydom/spells/feydomSpellLv2.json",
+		"config/feydom/spells/feydomSpellFeyNature.json"
+	],
+	"objects" : [
+		"config/feydom/mapObjects/dwellings.json"
+	 ]
+}

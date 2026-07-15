@@ -1,0 +1,93 @@
+{
+	"feydomCommander":
+	{
+		"name" :
+		{
+			"plural" : "猪统领",
+			"singular" : "猪统领"
+		},
+		"faction" : "feydom",
+		"level": 0,
+		"aiValue" : 156,
+		"special" : true,
+		"attack" : 5,
+		"damage" :
+		{
+			"max" : 12,
+			"min" : 6
+		},
+		"defense" : 5,
+		"speed" : 5,
+		"fightValue" : 130,
+		"doubleWide" : false,
+		"growth" : 9,
+		"hitPoints" : 40,
+        "shots" : 24,
+        "cost" :
+		{
+			"gold" : 140
+		},
+		"graphics" :
+		{
+			"animation" : "feydom/creatures/battle/feydomCommander_battle.def",
+			"map" : "feydom/creatures/map/feydomCommander_Map.def",
+			"iconSmall" : "feydom/creatures/iconSmall/feydomCommander_small.bmp",
+			"iconLarge" : "feydom/creatures/iconLarge/feydomCommander_large.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" :
+			{
+				"projectile": "feydom/creatures/battle/projectile/apeRock.def",
+				"attackClimaxFrame" : 6,
+				"offset" :
+				{
+					"upperX" : 55,
+					"upperY" : -72,
+					"middleX" : 66,
+					"middleY" : -55,
+					"lowerX" : 36,
+					"lowerY" : -38
+				},
+				"frameAngles" : [ 0 ]
+			}
+		},
+	
+		"sound" :
+		{},
+	
+		"abilities" :
+		{
+ 		    "magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.counterstrike",
+				"val" : 3
+			}
+		}
+	}
+}

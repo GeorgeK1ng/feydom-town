@@ -1,0 +1,174 @@
+{
+	"feydomLv7_headless":
+	{
+		"name" :
+		{
+			"plural" : "恶煞",
+			"singular" : "恶煞"
+		},
+		"description" : "{技能说明}：\n{妖魂共鸣}恶煞受英雄和宝物对攻击力、防御力、速度的加成效果+50%，该技能不受驱散效果影响。\n{妖精本源}恶煞接受的每个祝福魔法（仅限原版魔法），都能使其攻、防各+1。",
+		"hasDoubleWeek" : true,
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 4
+		},
+		"faction" : "feydom",
+		"aiValue" : 3718,
+		"fightValue" : 3146,
+		"level" : 7,
+		"attack" : 18,
+		"damage" :
+		{
+			 "max" : 60,
+			 "min" : 30
+		},
+		"defense" : 18,
+		"hitPoints" : 180,
+		"speed" : 9,
+		"cost" :
+		{
+			"gold" : 2500,
+			"mercury" : 1
+		},
+		"growth" : 1,
+		"horde" : 1,
+		"doubleWide" : true,
+		"upgrades":
+		[
+			"feydomLv7Up_battleBorn"
+		],
+		"graphics" :
+		{
+			"animation" : "feydom/creatures/battle/feydomLv7_battle.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "feydom/creatures/map/feydomLv7_map.def",
+			"iconSmall" : "feydom/creatures/iconSmall/feydomLv7_small.bmp",
+			"iconLarge" : "feydom/creatures/iconLarge/feydomLv7_large.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"sound" :
+		{
+			"attack": "ADVLATTK.wav",
+			"defend": "ANGLDFND.wav",
+			"killed": "ANGLKILL.wav",
+			"move": "LTITMOVE.wav",
+			"wince": "ADVLDFND.wav"
+		},
+        "abilities" :
+		{
+			"KING_3" : // Will be affected by Expert Slayer only
+			{
+				"type" : "KING",
+				"val" : 3
+			},
+			"feyNature" : 
+            {
+				"type" : "ENCHANTED",
+				"subtype" : "spell.feydomSpellFeyNature",
+				"val" : 0
+			},
+			"feySpellLv7" : 
+            {
+				"type" : "ENCHANTED",
+				"subtype" : "spell.feydomSpellLv7",
+				"val" : 0
+			},	
+				"armorer2" : {
+					"subtype" : "primarySkill.attack",
+					"targetSourceType" : "HERO_BASE_SKILL",
+					"type" : "PRIMARY_SKILL",
+					"val" : 50,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				},
+				"armorer3" : {
+					"subtype" : "primarySkill.attack",
+					"targetSourceType" : "ARTIFACT",
+					"type" : "PRIMARY_SKILL",
+					"val" : 50,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				},
+				
+				"armorer5" : {
+					"subtype" : "primarySkill.defence",
+					"targetSourceType" : "HERO_BASE_SKILL",
+					"type" : "PRIMARY_SKILL",
+					"val" : 50,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				},
+				"armorer6" : {
+					"subtype" : "primarySkill.defence",
+					"targetSourceType" : "ARTIFACT",
+					"type" : "PRIMARY_SKILL",
+					"val" : 50,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				},
+				
+				"armorer8" : {
+					
+					"targetSourceType" : "HERO_BASE_SKILL",
+					"type": "STACKS_SPEED",
+					"val" : 50,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				},
+				"armorer9" : {
+					
+					"targetSourceType" : "ARTIFACT",
+					"type": "STACKS_SPEED",
+					"val" : 50,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+		},
+        "stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			}
+		]
+	}
+}

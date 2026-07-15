@@ -1,0 +1,84 @@
+{
+    "feydomHero05_greatApe" :
+    {
+        "class" : "feydomHeroClass_vanguard",
+        "female" : false,
+        "special" : false,
+        "spellbook": [ "mirth" ],
+        "texts" :
+        {
+            "name" : "通臂猿猴",
+            "biography" : "本为花果山得道老猴，据传可拿日月，缩千山，辨休咎，乾坤摩弄。曾多次为美猴王指点迷津，鼓励其拜师学艺，求取神兵，深受美猴王信任。其寿将尽之时美猴王曾大闹地府销毁生死簿为其延寿。",
+            "specialty" :
+            {
+                "description" : "白猿和控蜂白猿速度+1、伤害+3。",
+                "tooltip" : "特长白猿",
+                "name" : "白猿"
+            }
+        },
+
+        "images" :
+        {
+            "specialtySmall" : "feydom/heroes/greatApe/specialty_small.png",
+            "specialtyLarge" : "feydom/heroes/greatApe/specialty_large.png",
+            "large" : "feydom/heroes/greatApe/portrait_large.png",
+            "small" : "feydom/heroes/greatApe/portrait_small.png"
+        },
+
+        "army" :
+        [
+            {
+                "creature" : "feydomLv1_wildRoot",
+                "max" : 28,
+                "min" : 20
+            },
+            {
+                "creature" : "feydomLv2_crowArcher",
+                "max" : 7,
+                "min" : 5
+            },
+            {
+                "creature" : "feydomLv5_snowApe",
+                "max" : 1,
+                "min" : 1
+            }
+        ],
+
+        "skills" :
+        [
+            {
+                "level" : "basic",
+                "skill" : "tactics"
+            },
+            {
+                "level" : "basic",
+                "skill" : "archery"
+            }
+        ],
+    
+        "specialty" : {
+            "bonuses" : {
+                "damage" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth",
+					"val" : 3,
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters": [ {
+						"type":"CREATURE_TYPE_LIMITER",
+                        "creature" : "feydomLv6_feaster",
+                        "includeUpgrades" : true
+					} ],
+                },
+				"speed" : {
+					"type" : "STACKS_SPEED",
+                    "val" : 1,
+					"limiters": [ {
+						"type":"CREATURE_TYPE_LIMITER",
+                        "creature" : "feydomLv6_feaster",
+                        "includeUpgrades" : true
+					} ],
+                }
+            }
+        }
+    }
+}

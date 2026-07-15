@@ -1,0 +1,67 @@
+{
+    "feydomHero08_sixears" :
+    {
+        "class" : "feydomHeroClass_vanguard",
+        "female" : false,
+        "special" : false,
+        "spellbook": [ "clone" ],
+        "texts" :
+        {
+            "name" : "六耳猕猴",
+            "biography" : "六耳猕猴是“混世四猴”之一，其能力与孙悟空不相上下，善聆音、能察理、知前后，万物皆明，且精通与孙悟空相同的七十二变、筋斗云等神通，兵器“随心铁杆兵”与金箍棒无异。",
+            "specialty" :
+            {
+                "description" : "在学习能力上每级得到5%的额外奖励。",
+                "tooltip" : "特长学习能力",
+                "name" : "学习能力"
+            }
+        },
+
+        "images" :
+        {
+            "specialtySmall" : "feydom/heroes/sixears/specialty_small.bmp",
+            "specialtyLarge" : "feydom/heroes/sixears/specialty_large.bmp",
+            "large" : "feydom/heroes/sixears/portrait_large.png",
+            "small" : "feydom/heroes/sixears/portrait_small.png"
+        },
+
+        "army" :
+        [
+            {
+                "creature" : "feydomLv1_wildRoot",
+                "max" : 28,
+                "min" : 20
+            },
+            {
+                "creature" : "feydomLv2_crowArcher",
+                "max" : 7,
+                "min" : 5
+            },
+            {
+                "creature" : "feydomLv3_feyman",
+                "max" : 4,
+                "min" : 3
+            }
+        ],
+
+        "skills" :
+        [
+            {
+                "level" : "advanced",
+                "skill" : "learning"
+            }
+        ],
+    
+        "specialty" : {
+            "bonuses" : {
+                "learning" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+            }
+        }
+    }
+}

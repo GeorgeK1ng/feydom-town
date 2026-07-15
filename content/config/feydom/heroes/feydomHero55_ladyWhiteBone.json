@@ -1,0 +1,83 @@
+{
+    "feydomHero55_ladyWhiteBone" :
+    {
+        "class" : "feydomHeroClass_primofey",
+        "female" : true,
+        "special" : false,
+        "spellbook": [ "resurrection" ],
+        "texts" :
+        {
+            "name" : "白骨夫人",
+            "biography" : "本是山野白骨，采天地灵气，吸日月精华，便有了灵性，可幻化人形。",
+            "specialty" :
+            {
+                "description" : "使该英雄计算移动力的地图速度+5。",
+                "tooltip" : "特长地图速度+5",
+                "name" : "地图速度"
+            }
+        },
+
+        "images" :
+        {
+            "specialtySmall" : "feydom/heroes/ladyWhiteBone/specialty_small.bmp",
+            "specialtyLarge" : "feydom/heroes/ladyWhiteBone/specialty_large.bmp",
+            "large" : "feydom/heroes/ladyWhiteBone/portrait_large.png",
+            "small" : "feydom/heroes/ladyWhiteBone/portrait_small.png"
+        },
+
+        "army" :
+        [
+            {
+                "creature" : "feydomLv1_wildRoot",
+                "max" : 25,
+                "min" : 18
+            },
+            {
+                "creature" : "feydomLv3_feyman",
+                "max" : 4,
+                "min" : 3
+            },
+            {
+                "creature" : "feydomLv4_feymaid",
+                "max" : 2,
+                "min" : 2
+            }
+        ],
+
+        "skills" :
+        [
+            {
+                "level" : "basic",
+                "skill" : "wisdom"
+            },
+            {
+                "level" : "basic",
+                "skill" : "pathfinding"
+            }
+        ],
+
+        "specialty" : {
+            "bonuses" : { 
+				"speed1" :{
+					"type" : "STACKS_SPEED",
+					"val" : 5,
+					"valueType" : "ADDITIVE_VALUE"
+				},
+				"speed2" :{
+					"type" : "STACKS_SPEED",
+					"val" : -5,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator": "BATTLE_WIDE"
+				},
+				"speed3" :{
+					"type" : "STACKS_SPEED",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [ "OPPOSITE_SIDE" ],
+					"val" : 5,
+					"valueType" : "ADDITIVE_VALUE"
+				}
+			}
+        }
+    }
+}

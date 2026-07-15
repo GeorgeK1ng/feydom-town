@@ -1,0 +1,785 @@
+{
+	"feydomLv4_feymaid":{
+		"abilities" :{
+			//shield
+			"attackBuff_shield" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"GENERAL_DAMAGE_REDUCTION",
+							"damageTypeMelee",
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.shield"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_shield" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"GENERAL_DAMAGE_REDUCTION",
+							"damageTypeMelee",
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.shield"
+							}
+						]
+					}
+				]
+			},
+			//stoneSkin
+			"attackBuff_stoneSkin" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"PRIMARY_SKILL",
+							"primarySkill.defence",
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.stoneSkin"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_stoneSkin" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"PRIMARY_SKILL",
+							"primarySkill.defence",
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.stoneSkin"
+							}
+						]
+					}
+				]
+			},
+			//protectEarth
+			"attackBuff_protectEarth" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"SPELL_DAMAGE_REDUCTION",
+							"spellSchool.earth",
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.protectEarth"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_protectEarth" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"SPELL_DAMAGE_REDUCTION",
+							"spellSchool.earth",
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.protectEarth"
+							}
+						]
+					}
+				]
+			},
+			//airShield
+			"attackBuff_airShield" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"GENERAL_DAMAGE_REDUCTION",
+							"damageTypeRanged",
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.airShield"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_airShield" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"GENERAL_DAMAGE_REDUCTION",
+							"damageTypeRanged",
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.airShield"
+							}
+						]
+					}
+				]
+			},
+			//magicMirror
+			"attackBuff_magicMirror" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"MAGIC_MIRROR",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.magicMirror"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_magicMirror" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"MAGIC_MIRROR",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.magicMirror"
+							}
+						]
+					}
+				]
+			},
+			//fortune
+			"attackBuff_fortune" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"LUCK",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.fortune"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_fortune" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"LUCK",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.fortune"
+							}
+						]
+					}
+				]
+			},
+			//counterstrike
+			"attackBuff_counterstrike" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"ADDITIONAL_RETALIATION",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.counterstrike"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_counterstrike" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"ADDITIONAL_RETALIATION",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.counterstrike"
+							}
+						]
+					}
+				]
+			},
+			//haste
+			"attackBuff_haste" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"STACKS_SPEED",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.haste"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_haste" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"STACKS_SPEED",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.haste"
+							}
+						]
+					}
+				]
+			},
+			//precision
+			"attackBuff_precision" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"PRIMARY_SKILL",
+							"primarySkill.attack",
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.precision"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_precision" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"PRIMARY_SKILL",
+							"primarySkill.attack",
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.precision"
+							}
+						]
+					}
+				]
+			},
+			//protectAir
+			"attackBuff_protectAir" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"SPELL_DAMAGE_REDUCTION",
+							"spellSchool.air",
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.protectAir"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_protectAir" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"SPELL_DAMAGE_REDUCTION",
+							"spellSchool.air",
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.protectAir"
+							}
+						]
+					}
+				]
+			},
+			//fireShield
+			"attackBuff_fireShield" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"FIRE_SHIELD",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.fireShield"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_fireShield" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"FIRE_SHIELD",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.fireShield"
+							}
+						]
+					}
+				]
+			},
+			//bloodlust
+			"attackBuff_bloodlust" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"PRIMARY_SKILL",
+							"primarySkill.attack",
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.bloodlust"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_bloodlust" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"PRIMARY_SKILL",
+							"primarySkill.attack",
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.bloodlust"
+							}
+						]
+					}
+				]
+			},
+			//slayer
+			"attackBuff_slayer" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"SLAYER",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.slayer"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_slayer" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"SLAYER",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.slayer"
+							}
+						]
+					}
+				]
+			},
+			//frenzy
+			"attackBuff_frenzy" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"IN_FRENZY",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.frenzy"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_frenzy" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"IN_FRENZY",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.frenzy"
+							}
+						]
+					}
+				]
+			},
+			//protectFire
+			"attackBuff_protectFire" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"SPELL_DAMAGE_REDUCTION",
+							"spellSchool.fire",
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.protectFire"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_protectFire" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"SPELL_DAMAGE_REDUCTION",
+							"spellSchool.fire",
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.protectFire"
+							}
+						]
+					}
+				]
+			},
+			//bless
+			"attackBuff_bless" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"ALWAYS_MAXIMUM_DAMAGE",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.bless"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_bless" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"ALWAYS_MAXIMUM_DAMAGE",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.bless"
+							}
+						]
+					}
+				]
+			},
+			//prayer
+			"attackBuff_prayer" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"STACKS_SPEED",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.prayer"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_prayer" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"STACKS_SPEED",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.prayer"
+							}
+						]
+					}
+				]
+			},
+			//mirth
+			"attackBuff_mirth" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"MORALE",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.mirth"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_mirth" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"MORALE",
+							null,
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.mirth"
+							}
+						]
+					}
+				]
+			},
+			//protectWater
+			"attackBuff_protectWater" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"SPELL_DAMAGE_REDUCTION",
+							"spellSchool.water",
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.protectWater"
+							}
+						]
+					}
+				]
+			},
+			"defenceBuff_protectWater" :
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"SPELL_DAMAGE_REDUCTION",
+							"spellSchool.water",
+							{
+								"type" : "SPELL_EFFECT",
+								"id" : "spell.protectWater"
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

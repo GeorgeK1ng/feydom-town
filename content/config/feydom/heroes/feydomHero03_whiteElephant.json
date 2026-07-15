@@ -1,0 +1,69 @@
+{
+    "feydomHero03_whiteElephant" :
+    {
+        "class" : "feydomHeroClass_vanguard",
+        "female" : false,
+        "special" : false,
+        "spellbook": [ "stoneSkin" ],
+        "texts" :
+        {
+            "name" : "六牙白象",
+            "biography" : "本为普贤菩萨坐骑，下凡后盘踞狮驼岭，是青毛狮王，金翅大鹏的结拜兄弟。",
+            "specialty" :
+            {
+                "description" : "使用护体石肤魔法时效果大增。",
+                "tooltip" : "特长护体石肤",
+                "name" : "护体石肤"
+            }
+        },
+
+        "images" :
+        {
+            "specialtySmall" : "feydom/heroes/whiteElephant/specialty_small.png",
+            "specialtyLarge" : "feydom/heroes/whiteElephant/specialty_large.png",
+            "large" : "feydom/heroes/whiteElephant/portrait_large.png",
+            "small" : "feydom/heroes/whiteElephant/portrait_small.png"
+        },
+
+        "army" :
+        [
+            {
+                "creature" : "feydomLv1_wildRoot",
+                "max" : 28,
+                "min" : 20
+            },
+            {
+                "creature" : "feydomLv3_feyman",
+                "max" : 4,
+                "min" : 3
+            },
+            {
+                "creature" : "feydomLv3_feyman",
+                "max" : 3,
+                "min" : 3
+            }
+        ],
+
+        "skills" :
+        [
+            {
+                "level" : "basic",
+                "skill" : "armorer"
+            },
+            {
+                "level" : "basic",
+                "skill" : "resistance"
+            }
+        ],
+
+        "specialty" : {
+            "bonuses" : {
+				"stoneSkin" : {
+					"addInfo" : 0,
+					"subtype" : "spell.stoneSkin",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+        }
+    }
+}

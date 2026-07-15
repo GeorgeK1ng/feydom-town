@@ -1,0 +1,140 @@
+{
+	"feydom" : {
+		"alignment" : "evil",
+		"creatureBackground" : { 
+			"120px" : "feydom/creatureBackground/feydom_creature_background_120px",
+			"130px" : "feydom/creatureBackground/feydom_creature_background_130px"
+		},
+		"name" : "妖域",
+		"description" : "{妖域}\n种族阵营：邪恶\n种族地形：戈壁\n所在地：东方神秘大陆\n妖族是来自东方的神秘种族，它们本是平凡的飞禽走兽，因吸收日精月华开启了灵智，踏上修炼之路。它们自发的聚集起来占山为王，在强大妖王的领导下争夺修炼资源。",
+		"nativeTerrain" : "rough",
+		"boat" : "boatCastle",
+		"town" : {
+			"musicTheme" : ["music/feydom/feydomtown.mp3"],//need more work here
+			"defaultTavern" : 5,
+			"tavernVideo" : "TAVERN.BIK",
+			"guildBackground" : "TPMAGE.bmp",
+			"townBackground": "feydom/town/town_background.png",
+			"guildWindow": "feydom/town/guild_window.bmp",
+			"hallBackground": "feydom/town/hall_background.png",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special1" ], [ "special2" ] ],
+				[ [ "special3" ], [ "horde1", "horde1Upgr" ], [ "horde2", "horde2Upgr" ], [ "special4" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			],
+			"creatures" :
+			[
+				["feydomLv1_wildRoot", "feydomLv1Up_evilRoot"],
+				["feydomLv2_crowArcher", "feydomLv2Up_crowHunter"],
+				["feydomLv3_feyman", "feydomLv3Up_feyBlade"],
+				["feydomLv4_feymaid", "feydomLv4Up_feymaidWitch"],
+				["feydomLv5_snowApe", "feydomLv5Up_ancientApe"],
+				["feydomLv6_feaster", "feydomLv6Up_devourer"],
+				["feydomLv7_headless", "feydomLv7Up_battleBorn"]
+			],
+			"moatAbility" : "strongholdMoat",
+			"horde" : [1,3],
+			"mageGuild" : 5,
+			"primaryResource" : "mercury",
+
+			"buildingsIcons" : "feydom/town/townHall_icon.def",
+			"icons" :
+			{
+				"village" : {
+					"normal" : {
+						"small" : "feydom/town/townIcon/village_small_normal.bmp",
+						"large" : "feydom/town/townIcon/village_large_normal.bmp"
+					},
+					"built" : {
+						"small" : "feydom/town/townIcon/village_small_built.bmp",
+						"large" : "feydom/town/townIcon/village_large_built"
+					}
+				},
+				"fort" : {
+					"normal" : {
+						"small" : "feydom/town/townIcon/fort_small_normal.bmp",
+						"large" : "feydom/town/townIcon/fort_large_normal.bmp"
+					},
+					"built" : {
+						"small" : "feydom/town/townIcon/fort_small_built.bmp",
+						"large" : "feydom/town/townIcon/fort_large_built.bmp"
+					}
+				}
+			},
+			"mapObject" : {
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"capitol" : { "animation" : "feydom/mapObject/feydom_capitol.def" },
+					"castle" : { "animation" : "feydom/mapObject/feydom_castle.def" },
+					"citadel" : { "animation" : "feydom/mapObject/feydom_citadel.def" },
+					"fort" : { "animation" : "feydom/mapObject/feydom_fort.def" },
+					"village" : { "animation" : "feydom/mapObject/feydom_village.def" }
+				}
+			},
+			"names" ://need more work
+			[
+				"黑风山",
+				"黄风岭",
+				"骷髅山",
+				"碗子山",
+				"平顶山",
+				"压龙山",
+				"火云洞",
+				"毒敌山",
+				"花果山",
+				"翠云山",
+				"积雷山",
+				"乱石山",
+				"麒麟山",
+				"盘丝岭",
+				"蜈蚣岭",
+				"狮驼岭",
+				"陷空山",
+				"隐雾山",
+				"豹头山",
+				"竹节山",
+				"青龙山",
+				"毛颖山",
+				"天竺山",
+				"赤炎岭",
+				"黑松林",
+				"莫耐山",
+				"蟒妖岭",
+				"黯黮林",
+				"饿鬼林",
+				"狂风林",
+				"霪雨林",
+			],
+			"tavern" :
+			{
+				"knight"       : 4,
+				"cleric"       : 3,
+				"ranger"       : 3,
+				"druid"        : 2,
+				"alchemist"    : 3,
+				"wizard"       : 2,
+				"demoniac"     : 4,
+				"heretic"      : 4,
+				"deathknight"  : 3,
+				"necromancer"  : 2,
+				"warlock"      : 4,
+				"overlord"     : 4,
+				"barbarian"    : 5,
+				"battlemage"   : 5,
+				"beastmaster"  : 5,
+				"witch"        : 4,
+				"planeswalker" : 4,
+				"elementalist" : 3,
+				"feydomHeroClass_vanguard" : 6,
+				"feydomHeroClass_primofey" : 6
+			}
+		}
+	}
+}

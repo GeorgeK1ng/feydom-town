@@ -1,0 +1,135 @@
+{
+	"feydomLv4_feymaid":
+	{
+		"name" :
+		{
+			"plural" : "妖女",
+			"singular" : "妖女"
+		},
+		"description" : "{技能说明}：\n{妖精本源}妖女接受的每个祝福魔法（仅限原版魔法），都能使其攻、防各+1。\n妖女施放初级转世重生魔法，战后不保留被复活单位。",
+		"hasDoubleWeek" : true,
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 10
+		},
+		"faction" : "feydom",
+		"aiValue" : 416,
+		"fightValue" : 520,
+        "level" : 4,
+		"attack" : 10,
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 7
+		},
+		"defense" : 8,
+		"hitPoints" : 35,
+		"speed" : 6,
+        "cost" :
+		{
+			"gold" : 300
+		},
+		"growth" : 4,
+		"horde" : 2,
+		"doubleWide" : true,
+		"upgrades":
+		[
+			"feydomLv4Up_feymaidWitch"
+		],
+		"graphics" :
+		{
+			"animation" : "feydom/creatures/battle/feydomLv4_battle.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "feydom/creatures/map/feydomLv4_map.def",
+			"iconSmall" : "feydom/creatures/iconSmall/feydomLv4_small.bmp",
+			"iconLarge" : "feydom/creatures/iconLarge/feydomLv4_large.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"sound" :
+		{
+			"attack": "MEDQATTK.wav",
+			"defend": "SPRTDFND.wav",
+			"killed": "MEDQKILL.wav",
+			"move": "CNTRMOVE.wav",
+			"shoot": "EVLISHOT.wav",
+			"wince": "SPRTKILL.wav"
+		},
+		"abilities" :
+        {
+			"feyNature" : 
+            {
+				"type" : "ENCHANTED",
+				"subtype" : "spell.feydomSpellFeyNature",
+				"val" : 0
+			},
+			"resurrects" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.resurrection",
+				"val" : 1
+			},
+			"resurrection10hp" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.resurrection",
+				"val" : 10
+			},
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			}
+		]
+	}
+}

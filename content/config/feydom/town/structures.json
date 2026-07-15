@@ -1,0 +1,51 @@
+{
+	"feydom" :
+	{
+		"town" :
+		{
+			"structures" :
+			{				
+				"mageGuild1" :     { "animation" : "feydom/town/townBuilding/mageGuild1.def", 		"x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/mageGuild1_border.png",    	"area" : "feydom/town/townBuilding/mageGuild1_area.png" },
+				"mageGuild2" :     { "animation" : "feydom/town/townBuilding/mageGuild2.def", 		"x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/mageGuild2_border.png",    	"area" : "feydom/town/townBuilding/mageGuild2_area.png" },
+				"mageGuild3" :     { "animation" : "feydom/town/townBuilding/mageGuild3.def", 		"x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/mageGuild3_border.png",    	"area" : "feydom/town/townBuilding/mageGuild3_area.png" },
+				"mageGuild4" :     { "animation" : "feydom/town/townBuilding/mageGuild4.def", 		"x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/mageGuild4_border.png",    	"area" : "feydom/town/townBuilding/mageGuild4_area.png" },
+				"mageGuild5" :     { "animation" : "feydom/town/townBuilding/mageGuild5.def", 		"x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/mageGuild5_border.png",    	"area" : "feydom/town/townBuilding/mageGuild5_area.png" },
+				"tavern" :         { "animation" : "feydom/town/townBuilding/tavern.def",     "x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/tavern_border.png",  	"area" : "feydom/town/townBuilding/tavern_area.png" },
+				"fort" :           { "animation" : "feydom/town/townBuilding/fort.def",      "x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/fort_border.png",  	"area" : "feydom/town/townBuilding/fort_area.png" },
+				"citadel" :        { "animation" : "feydom/town/townBuilding/citadel.def",      "x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/citadel_border.png",  	"area" : "feydom/town/townBuilding/citadel_area.png" },
+				"castle" :         { "animation" : "feydom/town/townBuilding/castle.def",      "x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/castle_border.png",  	"area" : "feydom/town/townBuilding/castle_area.png" },
+				"villageHall" :    { "animation" : "feydom/town/townBuilding/villageHall.def",     "x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/villageHall_border.png",  	"area" : "feydom/town/townBuilding/villageHall_area.png" },
+				"townHall" :       { "animation" : "feydom/town/townBuilding/townHall.def",     "x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/townHall_border.png", 		"area" : "feydom/town/townBuilding/townHall_area.png" },
+				"cityHall" :       { "animation" : "feydom/town/townBuilding/cityHall.def",     "x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/cityHall_border.png",  	"area" : "feydom/town/townBuilding/cityHall_area.png" },
+				"capitol" :        { "animation" : "feydom/town/townBuilding/capitol.def",     "x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/capitol_border.png",  	"area" : "feydom/town/townBuilding/capitol_area.png" },
+				"marketplace" :    { "animation" : "feydom/town/townBuilding/marketplace.def",    "x" : 0, "y" : 0, "z" : 1, "border" : "feydom/town/townBuilding/marketplace_border.png", 	"area" : "feydom/town/townBuilding/marketplace_area.png" },
+				"resourceSilo" :   { "animation" : "feydom/town/townBuilding/resourceSilo.def",      "x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/resourceSilo_border.png",   	"area" : "feydom/town/townBuilding/resourceSilo_area.png" },
+				"blacksmith" :     { "animation" : "feydom/town/townBuilding/blacksmith.def",     "x" : 0, "y" : 0, "z" : 1, "border" : "feydom/town/townBuilding/blacksmith_border.png",  	"area" : "feydom/town/townBuilding/blacksmith_area.png" },
+				"special1" :       { "animation" : "feydom/town/townBuilding/special1.def",    "x" : 0, "y" : 0, "z" : 1, "border" : "feydom/town/townBuilding/special1_border.png", 	"area" : "feydom/town/townBuilding/special1_area.png" },
+	    	    "horde1":          { "animation" : "feydom/town/townBuilding/horde1.def",    "x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/horde1_border.png", 	"area" : "feydom/town/townBuilding/horde1_area.png", "hidden" : true },
+	    	    "horde1Upgr":      { "animation" : "feydom/town/townBuilding/horde1Upgr.def",    "x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/horde1Upgr_border.png", 	"area" : "feydom/town/townBuilding/horde1Upgr_area.png", "hidden" : true, "builds" : "horde1" },
+				"special2" :       { "animation" : "feydom/town/townBuilding/special2.def",    "x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/special2_border.png", 	"area" : "feydom/town/townBuilding/special2_area.png" },
+				"special3" :       { "animation" : "feydom/town/townBuilding/special3.def",    "x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/special3_border.png", 	"area" : "feydom/town/townBuilding/special3_area.png" },
+				"special4" :       { "animation" : "feydom/town/townBuilding/special4.def",    "x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/special4_border.png", 	"area" : "feydom/town/townBuilding/special4_area.png" },
+	    	    "horde2":          { "animation" : "feydom/town/townBuilding/horde2.def",    "x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/horde2_border.png", 	"area" : "feydom/town/townBuilding/horde2_area.png", "hidden" : true },
+	    	    "horde2Upgr":      { "animation" : "feydom/town/townBuilding/horde2Upgr.def",    "x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/horde2Upgr_border.png", 	"area" : "feydom/town/townBuilding/horde2Upgr_area.png", "hidden" : true, "builds" : "horde2" },
+				"grail" :          { "animation" : "feydom/town/townBuilding/grail.def",  		"x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/grail_border.png",    	"area" : "feydom/town/townBuilding/grail_area.png" },
+				"dwellingLvl1" :   { "animation" : "feydom/town/townBuilding/dwellingLvl1.def", 		"x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/dwellingLvl1_border.png",    	"area" : "feydom/town/townBuilding/dwellingLvl1_area.png" },
+				"dwellingLvl2" :   { "animation" : "feydom/town/townBuilding/dwellingLvl2.def", 		"x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/dwellingLvl2_border.png",    	"area" : "feydom/town/townBuilding/dwellingLvl2_area.png" },
+				"dwellingLvl3" :   { "animation" : "feydom/town/townBuilding/dwellingLvl3.def", 		"x" : 0, "y" : 0, "z" : 1, "border" : "feydom/town/townBuilding/dwellingLvl3_border.png",    	"area" : "feydom/town/townBuilding/dwellingLvl3_area.png" },
+				"dwellingLvl4" :   { "animation" : "feydom/town/townBuilding/dwellingLvl4.def", 		"x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/dwellingLvl4_border.png",    	"area" : "feydom/town/townBuilding/dwellingLvl4_area.png" },
+				"dwellingLvl5" :   { "animation" : "feydom/town/townBuilding/dwellingLvl5.def", 		"x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/dwellingLvl5_border.png",    	"area" : "feydom/town/townBuilding/dwellingLvl5_area.png" },
+				"dwellingLvl6" :   { "animation" : "feydom/town/townBuilding/dwellingLvl6.def", 		"x" : 0, "y" : 0, "z" : 1, "border" : "feydom/town/townBuilding/dwellingLvl6_border.png",    	"area" : "feydom/town/townBuilding/dwellingLvl6_area.png" },
+				"dwellingLvl7" :   { "animation" : "feydom/town/townBuilding/dwellingLvl7.def", 		"x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/dwellingLvl7_border.png",    	"area" : "feydom/town/townBuilding/dwellingLvl7_area.png" },
+				"dwellingUpLvl1" : { "animation" : "feydom/town/townBuilding/dwellingUpLvl1.def",  	"x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/dwellingUpLvl1_border.png", 	"area" : "feydom/town/townBuilding/dwellingUpLvl1_area.png" },
+				"dwellingUpLvl2" : { "animation" : "feydom/town/townBuilding/dwellingUpLvl2.def",  	"x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/dwellingUpLvl2_border.png", 	"area" : "feydom/town/townBuilding/dwellingUpLvl2_area.png" },
+				"dwellingUpLvl3" : { "animation" : "feydom/town/townBuilding/dwellingUpLvl3.def",  	"x" : 0, "y" : 0, "z" : 1, "border" : "feydom/town/townBuilding/dwellingUpLvl3_border.png", 	"area" : "feydom/town/townBuilding/dwellingUpLvl3_area.png" },
+				"dwellingUpLvl4" : { "animation" : "feydom/town/townBuilding/dwellingUpLvl4.def",  	"x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/dwellingUpLvl4_border.png", 	"area" : "feydom/town/townBuilding/dwellingUpLvl4_area.png" },
+				"dwellingUpLvl5" : { "animation" : "feydom/town/townBuilding/dwellingUpLvl5.def",  	"x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/dwellingUpLvl5_border.png", 	"area" : "feydom/town/townBuilding/dwellingUpLvl5_area.png" },
+				"dwellingUpLvl6" : { "animation" : "feydom/town/townBuilding/dwellingUpLvl6.def",  	"x" : 0, "y" : 0, "z" : 1, "border" : "feydom/town/townBuilding/dwellingUpLvl6_border.png", 	"area" : "feydom/town/townBuilding/dwellingUpLvl6_area.png" },
+				"dwellingUpLvl7" : { "animation" : "feydom/town/townBuilding/dwellingUpLvl7.def",  	"x" : 0, "y" : 0, "z" : 0, "border" : "feydom/town/townBuilding/dwellingUpLvl7_border.png", 	"area" : "feydom/town/townBuilding/dwellingUpLvl7_area.png" }
+			}
+		}
+	}
+}
+

@@ -1,0 +1,69 @@
+{
+    "feydomHero01_feylordBull" :
+    {
+        "class" : "feydomHeroClass_vanguard",
+        "female" : false,
+        "special" : false,
+        "spellbook": [ "airShield" ],
+        "texts" :
+        {
+            "name" : "牛魔王",
+            "biography" : "本是一头白色巨牛，修炼成精，能谋善战，力大无穷，尊号大力王。现与玉面公主同居于积雷山摩云洞，另有原配夫人铁扇公主为其育有一子，名唤红孩儿。",
+            "specialty" :
+            {
+                "description" : "所有兵种生命加10%。",
+                "tooltip" : "特长生命值+10%",
+                "name" : "法天象地"
+            }
+        },
+
+        "images" :
+        {
+            "specialtySmall" : "feydom/heroes/feylordBull/specialty_small.png",
+            "specialtyLarge" : "feydom/heroes/feylordBull/specialty_large.png",
+            "large" : "feydom/heroes/feylordBull/portrait_large.png",
+            "small" : "feydom/heroes/feylordBull/portrait_small.png"
+        },
+
+        "army" :
+        [
+            {
+                "creature" : "feydomLv1_wildRoot",
+                "max" : 28,
+                "min" : 20
+            },
+            {
+                "creature" : "feydomLv2_crowArcher",
+                "max" : 7,
+                "min" : 5
+            },
+            {
+                "creature" : "feydomLv3_feyman",
+                "max" : 4,
+                "min" : 3
+            }
+        ],
+
+        "skills" :
+        [
+            {
+                "level" : "basic",
+                "skill" : "tactics"
+            },
+            {
+                "level" : "basic",
+                "skill" : "leadership"
+            }
+        ],
+    
+        "specialty" : {
+            "bonuses" : {
+                "hitPoint" : {
+					"type" : "STACK_HEALTH",
+                    "val" : 10,
+					"valueType" : "PERCENT_TO_BASE"
+                }
+            }
+        }
+    }
+}

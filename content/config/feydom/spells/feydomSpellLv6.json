@@ -1,0 +1,75 @@
+{
+	"feydomSpellLv6" : 
+	{
+		"type": "ability",	"targetType" : "CREATURE",
+		"name" : "饕餮受击，受击饕餮攻+3",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 1, "power": 1, "defaultGainChance": 0, 		
+		"gainChance":{},"counters": {},		
+		
+		"graphics":	{
+			"iconEffect": "feydom/spells/feydomSpellLv6Effect"
+		},			
+
+		"animation":{
+			"affect":[ {
+				"effectName" : "bloodlust"
+			} ]
+		},
+		"sounds": {"cast": "MIRTH"},
+		"levels" : {
+			"base":{
+				"description": "受到攻击后攻击力加1.",
+				"cost": 0, "power": 1, "range" : "0",
+				"targetModifier":{"smart":false},
+				"battleEffects":{
+					"main" : {
+						"type":"core:timed",
+						"cumulative": true,
+						"bonus":{
+							"speedPlus":{
+								"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 1,
+						"valueType" : "BASE_NUMBER",
+								//"effectRange" : "ONLY_MELEE_FIGHT",
+								"duration" : "PERMANENT"
+							}
+						}
+					}
+				}	
+					},
+			"none":{},
+			"basic":{
+				"description": "受到攻击后攻击力加3.",
+				"cost": 0, "power": 3, "range" : "0",
+				"targetModifier":{"smart":false},
+				"battleEffects":{
+					"main" : {
+						"type":"core:timed",
+						"cumulative": true,
+						"bonus":{
+							"speedPlus":{
+								"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 3,
+						"valueType" : "BASE_NUMBER",
+								//"effectRange" : "ONLY_MELEE_FIGHT",
+								"duration" : "PERMANENT"
+							}
+						}
+					}
+				}
+			},
+			"advanced":{},"expert":{}
+		},
+		"targetCondition" : {"allOf" : {},"noneOf" : {},"anyOf" : {	
+		"creature.feydomLv6Up_devourer":"absolute"
+		
+			
+		}},		
+		"flags" : {
+			"indifferent": true
+		}
+	}
+}

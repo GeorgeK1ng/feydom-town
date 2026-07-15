@@ -1,0 +1,85 @@
+{
+	"feydom" :
+	{
+		"town" :
+		{
+			"guildSpells" :
+			{
+				"magicArrow" : 10,
+				"visions" : 10,
+				// Fire
+				"bloodlust" : 50,
+				"curse" : 30,
+				"protectFire" : 10,
+				"blind" : 30,
+				"fireWall" : 10,
+				"fireball" : 10,
+				"landMine" : 10,
+				"misfortune" : 30,
+				"armageddon" : 10,
+				"berserk" : 50,
+				"fireShield" : 50,
+				"frenzy" : 50,
+				"inferno" : 10,
+				"slayer" : 50,
+				"fireElemental" : 10,
+				"sacrifice" : 30,
+				// Air
+				"haste" : 50,
+				"viewAir" : 10,
+				"disguise" : 5,
+				"disruptingRay" : 30,
+				"fortune" : 50,
+				"lightningBolt" : 10,
+				"precision" : 50,
+				"protectAir" : 10,
+				"airShield" : 50,
+				"destroyUndead" : 10,
+				"hypnotize" : 30,
+				"chainLightning" : 10,
+				"counterstrike" : 50,
+				"airElemental" : 10,
+				"dimensionDoor" : 10,
+				"fly" : 10,
+				"magicMirror" : 50,
+				// Water
+				"bless" : 50,
+				"cure" : 50,
+				"dispel" : 50,
+				"protectWater" : 10,
+				"summonBoat" : 5,
+				"iceBolt" : 10,
+				"removeObstacle" : 5,
+				"scuttleBoat" : 5,
+				"weakness" : 30,
+				"forgetfulness" : 30,
+				"frostRing" : 10,
+				"mirth" : 50,
+				"teleport" : 50,
+				"clone" : 50,
+				"prayer" : 50,
+				"waterWalk" : 10,
+				"waterElemental" : 10,
+				// earth
+				"shield" : 50,
+				"slow" : 30,
+				"stoneSkin" : 50,
+				"viewEarth" : 5,
+				"deathRipple" : 0,
+				"quicksand" : 10,
+				"animateDead" : 0,
+				"antiMagic" : 50,
+				"earthquake" : 10,
+				"forceField" : 10,
+				"protectEarth" : 10,
+				"meteorShower" : 10,
+				"resurrection" : 50,
+				"sorrow" : 30,
+				"townPortal" : 50,
+				"earthElemental" : 10,
+				"implosion" : 10,
+			}
+		}
+	}
+}
+

@@ -1,0 +1,51 @@
+{
+	"feydomSpellLv6b" : 
+	{
+		"type": "ability",	"targetType" : "CREATURE",
+		"name" : "伤怒力涌",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 1, "power": 1, "defaultGainChance": 0, 		
+		"gainChance":{},"counters": {},		
+		
+		"graphics":	{
+			"iconEffect": "feydom/spells/feydomSpellLv6Effect"
+		},			
+
+		"animation":{
+			"affect":[ {
+				"effectName" : "bloodlust"
+			} ]
+		},
+		"sounds": {"cast": "MIRTH"},
+		"levels" : {
+			"base":{
+				"description": "{伤怒力涌}\r\n\r\n有此技能的生物受到攻击或反击后，攻击力将上升。",
+				"power": 1,
+				"cost": 0,
+				"range": "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					"feySpellLv6" : {
+						"type" : "RECEPTIVE",
+						"duration" : "ONE_BATTLE"
+					}
+				}	
+			},
+			"none":{},
+			"basic":{
+				
+			},
+			"advanced":{},"expert":{}
+		},
+		"targetCondition" : {"allOf" : {},"noneOf" : {},"anyOf" : {	
+		
+		
+			
+		}},		
+		"flags" : {
+			"special": true,
+			"nonMagical" : true,
+			"positive": true
+		}
+	}
+}

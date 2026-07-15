@@ -1,0 +1,117 @@
+{
+	"feydomLv1_wildRoot":
+	{
+		"name" :
+		{
+			"plural" : "芋精",
+			"singular" : "芋精"
+		},
+		"description" : "",
+		"hasDoubleWeek" : true,
+		"advMapAmount" :
+		{
+			 "max" : 50,
+			 "min" : 20
+		},
+		"faction" : "feydom",
+		"aiValue" : 55,
+		"fightValue" : 40,
+		"level" : 1,
+		"attack" : 2,
+		"damage" :
+		{
+			 "max" : 2,
+			 "min" : 1
+		},
+		"defense" : 2,
+		"hitPoints" : 3,
+		"speed" : 6,
+		"cost" :
+		{
+			"gold" : 25
+		},
+		"growth" : 20,
+		"horde" : 10,
+		"upgrades":
+		[
+			"feydomLv1Up_evilRoot"
+		],
+		"graphics" :
+		{
+			"animation" : "feydom/creatures/battle/feydomLv1_battle.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "feydom/creatures/map/feydomLv1_map.def",
+			"iconSmall" : "feydom/creatures/iconSmall/feydomLv1_small.bmp",
+			"iconLarge" : "feydom/creatures/iconLarge/feydomLv1_large.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"sound" :
+		{
+			"attack": "DFLYMOVE.wav",
+			"defend": "TREEWNCE.wav",
+			"wince": "TREEWNCE.wav",
+			"killed": "DFLYKILL.wav",
+			"startMoving": "WGHTMOVE.wav",
+			"endMoving": "WGHTMOVE.wav"
+		},
+        "abilities" :
+		{
+            "flying" : 
+            {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
+			}
+		},
+        "stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			}
+		]
+	}
+}

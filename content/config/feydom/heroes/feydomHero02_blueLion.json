@@ -1,0 +1,84 @@
+{
+    "feydomHero02_blueLion" :
+    {
+        "class" : "feydomHeroClass_vanguard",
+        "female" : false,
+        "special" : false,
+        "spellbook": [ "sorrow" ],
+        "texts" :
+        {
+            "name" : "青毛狮王",
+            "biography" : "本为文殊菩萨坐骑，青狮巨口可吞十万天兵。下凡后盘踞狮驼岭，是六牙白象，金翅大鹏的结拜兄弟。",
+            "specialty" :
+            {
+                "description" : "贪兽和饕餮速度+1，英雄每升一级贪兽和饕餮的生命值+1。",
+                "tooltip" : "特长贪兽",
+                "name" : "贪兽"
+            }
+        },
+
+        "images" :
+        {
+            "specialtySmall" : "feydom/heroes/blueLion/specialty_small.png",
+            "specialtyLarge" : "feydom/heroes/blueLion/specialty_large.png",
+            "large" : "feydom/heroes/blueLion/portrait_large.png",
+            "small" : "feydom/heroes/blueLion/portrait_small.png"
+        },
+
+        "army" :
+        [
+            {
+                "creature" : "feydomLv1_wildRoot",
+                "max" : 25,
+                "min" : 18
+            },
+            {
+                "creature" : "firstAidTent",
+                "max" : 1,
+                "min" : 1
+            },
+            {
+                "creature" : "feydomLv6_feaster",
+                "max" : 1,
+                "min" : 1
+            }
+        ],
+
+        "skills" :
+        [
+            {
+                "level" : "basic",
+                "skill" : "tactics"
+            },
+            {
+                "level" : "basic",
+                "skill" : "firstAid"
+            }
+        ],
+
+        "specialty" : {
+            "bonuses" : {
+                "hitPoint" : {
+					"type" : "STACK_HEALTH",
+                    "val" : 1,
+					"updater" : "TIMES_HERO_LEVEL",
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters": [ {
+						"type":"CREATURE_TYPE_LIMITER",
+                        "creature" : "feydomLv6_feaster",
+                        "includeUpgrades" : true
+					} ],
+                },
+				"speed" : {
+					"type" : "STACKS_SPEED",
+                    "val" : 1,
+					"limiters": [ {
+						"type":"CREATURE_TYPE_LIMITER", 
+                        "creature" : "feydomLv6_feaster",
+                        "includeUpgrades" : true
+					} ],
+                }
+            }
+        }
+    }
+}
