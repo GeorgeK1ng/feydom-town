@@ -1,81 +1,81 @@
 {
-	"feydomLv4Up_feymaidWitch": {
-		"name": {
-			"plural": "Fey Witch",
-			"singular": "Fey Witch"
+	"feydomLv4Up_feymaidWitch" : {
+		"name" : {
+			"plural" : "Fey Witch",
+			"singular" : "Fey Witch"
 		},
-		"description": "{Ability Description}:\n{Fey Nature} Fey Witch gains +1 Attack and +1 Defense for each blessing spell (original spells only) affecting it.\nFeymaid casts Advanced Resurrection; resurrected units remain after combat.",
-		"hasDoubleWeek": true,
-		"advMapAmount": {
-			"max": 16,
-			"min": 10
+		"description" : "{Ability Description}:\n{Fey Nature} Fey Witch gains +1 Attack and +1 Defense for each blessing spell (original spells only) affecting it.\nFeymaid casts Advanced Resurrection; resurrected units remain after combat.",
+		"hasDoubleWeek" : true,
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 10
 		},
-		"faction": "feydom",
-		"aiValue": 672,
-		"fightValue": 672,
-		"level": 4,
-		"attack": 10,
-		"damage": {
-			"max": 10,
-			"min": 7
+		"faction" : "feydom",
+		"aiValue" : 672,
+		"fightValue" : 672,
+		"level" : 4,
+		"attack" : 10,
+		"damage" : {
+			"max" : 10,
+			"min" : 7
 		},
-		"defense": 10,
-		"hitPoints": 40,
-		"speed": 8,
-		"cost": {
-			"gold": 400
+		"defense" : 10,
+		"hitPoints" : 40,
+		"speed" : 8,
+		"cost" : {
+			"gold" : 400
 		},
-		"growth": 4,
-		"horde": 2,
-		"doubleWide": true,
-		"graphics": {
-			"animation": "feydom/creatures/battle/feydomLv4Up_battle.def",
-			"animationTime": {
-				"attack": 1,
-				"idle": 10,
-				"walk": 1
+		"growth" : 4,
+		"horde" : 2,
+		"doubleWide" : true,
+		"graphics" : {
+			"animation" : "feydom/creatures/battle/feydomLv4Up_battle.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
 			},
-			"map": "feydom/creatures/map/feydomLv4Up_map.def",
-			"iconSmall": "feydom/creatures/iconSmall/feydomLv4Up_small.bmp",
-			"iconLarge": "feydom/creatures/iconLarge/feydomLv4Up_large.bmp",
-			"timeBetweenFidgets": 1
+			"map" : "feydom/creatures/map/feydomLv4Up_map.def",
+			"iconSmall" : "feydom/creatures/iconSmall/feydomLv4Up_small.bmp",
+			"iconLarge" : "feydom/creatures/iconLarge/feydomLv4Up_large.bmp",
+			"timeBetweenFidgets" : 1
 		},
-		"sound": {
-			"attack": "MEDQATTK.wav",
-			"defend": "SPRTDFND.wav",
-			"killed": "MEDQKILL.wav",
-			"move": "CNTRMOVE.wav",
-			"shoot": "EVLISHOT.wav",
-			"wince": "SPRTKILL.wav"
+		"sound" : {
+			"attack" : "MEDQATTK.wav",
+			"defend" : "SPRTDFND.wav",
+			"killed" : "MEDQKILL.wav",
+			"move" : "CNTRMOVE.wav",
+			"shoot" : "EVLISHOT.wav",
+			"wince" : "SPRTKILL.wav"
 		},
-		"abilities": {
-			"feyNature": {
-				"type": "ENCHANTED",
-				"subtype": "spell.feydomSpellFeyNature",
-				"val": 0
+		"abilities" : {
+			"feyNature" : {
+				"type" : "ENCHANTED",
+				"subtype" : "spell.feydomSpellFeyNature",
+				"val" : 0
 			},
-			"resurrects": {
-				"type": "SPELLCASTER",
-				"subtype": "spell.resurrection",
-				"val": 3
+			"resurrects" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.resurrection",
+				"val" : 3
 			},
-			"resurrection10hp": {
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype": "spell.resurrection",
-				"val": 10
+			"resurrection10hp" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.resurrection",
+				"val" : 10
 			},
-			"spellpoints": {
-				"type": "CASTS",
-				"val": 1
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 1
 			}
 		},
-		"stackExperience": [
+		"stackExperience" : [
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "primarySkill.attack"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -89,11 +89,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "primarySkill.defence"
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -107,11 +107,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "CREATURE_DAMAGE",
-					"subtype": "creatureDamageMin"
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -125,11 +125,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "CREATURE_DAMAGE",
-					"subtype": "creatureDamageMax"
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -143,11 +143,11 @@
 				]
 			},
 			{
-				"bonus": {
-					"valueType": "PERCENT_TO_BASE",
-					"type": "STACK_HEALTH"
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
@@ -161,10 +161,10 @@
 				]
 			},
 			{
-				"bonus": {
-					"type": "STACKS_SPEED"
+				"bonus" : {
+					"type" : "STACKS_SPEED"
 				},
-				"values": [
+				"values" : [
 					0,
 					0,
 					0,
