@@ -7,7 +7,10 @@
 	"modType" : "Town",
 	"chinese" : {
 		"name" : "妖域",
-		"description" : "新城镇妖域-东方秘境版"
+		"description" : "新城镇妖域-东方秘境版",
+		"translations" : [
+			"translation/chinese.json"
+		]
 	},
 	"russian" : {
 		"name" : "Царство Йокайев",
