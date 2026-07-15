@@ -1,8 +1,8 @@
 {
 	"feydomCommander" : {
 		"name" : {
-			"plural" : "猪统领",
-			"singular" : "猪统领"
+			"plural" : "Boar Marshal",
+			"singular" : "Boar Marshal"
 		},
 		"faction" : "feydom",
 		"level" : 0,

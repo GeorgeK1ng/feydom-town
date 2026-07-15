@@ -1,6 +1,6 @@
 {
 	"feydomHeroClass_primofey" : {
-		"name" : "大妖",
+		"name" : "Primo Fey",
 		"animation" : {
 			"battle" : {
 				"female" : "feydom/heroClasses/primofey_battle",

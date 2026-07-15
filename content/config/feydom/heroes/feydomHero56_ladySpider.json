@@ -7,12 +7,12 @@
 			"stoneSkin"
 		],
 		"texts" : {
-			"name" : "蜘蛛精",
-			"biography" : "居于盘丝洞的女妖精之一，本是洞中蜘蛛，修炼得道幻化人形，可以从肚脐喷出蛛丝。",
+			"name" : "Spider Demoness",
+			"biography" : "One of the demonesses of Webbed Cave. Originally a spider in the cave, she cultivated the Way, took human form, and can spray silk from her navel.",
 			"specialty" : {
-				"description" : "战斗中使敌方所有部队速度-1。",
-				"tooltip" : "特长敌方速度-1",
-				"name" : "天罗地网"
+				"description" : "Reduces the speed of all enemy troops by 1 in combat.",
+				"tooltip" : "Specialty: Enemy Speed -1",
+				"name" : "Heavenly Net"
 			}
 		},
 

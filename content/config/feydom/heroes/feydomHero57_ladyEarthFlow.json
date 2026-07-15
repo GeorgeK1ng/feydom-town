@@ -7,12 +7,12 @@
 			"earthquake"
 		],
 		"texts" : {
-			"name" : "老鼠精",
-			"biography" : "本是灵山上的金鼻白毛鼠，因偷吃了香花宝烛被托塔李天王和哪咤擒住。如来慈悲饶其性命，放归山林。",
+			"name" : "Mouse Spirit",
+			"biography" : "Originally a golden-nosed white mouse on Spirit Mountain, she stole fragrant candles and was captured by Pagoda-Bearing Heavenly King Li and Nezha. The Tathagata spared her life out of mercy and released her back to the wilds.",
 			"specialty" : {
-				"description" : "在进攻术上每级得到5%的额外奖励。",
-				"tooltip" : "特长进攻术",
-				"name" : "进攻术"
+				"description" : "Receives a 5% per level bonus to Offense skill percentage.",
+				"tooltip" : "Specialty: Offense",
+				"name" : "Offense"
 			}
 		},
 

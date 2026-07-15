@@ -7,12 +7,12 @@
 			"haste"
 		],
 		"texts" : {
-			"name" : "铁扇公主",
-			"biography" : "牛魔王之妻，居于翠云山芭蕉洞，育有一子红孩儿。曾与美猴王发生冲突，好在及时悔改未成大错，后来隐姓修行，终成正果。",
+			"name" : "Princess Iron Fan",
+			"biography" : "Wife of the Bull Demon King, dwelling in Plantain Cave on Emerald Cloud Mountain, and mother to Red Boy. She once clashed with the Monkey King, but repented before great wrong was done; later she lived under an assumed name, pursued cultivation, and attained the true fruit.",
 			"specialty" : {
-				"description" : "使用攻击加速魔法时效果大增。",
-				"tooltip" : "特长攻击加速",
-				"name" : "攻击加速"
+				"description" : "Casts Haste with increased effect.",
+				"tooltip" : "Specialty: Haste",
+				"name" : "Haste"
 			}
 		},
 

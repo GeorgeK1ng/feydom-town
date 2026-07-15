@@ -1,8 +1,8 @@
 {
 	"feydomLv1_wildRoot" : {
 		"name" : {
-			"plural" : "芋精",
-			"singular" : "芋精"
+			"plural" : "Wild Root",
+			"singular" : "Wild Root"
 		},
 		"description" : "",
 		"hasDoubleWeek" : true,

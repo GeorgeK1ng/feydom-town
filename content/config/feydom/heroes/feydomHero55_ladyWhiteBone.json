@@ -7,12 +7,12 @@
 			"resurrection"
 		],
 		"texts" : {
-			"name" : "白骨夫人",
-			"biography" : "本是山野白骨，采天地灵气，吸日月精华，便有了灵性，可幻化人形。",
+			"name" : "Lady White Bone",
+			"biography" : "Once mere bones in the wild hills, she drew in the qi of heaven and earth and the essence of sun and moon until spirit awakened within her, allowing her to take human form.",
 			"specialty" : {
-				"description" : "使该英雄计算移动力的地图速度+5。",
-				"tooltip" : "特长地图速度+5",
-				"name" : "地图速度"
+				"description" : "Increases this hero's map speed used for movement calculation by +5.",
+				"tooltip" : "Specialty: Map Speed +5",
+				"name" : "Map Speed"
 			}
 		},
 

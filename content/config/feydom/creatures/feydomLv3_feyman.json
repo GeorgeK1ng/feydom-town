@@ -1,10 +1,10 @@
 {
 	"feydomLv3_feyman" : {
 		"name" : {
-			"plural" : "妖卒",
-			"singular" : "妖卒"
+			"plural" : "Feyman",
+			"singular" : "Feyman"
 		},
-		"description" : "{技能说明}：\n{妖精本源}妖卒接受的每个祝福魔法（仅限原版魔法），都能使其攻、防各+1。",
+		"description" : "{Ability Description}:\n{Fey Nature} Feyman gains +1 Attack and +1 Defense for each blessing spell (original spells only) affecting it.",
 		"hasDoubleWeek" : true,
 		"advMapAmount" : {
 			"max" : 25,

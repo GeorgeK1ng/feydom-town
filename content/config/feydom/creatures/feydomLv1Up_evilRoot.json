@@ -1,10 +1,10 @@
 {
 	"feydomLv1Up_evilRoot" : {
 		"name" : {
-			"plural" : "魔芋精",
-			"singular" : "魔芋精"
+			"plural" : "Evil Root",
+			"singular" : "Evil Root"
 		},
-		"description" : "{技能说明}：\n魔芋精攻击后施放原始级迟缓大法，攻击目标速度-25%",
+		"description" : "{Ability Description}:\nEvil Root casts Basic Slow after attacking, reducing the target's Speed by 25%",
 		"hasDoubleWeek" : true,
 		"advMapAmount" : {
 			"max" : 30,

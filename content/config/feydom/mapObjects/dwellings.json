@@ -2,7 +2,7 @@
 	"core:creatureGeneratorCommon" : {
 		"types" : {
 			"feydomDwellingLv1" : {
-				"name" : "骸骨苗床",
+				"name" : "Bone Seedbed",
 				"sounds" : {},
 				"creatures" : [
 					[
@@ -21,7 +21,7 @@
 				}
 			},
 			"feydomDwellingLv2" : {
-				"name" : "红木亭",
+				"name" : "Redwood Pavilion",
 				"sounds" : {},
 				"creatures" : [
 					[
@@ -40,7 +40,7 @@
 				}
 			},
 			"feydomDwellingLv3" : {
-				"name" : "黑店",
+				"name" : "Black Market",
 				"sounds" : {},
 				"creatures" : [
 					[
@@ -59,7 +59,7 @@
 				}
 			},
 			"feydomDwellingLv4" : {
-				"name" : "空中楼阁",
+				"name" : "Sky Pavilion",
 				"sounds" : {},
 				"creatures" : [
 					[
@@ -78,7 +78,7 @@
 				}
 			},
 			"feydomDwellingLv5" : {
-				"name" : "寒霜洞窟",
+				"name" : "Frost Cavern",
 				"sounds" : {},
 				"creatures" : [
 					[
@@ -98,7 +98,7 @@
 				}
 			},
 			"feydomDwellingLv6" : {
-				"name" : "贪兽石像",
+				"name" : "Feaster Idol",
 				"sounds" : {},
 				"creatures" : [
 					[
@@ -118,7 +118,7 @@
 				}
 			},
 			"feydomDwellingLv7" : {
-				"name" : "先祖祭坛",
+				"name" : "Ancestral Altar",
 				"sounds" : {},
 				"creatures" : [
 					[

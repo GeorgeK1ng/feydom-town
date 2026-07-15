@@ -1,8 +1,8 @@
 {
 	"feydomLv0_monkey" : {
 		"name" : {
-			"plural" : "妖蜂",
-			"singular" : "妖蜂"
+			"plural" : "Fey Wasp",
+			"singular" : "Fey Wasp"
 		},
 		"special" : true,
 		"description" : "",

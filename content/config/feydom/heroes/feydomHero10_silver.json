@@ -7,12 +7,12 @@
 			"earthquake"
 		],
 		"texts" : {
-			"name" : "银角大王",
-			"biography" : "本为太上老君座下银灵童子，下界后化身为银角大王，与金角大王共同占据莲花洞。",
+			"name" : "Silver Horn King",
+			"biography" : "Once the Silver Spirit Boy under the Grand Supreme Elderly Lord, he descended to the mortal world as Silver Horn King and occupied Lotus Cave together with Gold Horn King.",
 			"specialty" : {
-				"description" : "战斗中使敌人运气-1。",
-				"tooltip" : "特长敌人运气-1",
-				"name" : "运气-1"
+				"description" : "Reduces enemy luck by 1 in combat.",
+				"tooltip" : "Specialty: Enemy Luck -1",
+				"name" : "-1 Luck"
 			}
 		},
 
@@ -62,7 +62,7 @@
 					"limiters" : [
 						"OPPOSITE_SIDE"
 					],
-					"stacking" : "面对-1运气特长的英雄"
+					"stacking" : "Facing a hero with -1 Luck specialty"
 				}
 			}
 		}
