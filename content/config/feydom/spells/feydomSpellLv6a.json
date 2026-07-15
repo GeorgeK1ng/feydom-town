@@ -2,7 +2,7 @@
 	"feydomSpellLv6a" : {
 		"type" : "ability",
 		"targetType" : "CREATURE",
-		"name" : "Feaster is struck; struck Feaster gets Attack +1",
+		"name" : "Feaster Struck: +1 Attack",
 		"school" : {
 			"air" : false,
 			"earth" : false,
@@ -31,7 +31,7 @@
 		},
 		"levels" : {
 			"base" : {
-				"description" : "Attack increases by 1 after being attacked.",
+				"description" : "{Feaster Struck}\r\n\r\nAttack increases by 1 after being attacked.",
 				"cost" : 0,
 				"power" : 1,
 				"range" : "0",
@@ -57,7 +57,7 @@
 			},
 			"none" : {},
 			"basic" : {
-				"description" : "Attack increases by 3 after being attacked.",
+				"description" : "{Feaster Struck}\r\n\r\nAttack increases by 3 after being attacked.",
 				"cost" : 0,
 				"power" : 3,
 				"range" : "0",

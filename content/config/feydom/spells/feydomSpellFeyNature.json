@@ -1,57 +1,56 @@
 {
-	"feydomSpellFeyNature" : {
-		"type" : "ability",
-		"name" : "Fey Nature",
-		"school" : {
-			"air" : false,
-			"earth" : false,
-			"fire" : false,
-			"water" : false
+	"feydomSpellFeyNature": {
+		"type": "ability",
+		"name": "Fey Nature",
+		"school": {
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
 		},
-		"animation" : {},
-		"sounds" : {},
-		"level" : 2,
-		"power" : 10,
-		"defaultGainChance" : 0,
-		"gainChance" : {},
-		"flags" : {
-			"special" : true,
-			"nonMagical" : true,
-			"positive" : true
+		"animation": {},
+		"sounds": {},
+		"level": 2,
+		"power": 10,
+		"defaultGainChance": 0,
+		"gainChance": {},
+		"flags": {
+			"special": true,
+			"nonMagical": true,
+			"positive": true
 		},
-		"graphics" : {
-			"iconBook" : "feydom/spells/feyNatureEffect",
-			"iconScroll" : "feydom/spells/feyNatureEffect",
-			"iconScenarioBonus" : "feydom/spells/feyNatureEffect",
-			"iconEffect" : "feydom/spells/feyNatureEffect"
+		"graphics": {
+			"iconBook": "feydom/spells/feyNatureEffect",
+			"iconScroll": "feydom/spells/feyNatureEffect",
+			"iconScenarioBonus": "feydom/spells/feyNatureEffect",
+			"iconEffect": "feydom/spells/feyNatureEffect"
 		},
-
-		"targetType" : "CREATURE",
-		"targetCondition" : {
-			"allOf" : {},
-			"anyOf" : {},
-			"noneOf" : {}
+		"targetType": "CREATURE",
+		"targetCondition": {
+			"allOf": {},
+			"anyOf": {},
+			"noneOf": {}
 		},
-		"levels" : {
-			"base" : {
-				"description" : "{Fey Nature}\r\n\r\nFey creatures always have a few hidden tricks. Right-click a creature portrait to view them.",
-				"power" : 1,
-				"cost" : 0,
-				"range" : "0",
-				"targetModifier" : {
-					"smart" : true
+		"levels": {
+			"base": {
+				"description": "{Fey Nature}\r\n\r\nFey creatures always have a few hidden tricks. Right-click a creature portrait to view them.",
+				"power": 1,
+				"cost": 0,
+				"range": "0",
+				"targetModifier": {
+					"smart": true
 				},
-				"effects" : {
-					"feyNature" : {
-						"type" : "RECEPTIVE",
-						"duration" : "ONE_BATTLE"
+				"effects": {
+					"feyNature": {
+						"type": "RECEPTIVE",
+						"duration": "ONE_BATTLE"
 					}
 				}
 			},
-			"none" : {},
-			"basic" : {},
-			"advanced" : {},
-			"expert" : {}
+			"none": {},
+			"basic": {},
+			"advanced": {},
+			"expert": {}
 		}
 	}
 }

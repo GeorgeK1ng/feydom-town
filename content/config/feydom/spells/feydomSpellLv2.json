@@ -31,7 +31,7 @@
 		},
 		"levels" : {
 			"base" : {
-				"description" : "Removes the target's magic immunity.",
+				"description" : "{Wardbreaking Shot}\r\n\r\nRemoves the target's magic immunity.",
 				"cost" : 0,
 				"power" : 3,
 				"range" : "0",
