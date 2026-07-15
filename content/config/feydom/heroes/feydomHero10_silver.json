@@ -1,73 +1,70 @@
 {
-    "feydomHero10_silver" :
-    {
-        "class" : "feydomHeroClass_vanguard",
-        "female" : false,
-        "special" : false,
-        "spellbook": [ "earthquake" ],
-        "texts" :
-        {
-            "name" : "银角大王",
-            "biography" : "本为太上老君座下银灵童子，下界后化身为银角大王，与金角大王共同占据莲花洞。",
-            "specialty" :
-            {
-                "description" : "战斗中使敌人运气-1。",
-                "tooltip" : "特长敌人运气-1",
-                "name" : "运气-1"
-            }
-        },
+	"feydomHero10_silver" : {
+		"class" : "feydomHeroClass_vanguard",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"earthquake"
+		],
+		"texts" : {
+			"name" : "银角大王",
+			"biography" : "本为太上老君座下银灵童子，下界后化身为银角大王，与金角大王共同占据莲花洞。",
+			"specialty" : {
+				"description" : "战斗中使敌人运气-1。",
+				"tooltip" : "特长敌人运气-1",
+				"name" : "运气-1"
+			}
+		},
 
-        "images" :
-        {
-            "specialtySmall" : "feydom/heroes/silver/specialty_small.bmp",
-            "specialtyLarge" : "feydom/heroes/silver/specialty_large.bmp",
-            "large" : "feydom/heroes/silver/portrait_large.png",
-            "small" : "feydom/heroes/silver/portrait_small.png"
-        },
+		"images" : {
+			"specialtySmall" : "feydom/heroes/silver/specialty_small.bmp",
+			"specialtyLarge" : "feydom/heroes/silver/specialty_large.bmp",
+			"large" : "feydom/heroes/silver/portrait_large.png",
+			"small" : "feydom/heroes/silver/portrait_small.png"
+		},
 
-        "army" :
-        [
-            {
-                "creature" : "feydomLv1_wildRoot",
-                "max" : 28,
-                "min" : 20
-            },
-            {
-                "creature" : "feydomLv2_crowArcher",
-                "max" : 7,
-                "min" : 5
-            },
-            {
-                "creature" : "feydomLv3_feyman",
-                "max" : 4,
-                "min" : 3
-            }
-        ],
+		"army" : [
+			{
+				"creature" : "feydomLv1_wildRoot",
+				"max" : 28,
+				"min" : 20
+			},
+			{
+				"creature" : "feydomLv2_crowArcher",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "feydomLv3_feyman",
+				"max" : 4,
+				"min" : 3
+			}
+		],
 
-        "skills" :
-        [
-            {
-                "level" : "basic",
-                "skill" : "tactics"
-            },
-            {
-                "level" : "basic",
-                "skill" : "wisdom"
-            }
-        ],
-    
-        "specialty" : {
-            "bonuses" : {
-                "luckReduce":
-				{
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"luckReduce" : {
 					"type" : "LUCK",
 					"val" : -1,
-					"propagator": "BATTLE_WIDE",
+					"propagator" : "BATTLE_WIDE",
 					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [ "OPPOSITE_SIDE" ],
+					"limiters" : [
+						"OPPOSITE_SIDE"
+					],
 					"stacking" : "面对-1运气特长的英雄"
 				}
-            }
-        }
-    }
+			}
+		}
+	}
 }

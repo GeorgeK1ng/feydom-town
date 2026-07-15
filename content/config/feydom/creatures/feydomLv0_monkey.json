@@ -1,112 +1,165 @@
 {
-	"feydomLv0_monkey":
-	{
-		"name" :
-		{
+	"feydomLv0_monkey" : {
+		"name" : {
 			"plural" : "妖蜂",
 			"singular" : "妖蜂"
 		},
 		"special" : true,
 		"description" : "",
 		"hasDoubleWeek" : false,
-		"advMapAmount" :
-		{
-			 "max" : 50,
-			 "min" : 20
+		"advMapAmount" : {
+			"max" : 50,
+			"min" : 20
 		},
 		"faction" : "feydom",
 		"aiValue" : 55,
 		"fightValue" : 40,
 		"level" : 1,
 		"attack" : 2,
-		"damage" :
-		{
-			 "max" : 2,
-			 "min" : 1
+		"damage" : {
+			"max" : 2,
+			"min" : 1
 		},
 		"defense" : 2,
 		"hitPoints" : 3,
 		"speed" : 7,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 25
 		},
 		"growth" : 20,
 		"horde" : 10,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "feydom/creatures/battle/feydomLv0_battle.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "feydom/creatures/map/feydomLv0_map.def",
 			"iconSmall" : "feydom/creatures/iconSmall/feydomLv0_small.bmp",
 			"iconLarge" : "feydom/creatures/iconLarge/feydomLv0_large.bmp",
 			"timeBetweenFidgets" : 1
 		},
-		"sound" :
-		{
-			"attack": "DFLYDFND.wav",
-			"defend": "DFLYDFND.wav",
-			"killed": "DFLYDFND.wav",
-			"wince": "DFLYDFND.wav",
-			"startMoving": "LANDMINE.wav",
-			"endMoving": "LANDMINE.wav"
+		"sound" : {
+			"attack" : "DFLYDFND.wav",
+			"defend" : "DFLYDFND.wav",
+			"killed" : "DFLYDFND.wav",
+			"wince" : "DFLYDFND.wav",
+			"startMoving" : "LANDMINE.wav",
+			"endMoving" : "LANDMINE.wav"
 		},
-        "abilities" :
-		{
-            "flying" : 
-            {
+		"abilities" : {
+			"flying" : {
 				"type" : "FLYING"
 			}
 		},
-        "stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
-			},	
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
-			},	
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			}
 		]
 	}

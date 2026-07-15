@@ -1,57 +1,52 @@
 {
-	"feydomLv2_crowArcher":
-	{
-		"name" :
-		{
+	"feydomLv2_crowArcher" : {
+		"name" : {
 			"plural" : "暗鸦射手",
 			"singular" : "暗鸦射手"
 		},
 		"description" : "",
 		"hasDoubleWeek" : true,
-		"advMapAmount" :
-		{
-			 "max" : 30,
-			 "min" : 16
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 16
 		},
 		"faction" : "feydom",
 		"aiValue" : 126,
 		"fightValue" : 115,
-        "level" : 2,
+		"level" : 2,
 		"attack" : 5,
-		"damage" :
-		{
-			 "max" : 4,
-			 "min" : 2
+		"damage" : {
+			"max" : 4,
+			"min" : 2
 		},
 		"defense" : 5,
 		"hitPoints" : 13,
 		"speed" : 5,
 		"shots" : 24,
-        "cost" :
-		{
+		"cost" : {
 			"gold" : 100
 		},
 		"growth" : 10,
 		"horde" : 4,
 		"doubleWide" : false,
-		"upgrades":
-		[
+		"upgrades" : [
 			"feydomLv2Up_crowHunter"
 		],
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "feydom/creatures/battle/feydomLv2_battle.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "feydom/creatures/map/feydomLv2_map.def",
 			"iconSmall" : "feydom/creatures/iconSmall/feydomLv2_small.bmp",
 			"iconLarge" : "feydom/creatures/iconLarge/feydomLv2_large.bmp",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
-				"projectile": "PPLIZAX.DEF",
+			"missile" : {
+				"projectile" : "PPLIZAX.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -59,73 +54,139 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				]
 			}
 		},
-		"sound" :
-		{
-			"attack": "ROCCWNCE.wav",
-			"defend": "ROCCDFND.wav",
-			"killed": "ROCCKILL.wav",
-			"move": "LCRSMOVE.wav",
-			"shoot": "LCRSSHOT.wav",
-			"wince": "ROCCWNCE.wav"
+		"sound" : {
+			"attack" : "ROCCWNCE.wav",
+			"defend" : "ROCCDFND.wav",
+			"killed" : "ROCCKILL.wav",
+			"move" : "LCRSMOVE.wav",
+			"shoot" : "LCRSSHOT.wav",
+			"wince" : "ROCCWNCE.wav"
 		},
-		"abilities" :
-        {
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
-			},	
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
-			},	
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			}
 		]
 	}

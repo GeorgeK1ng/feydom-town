@@ -1,112 +1,165 @@
 {
-	"feydomLv3Up_feyBlade":
-	{
-		"name" :
-		{
+	"feydomLv3Up_feyBlade" : {
+		"name" : {
 			"plural" : "妖锐",
 			"singular" : "妖锐"
 		},
 		"description" : "{技能说明}：\n{妖精本源}妖锐接受的每个祝福魔法（仅限原版魔法），都能使其攻、防各+1。",
 		"hasDoubleWeek" : true,
-		"advMapAmount" :
-		{
-			 "max" : 20,
-			 "min" : 12
+		"advMapAmount" : {
+			"max" : 20,
+			"min" : 12
 		},
 		"faction" : "feydom",
 		"aiValue" : 412,
 		"fightValue" : 412,
 		"level" : 3,
 		"attack" : 8,
-		"damage" :
-		{
-			 "max" : 7,
-			 "min" : 3
+		"damage" : {
+			"max" : 7,
+			"min" : 3
 		},
 		"defense" : 8,
 		"hitPoints" : 30,
 		"speed" : 7,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 220
 		},
 		"growth" : 8,
 		"horde" : 4,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "feydom/creatures/battle/feydomLv3Up_battle.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "feydom/creatures/map/feydomLv3Up_map.def",
 			"iconSmall" : "feydom/creatures/iconSmall/feydomLv3Up_small.bmp",
 			"iconLarge" : "feydom/creatures/iconLarge/feydomLv3Up_large.bmp",
 			"timeBetweenFidgets" : 1
 		},
-		"sound" :
-		{
-			"attack": "PSNTATTK.wav",
-			"defend": "PSNTDFND.wav",
-			"killed": "PSNTKILL.wav",
-			"move": "PSNTMOVE.wav",
-			"wince": "PSNTWNCE.wav"
+		"sound" : {
+			"attack" : "PSNTATTK.wav",
+			"defend" : "PSNTDFND.wav",
+			"killed" : "PSNTKILL.wav",
+			"move" : "PSNTMOVE.wav",
+			"wince" : "PSNTWNCE.wav"
 		},
-        "abilities" :
-		{
-			"feyNature" : 
-            {
+		"abilities" : {
+			"feyNature" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.feydomSpellFeyNature",
 				"val" : 0
 			}
 		},
-        "stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
-			},	
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
-			},	
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			}
 		]
 	}

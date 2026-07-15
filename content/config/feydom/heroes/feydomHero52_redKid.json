@@ -1,69 +1,65 @@
 {
-    "feydomHero52_redKid" :
-    {
-        "class" : "feydomHeroClass_primofey",
-        "female" : false,
-        "special" : false,
-        "spellbook": [ "fireball" ],
-        "texts" :
-        {
-            "name" : "红孩儿",
-            "biography" : "牛魔王与铁扇公主之子，名唤圣婴大王。虽孩童外表，却修为颇高，能使三昧真火，多次力战美猴王而不败。",
-            "specialty" :
-            {
-                "description" : "使火系魔法伤害+30%",
-                "tooltip" : "特长火系伤害+30%",
-                "name" : "三昧真火"
-            }
-        },
+	"feydomHero52_redKid" : {
+		"class" : "feydomHeroClass_primofey",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"fireball"
+		],
+		"texts" : {
+			"name" : "红孩儿",
+			"biography" : "牛魔王与铁扇公主之子，名唤圣婴大王。虽孩童外表，却修为颇高，能使三昧真火，多次力战美猴王而不败。",
+			"specialty" : {
+				"description" : "使火系魔法伤害+30%",
+				"tooltip" : "特长火系伤害+30%",
+				"name" : "三昧真火"
+			}
+		},
 
-        "images" :
-        {
-            "specialtySmall" : "feydom/heroes/redKid/specialty_small.bmp",
-            "specialtyLarge" : "feydom/heroes/redKid/specialty_large.bmp",
-            "large" : "feydom/heroes/redKid/portrait_large.png",
-            "small" : "feydom/heroes/redKid/portrait_small.png"
-        },
+		"images" : {
+			"specialtySmall" : "feydom/heroes/redKid/specialty_small.bmp",
+			"specialtyLarge" : "feydom/heroes/redKid/specialty_large.bmp",
+			"large" : "feydom/heroes/redKid/portrait_large.png",
+			"small" : "feydom/heroes/redKid/portrait_small.png"
+		},
 
-        "army" :
-        [
-            {
-                "creature" : "feydomLv1_wildRoot",
-                "max" : 28,
-                "min" : 20
-            },
-            {
-                "creature" : "feydomLv2_crowArcher",
-                "max" : 7,
-                "min" : 5
-            },
-            {
-                "creature" : "feydomLv3_feyman",
-                "max" : 4,
-                "min" : 3
-            }
-        ],
+		"army" : [
+			{
+				"creature" : "feydomLv1_wildRoot",
+				"max" : 28,
+				"min" : 20
+			},
+			{
+				"creature" : "feydomLv2_crowArcher",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "feydomLv3_feyman",
+				"max" : 4,
+				"min" : 3
+			}
+		],
 
-        "skills" :
-        [
-            {
-                "level" : "basic",
-                "skill" : "wisdom"
-            },
-            {
-                "level" : "basic",
-                "skill" : "fireMagic"
-            }
-        ],
-    
-        "specialty" : {
-            "bonuses" : {
-                "fireMagic":{
-					"type":"SPELL_DAMAGE",
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "fireMagic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"fireMagic" : {
+					"type" : "SPELL_DAMAGE",
 					"subtype" : "spellSchool.fire",
-					"val":30
+					"val" : 30
 				}
-            }
-        }
-    }
+			}
+		}
+	}
 }

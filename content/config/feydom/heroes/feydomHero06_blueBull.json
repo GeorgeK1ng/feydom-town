@@ -1,70 +1,66 @@
 {
-    "feydomHero06_blueBull" :
-    {
-        "class" : "feydomHeroClass_vanguard",
-        "female" : false,
-        "special" : false,
-        "spellbook": [ "frostRing" ],
-        "texts" :
-        {
-            "name" : "独角兕大王",
-            "biography" : "本为太上老君坐骑，见饲牛童子误食仙丹陷入沉眠，便携家中珍宝下界为妖，自称独角兕大王。",
-            "specialty" :
-            {
-                "description" : "使用寒冰魔环魔法时效果大增。",
-                "tooltip" : "特长寒冰魔环",
-                "name" : "寒冰魔环"
-            }
-        },
+	"feydomHero06_blueBull" : {
+		"class" : "feydomHeroClass_vanguard",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"frostRing"
+		],
+		"texts" : {
+			"name" : "独角兕大王",
+			"biography" : "本为太上老君坐骑，见饲牛童子误食仙丹陷入沉眠，便携家中珍宝下界为妖，自称独角兕大王。",
+			"specialty" : {
+				"description" : "使用寒冰魔环魔法时效果大增。",
+				"tooltip" : "特长寒冰魔环",
+				"name" : "寒冰魔环"
+			}
+		},
 
-        "images" :
-        {
-            "specialtySmall" : "feydom/heroes/blueBull/specialty_small.png",
-            "specialtyLarge" : "feydom/heroes/blueBull/specialty_large.png",
-            "large" : "feydom/heroes/blueBull/portrait_large.png",
-            "small" : "feydom/heroes/blueBull/portrait_small.png"
-        },
+		"images" : {
+			"specialtySmall" : "feydom/heroes/blueBull/specialty_small.png",
+			"specialtyLarge" : "feydom/heroes/blueBull/specialty_large.png",
+			"large" : "feydom/heroes/blueBull/portrait_large.png",
+			"small" : "feydom/heroes/blueBull/portrait_small.png"
+		},
 
-        "army" :
-        [
-            {
-                "creature" : "feydomLv1_wildRoot",
-                "max" : 28,
-                "min" : 20
-            },
-            {
-                "creature" : "feydomLv2_crowArcher",
-                "max" : 7,
-                "min" : 5
-            },
-            {
-                "creature" : "feydomLv3_feyman",
-                "max" : 4,
-                "min" : 3
-            }
-        ],
+		"army" : [
+			{
+				"creature" : "feydomLv1_wildRoot",
+				"max" : 28,
+				"min" : 20
+			},
+			{
+				"creature" : "feydomLv2_crowArcher",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "feydomLv3_feyman",
+				"max" : 4,
+				"min" : 3
+			}
+		],
 
-        "skills" :
-        [
-            {
-                "level" : "basic",
-                "skill" : "wisdom"
-            },
-            {
-                "level" : "basic",
-                "skill" : "waterMagic"
-            }
-        ],
-    
-        "specialty" : {
-            "bonuses" : {
-                "frostRing" : {
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"frostRing" : {
 					"subtype" : "spell.frostRing",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 5
 				}
-            }
-        }
-    }
+			}
+		}
+	}
 }

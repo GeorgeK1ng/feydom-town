@@ -1,121 +1,176 @@
 {
-	"feydomLv6Up_devourer":
-	{
-		"name" :
-		{
+	"feydomLv6Up_devourer" : {
+		"name" : {
 			"plural" : "饕餮",
 			"singular" : "饕餮"
 		},
 		"description" : "{技能说明}：\n{伤怒力涌}饕餮受到攻击或反击后，攻击力将上升3点,可无限叠加。叠加的攻击力可被魔法驱散，而技能一直有效。",
 		"hasDoubleWeek" : true,
-		"advMapAmount" :
-		{
-			 "max" : 10,
-			 "min" : 5
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 5
 		},
 		"faction" : "feydom",
 		"aiValue" : 2382,
 		"fightValue" : 2029,
 		"level" : 6,
 		"attack" : 14,
-		"damage" :
-		{
-			 "max" : 22,
-			 "min" : 16
+		"damage" : {
+			"max" : 22,
+			"min" : 16
 		},
 		"defense" : 17,
 		"hitPoints" : 120,
 		"speed" : 8,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1000
 		},
 		"growth" : 2,
 		"horde" : 1,
 		"doubleWide" : true,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "feydom/creatures/battle/feydomLv6Up_battle.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "feydom/creatures/map/feydomLv6Up_map.def",
 			"iconSmall" : "feydom/creatures/iconSmall/feydomLv6Up_small.bmp",
 			"iconLarge" : "feydom/creatures/iconLarge/feydomLv6Up_large.bmp",
 			"timeBetweenFidgets" : 1
 		},
-		"sound" :
-		{
-			"attack": "RUSTATTK.wav",
-			"defend": "RUSTDFND.wav",
-			"killed": "RUSTKILL.wav",
-			"move": "HHNDMOVE.wav",
-			"wince": "RUSTWNCE.wav"
+		"sound" : {
+			"attack" : "RUSTATTK.wav",
+			"defend" : "RUSTDFND.wav",
+			"killed" : "RUSTKILL.wav",
+			"move" : "HHNDMOVE.wav",
+			"wince" : "RUSTWNCE.wav"
 		},
-        "abilities" :
-		{
-			"feySpellLv6b" : 
-            {
+		"abilities" : {
+			"feySpellLv6b" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.feydomSpellLv6b",
 				"val" : 0
 			},
-			"vendetta" :
-		    {
-		    	"type": "SPELL_AFTER_ATTACK",
-			    "subtype": "spell.feydomSpellLv6",
-			    "val": 100,
-				"addInfo": [1, 0],
-			    "propagator" : "BATTLE_WIDE"
-		    }
+			"vendetta" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.feydomSpellLv6",
+				"val" : 100,
+				"addInfo" : [
+					1,
+					0
+				],
+				"propagator" : "BATTLE_WIDE"
+			}
 		},
-        "stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
-			},	
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
-			},	
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			}
 		]
 	}

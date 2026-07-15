@@ -1,28 +1,20 @@
 {
-	"feydom" :
-	{
-		"town" :
-		{
-			"buildings" :
-			{
-				"mageGuild1" :
-				{
+	"feydom" : {
+		"town" : {
+			"buildings" : {
+				"mageGuild1" : {
 					"description" : "进入魔法行会的来访英雄可以学会其中的魔法",
 					"name" : "1级魔法行会",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
-					},
-					
+					}
 				},
-				"mageGuild2" :
-				{
+				"mageGuild2" : {
 					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
 					"name" : "2级魔法行会",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 4,
 						"ore" : 5,
@@ -31,15 +23,13 @@
 						"gems" : 4,
 						"gold" : 1000
 					},
-					
+
 					"upgrades" : "mageGuild1"
 				},
-				"mageGuild3" :
-				{
+				"mageGuild3" : {
 					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
 					"name" : "3级魔法行会",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 6,
 						"ore" : 5,
@@ -48,15 +38,13 @@
 						"gems" : 6,
 						"gold" : 1000
 					},
-					
+
 					"upgrades" : "mageGuild2"
 				},
-				"mageGuild4" : 
-				{
+				"mageGuild4" : {
 					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
 					"name" : "4级魔法行会",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 8,
 						"ore" : 5,
@@ -65,15 +53,13 @@
 						"gems" : 8,
 						"gold" : 1000
 					},
-					
+
 					"upgrades" : "mageGuild3"
 				},
-				"mageGuild5" :
-				{
+				"mageGuild5" : {
 					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
 					"name" : "5级魔法行会",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 10,
 						"ore" : 5,
@@ -82,238 +68,243 @@
 						"gems" : 10,
 						"gold" : 1000
 					},
-					
+
 					"upgrades" : "mageGuild4"
 				},
-				"tavern" :
-				{
+				"tavern" : {
 					"name" : "酒馆",
 					"description" : "酒馆可提高驻军的士气。",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
-					},
-					
+					}
 				},
-				"fort" :
-				{
+				"fort" : {
 					"name" : "堡垒",
 					"description" : "堡垒可为你的城镇提供城墙。",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
-					},
-					
+					}
 				},
-				"citadel" :
-				{
+				"citadel" : {
 					"name" : "大本营",
 					"description" : "大本营不仅使生物的基本生长率提高50%，还能加强城镇的防御设施。",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 2500
 					},
-					
+
 					"upgrades" : "fort"
 				},
-				"castle" :
-				{
+				"castle" : {
 					"name" : "城堡",
 					"description" : "城堡可提供2座副箭塔以加强城镇的防御，而且还使生物的基本生长率加倍。",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
 					},
-					
+
 					"upgrades" : "citadel"
 				},
-				"villageHall" :
-				{
+				"villageHall" : {
 					"name" : "议事堂",
 					"description" : "议事堂可以让你购买城镇建筑，并每天向你提供500个金币。",
-					
+
 					"mode" : "auto"
 				},
-				"townHall" :
-				{
+				"townHall" : {
 					"name" : "内政厅",
 					"description" : "内政厅可以让你购买城镇建筑，并每天向你提供1000个金币。",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 2500
 					},
-					
-					"requires" : [ "tavern" ],
+
+					"requires" : [
+						"tavern"
+					],
 					"upgrades" : "villageHall"
 				},
-				"cityHall" :
-				{
+				"cityHall" : {
 					"name" : "议会",
 					"description" : "议会可以让你购买城镇建筑并每天向你提供2000个金币。",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 5000
 					},
-					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ],
-					
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"blacksmith"
+						],
+						[
+							"marketplace"
+						]
+					],
+
 					"upgrades" : "townHall"
 				},
-				"capitol" :
-				{
+				"capitol" : {
 					"name" : "国会",
 					"description" : "国会每天向你提供4000个金币。",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 10000
 					},
-					
-					"requires" : [ "castle" ],
+
+					"requires" : [
+						"castle"
+					],
 					"upgrades" : "cityHall"
 				},
-				"marketplace" :
-				{
+				"marketplace" : {
 					"name" : "市场",
 					"description" : "市场可让你交换资源(你所拥有的市场越多，价格越便宜)。",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
-					},
-					
+					}
 				},
-				"resourceSilo" :
-				{
+				"resourceSilo" : {
 					"description" : "物资仓库每天为你额外提供1水银。",
 					"name" : "物资仓库",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"produce" : { "wood": 0,"ore": 0, "mercury": 1,"sulfur": 0,"crystal": 0,"gems": 0 },
-					"requires" : [ "marketplace" ],
-					
+					"produce" : {
+						"wood" : 0,
+						"ore" : 0,
+						"mercury" : 1,
+						"sulfur" : 0,
+						"crystal" : 0,
+						"gems" : 0
+					},
+					"requires" : [
+						"marketplace"
+					]
 				},
-				"blacksmith" :
-				{
+				"blacksmith" : {
 					"description" : "铁匠铺可向你的军队提供急救帐篷。",
 					"name" : "铁匠铺",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 1000
 					},
-					"warMachine" : "firstAidTent",
-					
+					"warMachine" : "firstAidTent"
 				},
-				"special1" :
-				{
+				"special1" : {
 					"description" : "只需支付少量费用，你就可以在宝物商店购买宝物。",
 					"name" : "宝物商店",
 					"cost" : {
 						"gold" : 10000
 					},
-					"requires" : [ "marketplace" ],
-					"marketModes" : ["resource-artifact", "artifact-resource"],
-					
+					"requires" : [
+						"marketplace"
+					],
+					"marketModes" : [
+						"resource-artifact",
+						"artifact-resource"
+					]
 				},
-                "horde1" :
-				{
+				"horde1" : {
 					"description" : "醉鸦亭使暗鸦射手的产量每周增加4个。",
 					"name" : "醉鸦亭",
-					"requires" : [ "allOf", ["fort"], ["dwellingLvl2"] ],
+					"requires" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"dwellingLvl2"
+						]
+					],
 					"upgrades" : "dwellingLvl2",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 1000
-					},
-					
+					}
 				},
-				"horde1Upgr" :
-				{
+				"horde1Upgr" : {
 					"description" : "醉鸦亭使暗鸦射手和白鸦猎手的产量每周增加4个。",
 					"name" : "醉鸦亭",
-					"requires" : [ "horde1" ],
+					"requires" : [
+						"horde1"
+					],
 					"upgrades" : "dwellingUpLvl2",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 1000
 					},
-					"mode" : "auto",
-					
+					"mode" : "auto"
 				},
-				"special2" :
-				{
+				"special2" : {
 					"name" : "金库",
 					"description" : "金库在每周一使金币数量+10%。",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
-						"ore": 10,
+						"ore" : 10,
 						"gold" : 5000
 					},
 					"type" : "treasury",
-					"requires" : [ "marketplace" ],
-					
+					"requires" : [
+						"marketplace"
+					]
 				},
-				"special3": 
-				{
-					"description": "访问炼丹炉使英雄率领的部队本周末前在战斗外速度+5。\n{妖精本源}具有该技能的兵种接受的每个祝福魔法（仅限原版魔法），都能使其攻、防各+1。",
-					"name": "炼丹炉",
-					"requires": [ "blacksmith" ],
-					"cost": {
-						"ore": 5,
-						"gold": 1000
+				"special3" : {
+					"description" : "访问炼丹炉使英雄率领的部队本周末前在战斗外速度+5。\n{妖精本源}具有该技能的兵种接受的每个祝福魔法（仅限原版魔法），都能使其攻、防各+1。",
+					"name" : "炼丹炉",
+					"requires" : [
+						"blacksmith"
+					],
+					"cost" : {
+						"ore" : 5,
+						"gold" : 1000
 					},
 					"configuration" : {
 						"visitMode" : "bonus",
 						"rewards" : [
 							{
 								"message" : "服下丹药后，你的部队在战斗外速度+5。丹药的效果只能持续一周，所以每周一你要带部队回来重新服药。",
-								"bonuses" : [ 
-								{
-									//"stacking" : "alchemyFurnace1",
-									"type" : "STACKS_SPEED",
-									"val" : 5,
-									"valueType" : "ADDITIVE_VALUE",
-									"duration" : "ONE_WEEK"
-								},
-								{
-									//"stacking" : "alchemyFurnace2",
-									"type" : "STACKS_SPEED",
-									"val" : -5,
-									"valueType" : "ADDITIVE_VALUE",
-									"propagator": "BATTLE_WIDE",
-									"duration" : "ONE_WEEK"
-								},
-								{
-									//"stacking" : "alchemyFurnace3",
-									"type" : "STACKS_SPEED",
-									"propagator": "BATTLE_WIDE",
-									"propagationUpdater" : "BONUS_OWNER_UPDATER",
-									"limiters" : [ "OPPOSITE_SIDE" ],
-									"val" : 5,
-									"valueType" : "ADDITIVE_VALUE",
-									"duration" : "ONE_WEEK"
-								} 
+								"bonuses" : [
+									{
+										//"stacking" : "alchemyFurnace1",
+										"type" : "STACKS_SPEED",
+										"val" : 5,
+										"valueType" : "ADDITIVE_VALUE",
+										"duration" : "ONE_WEEK"
+									},
+									{
+										//"stacking" : "alchemyFurnace2",
+										"type" : "STACKS_SPEED",
+										"val" : -5,
+										"valueType" : "ADDITIVE_VALUE",
+										"propagator" : "BATTLE_WIDE",
+										"duration" : "ONE_WEEK"
+									},
+									{
+										//"stacking" : "alchemyFurnace3",
+										"type" : "STACKS_SPEED",
+										"propagator" : "BATTLE_WIDE",
+										"propagationUpdater" : "BONUS_OWNER_UPDATER",
+										"limiters" : [
+											"OPPOSITE_SIDE"
+										],
+										"val" : 5,
+										"valueType" : "ADDITIVE_VALUE",
+										"duration" : "ONE_WEEK"
+									}
 								]
 							}
 						]
-					},
-					
+					}
 				},
-				"special4": 
-				{
-					"description": "远古祭祀场为魔法行会增加魔法。\n{妖精本源}具有该技能的兵种接受的每个祝福魔法（仅限原版魔法），都能使其攻、防各+1。",
-					"name": "远古祭祀场",
+				"special4" : {
+					"description" : "远古祭祀场为魔法行会增加魔法。\n{妖精本源}具有该技能的兵种接受的每个祝福魔法（仅限原版魔法），都能使其攻、防各+1。",
+					"name" : "远古祭祀场",
 					"type" : "library",
-					"cost": {
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 5,
 						"ore" : 5,
@@ -322,1095 +313,1150 @@
 						"gems" : 5,
 						"gold" : 1500
 					},
-					"requires": [ "mageGuild1" ],
-					
+					"requires" : [
+						"mageGuild1"
+					]
 				},
-                "horde2" :
-				{
+				"horde2" : {
 					"description" : "妖星使妖女的产量每周增加2个。",
 					"name" : "妖星",
-					"requires" : [ "allOf", ["fort"], ["dwellingLvl4"] ],
+					"requires" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"dwellingLvl4"
+						]
+					],
 					"upgrades" : "dwellingLvl4",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 2000
-					},
-					
+					}
 				},
-				"horde2Upgr" :
-				{
+				"horde2Upgr" : {
 					"description" : "妖星使妖女和妖姬的产量每周增加2个。",
 					"name" : "妖星",
-					"requires" : [ "horde2" ],
+					"requires" : [
+						"horde2"
+					],
 					"upgrades" : "dwellingUpLvl4",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 2000
 					},
-					"mode" : "auto",
-					
+					"mode" : "auto"
 				},
-				"grail" :
-				{
+				"grail" : {
 					"description" : "妖神金身使每周的生物产量提高50%，每天为你的王国额外提供5000个金币，并使所有己方妖域部队获得妖精本源能力，原先已有妖精本源能力的妖域部队效果翻倍。",
 					"name" : "妖神金身",
 					"mode" : "grail",
-					"produce": { "gold": 5000 },
-					"bonuses": [
+					"produce" : {
+						"gold" : 5000
+					},
+					"bonuses" : [
 						{
 							"type" : "ENCHANTED",
 							"subtype" : "spell.feydomSpellFeyNature",
 							"val" : 0,
-							"limiters" : [{
-            	    			"type" : "FACTION_LIMITER",
-            	    			"parameters" : ["feydom"]
-            	    		}],
-							"propagator": "PLAYER"
+							"limiters" : [
+								{
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
 						},
 						//shield
-			            {
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "GENERAL_DAMAGE_REDUCTION",
-							            "damageTypeMelee",
-							            {
-								            "type" : "SPELL_EFFECT",
-								            "id" : "spell.shield"
-							            }
-						            ]
-					            },
-								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "GENERAL_DAMAGE_REDUCTION",
-							            "damageTypeMelee",
-							            {
-								            "type" : "SPELL_EFFECT",
-								            "id" : "spell.shield"
-							            }
-						            ]
-					            },
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"GENERAL_DAMAGE_REDUCTION",
+										"damageTypeMelee",
+										{
+											"type" : "SPELL_EFFECT",
+											"id" : "spell.shield"
+										}
+									]
+								},
+								{
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
+						{
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"GENERAL_DAMAGE_REDUCTION",
+										"damageTypeMelee",
+										{
+											"type" : "SPELL_EFFECT",
+											"id" : "spell.shield"
+										}
+									]
+								},
+								{
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						//stoneSkin
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "PRIMARY_SKILL",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"PRIMARY_SKILL",
 										"primarySkill.defence",
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.stoneSkin"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "PRIMARY_SKILL",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"PRIMARY_SKILL",
 										"primarySkill.defence",
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.stoneSkin"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						//protectEarth
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "SPELL_DAMAGE_REDUCTION",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"SPELL_DAMAGE_REDUCTION",
 										"spellSchool.earth",
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.protectEarth"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "SPELL_DAMAGE_REDUCTION",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"SPELL_DAMAGE_REDUCTION",
 										"spellSchool.earth",
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.protectEarth"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						//airShield
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "GENERAL_DAMAGE_REDUCTION",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"GENERAL_DAMAGE_REDUCTION",
 										"damageTypeRanged",
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.airShield"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "GENERAL_DAMAGE_REDUCTION",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"GENERAL_DAMAGE_REDUCTION",
 										"damageTypeRanged",
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.airShield"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						//magicMirror
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "MAGIC_MIRROR",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"MAGIC_MIRROR",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.magicMirror"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "MAGIC_MIRROR",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"MAGIC_MIRROR",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.magicMirror"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						//fortune
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "LUCK",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"LUCK",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.fortune"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "LUCK",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"LUCK",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.fortune"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						//counterstrike
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "ADDITIONAL_RETALIATION",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"ADDITIONAL_RETALIATION",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.counterstrike"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "ADDITIONAL_RETALIATION",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"ADDITIONAL_RETALIATION",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.counterstrike"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						//haste
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "STACKS_SPEED",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"STACKS_SPEED",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.haste"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "STACKS_SPEED",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"STACKS_SPEED",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.haste"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						//precision
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "PRIMARY_SKILL",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"PRIMARY_SKILL",
 										"primarySkill.attack",
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.precision"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "PRIMARY_SKILL",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"PRIMARY_SKILL",
 										"primarySkill.attack",
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.precision"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						//protectAir
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "SPELL_DAMAGE_REDUCTION",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"SPELL_DAMAGE_REDUCTION",
 										"spellSchool.air",
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.protectAir"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "SPELL_DAMAGE_REDUCTION",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"SPELL_DAMAGE_REDUCTION",
 										"spellSchool.air",
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.protectAir"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						//fireShield
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "FIRE_SHIELD",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"FIRE_SHIELD",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.fireShield"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "FIRE_SHIELD",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"FIRE_SHIELD",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.fireShield"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						//bloodlust
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "PRIMARY_SKILL",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"PRIMARY_SKILL",
 										"primarySkill.attack",
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.bloodlust"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "PRIMARY_SKILL",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"PRIMARY_SKILL",
 										"primarySkill.attack",
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.bloodlust"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						//slayer
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "SLAYER",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"SLAYER",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.slayer"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "SLAYER",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"SLAYER",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.slayer"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						//frenzy
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "IN_FRENZY",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"IN_FRENZY",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.frenzy"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "IN_FRENZY",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"IN_FRENZY",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.frenzy"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						//protectFire
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "SPELL_DAMAGE_REDUCTION",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"SPELL_DAMAGE_REDUCTION",
 										"spellSchool.fire",
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.protectFire"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "SPELL_DAMAGE_REDUCTION",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"SPELL_DAMAGE_REDUCTION",
 										"spellSchool.fire",
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.protectFire"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						//bless
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "ALWAYS_MAXIMUM_DAMAGE",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"ALWAYS_MAXIMUM_DAMAGE",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.bless"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "ALWAYS_MAXIMUM_DAMAGE",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"ALWAYS_MAXIMUM_DAMAGE",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.bless"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						//prayer
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "STACKS_SPEED",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"STACKS_SPEED",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.prayer"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "STACKS_SPEED",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"STACKS_SPEED",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.prayer"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						//mirth
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "MORALE",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"MORALE",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.mirth"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "MORALE",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"MORALE",
 										null,
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.mirth"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						//protectWater
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.attack",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "SPELL_DAMAGE_REDUCTION",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"SPELL_DAMAGE_REDUCTION",
 										"spellSchool.water",
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.protectWater"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            },
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						},
 						{
-				            "type" : "PRIMARY_SKILL",
-				            "subtype" : "primarySkill.defence",
-				            "val" : 1,
-				            "valueType" : "ADDITIVE_VALUE",
-				            "limiters" : [
-							"allOf",
-					            {
-						            "type" : "HAS_ANOTHER_BONUS_LIMITER",
-						            "parameters" : [
-							            "SPELL_DAMAGE_REDUCTION",
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								"allOf",
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters" : [
+										"SPELL_DAMAGE_REDUCTION",
 										"spellSchool.water",
 										{
 											"type" : "SPELL_EFFECT",
 											"id" : "spell.protectWater"
 										}
-						            ]
-					            },
+									]
+								},
 								{
-            	    			    "type" : "FACTION_LIMITER",
-            	    			    "parameters" : ["feydom"]
-            	    		    }
-							
-				            ],
-							"propagator": "PLAYER"
-			            }
-					],
-					
+									"type" : "FACTION_LIMITER",
+									"parameters" : [
+										"feydom"
+									]
+								}
+							],
+							"propagator" : "PLAYER"
+						}
+					]
 				},
-				"dwellingLvl1" :
-				{
+				"dwellingLvl1" : {
 					"description" : "骸骨苗床允许你招募芋精。",
 					"name" : "骸骨苗床",
 					"cost" : {
 						"gold" : 1000
 					},
-					"requires" : [ "fort" ],
-					
+					"requires" : [
+						"fort"
+					]
 				},
-				"dwellingLvl2" :
-				{
+				"dwellingLvl2" : {
 					"description" : "红木亭允许你招募暗鸦射手。",
 					"name" : "红木亭",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 10
 					},
-					"requires" : ["fort"],
-					
+					"requires" : [
+						"fort"
+					]
 				},
-				"dwellingLvl3" :
-				{
+				"dwellingLvl3" : {
 					"description" : "黑店允许你招募妖卒。",
 					"name" : "黑店",
 					"cost" : {
 						"gold" : 1500,
 						"wood" : 10
 					},
-					"requires" : [ "allOf", [ "dwellingLvl2" ],[ "blacksmith" ],["fort"] ],
-					
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl2"
+						],
+						[
+							"blacksmith"
+						],
+						[
+							"fort"
+						]
+					]
 				},
-				"dwellingLvl4" :
-				{
+				"dwellingLvl4" : {
 					"description" : "空中楼阁允许你招募妖女。",
 					"name" : "空中楼阁",
 					"cost" : {
@@ -1420,12 +1466,24 @@
 						"sulfur" : 3,
 						"crystal" : 3,
 						"gems" : 3
-						},
-					"requires" : [ "allOf", [ "dwellingLvl2" ],[ "dwellingLvl3" ],[ "mageGuild1" ],["fort"] ],
-					
+					},
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl2"
+						],
+						[
+							"dwellingLvl3"
+						],
+						[
+							"mageGuild1"
+						],
+						[
+							"fort"
+						]
+					]
 				},
-				"dwellingLvl5" :
-				{
+				"dwellingLvl5" : {
 					"description" : "寒霜洞窟允许你招募白猿。",
 					"name" : "寒霜洞窟",
 					"cost" : {
@@ -1433,11 +1491,17 @@
 						"ore" : 10,
 						"crystal" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl2" ],["fort"] ],
-					
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl2"
+						],
+						[
+							"fort"
+						]
+					]
 				},
-				"dwellingLvl6" :
-				{
+				"dwellingLvl6" : {
 					"description" : "贪兽石像允许你招募贪兽。",
 					"name" : "贪兽石像",
 					"cost" : {
@@ -1445,11 +1509,17 @@
 						"ore" : 10,
 						"sulfur" : 10
 					},
-					"requires" : [ "allOf", [ "dwellingLvl5" ],["fort"] ],
-					
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl5"
+						],
+						[
+							"fort"
+						]
+					]
 				},
-				"dwellingLvl7" :
-				{
+				"dwellingLvl7" : {
 					"description" : "先祖祭坛允许你招募妖王。",
 					"name" : "先祖祭坛",
 					"cost" : {
@@ -1461,45 +1531,49 @@
 						"crystal" : 5,
 						"gems" : 5
 					},
-					"requires" : [ 
-					    "allOf", [ "dwellingLvl4" ],[ "mageGuild2" ],["fort"]
-					],
-					
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl4"
+						],
+						[
+							"mageGuild2"
+						],
+						[
+							"fort"
+						]
+					]
 				},
-				"dwellingUpLvl1" :
-				{
+				"dwellingUpLvl1" : {
 					"description" : "高级骸骨苗床允许你招募魔芋精。",
 					"name" : "高级骸骨苗床",
 					"cost" : {
 						"gold" : 1000
 					},
-					
+
 					"upgrades" : "dwellingLvl1"
 				},
-				"dwellingUpLvl2" :
-				{
+				"dwellingUpLvl2" : {
 					"description" : "高级红木亭允许你招募白鸦射手。",
 					"name" : "高级红木亭",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5
 					},
-					
+
 					"upgrades" : "dwellingLvl2"
 				},
-				"dwellingUpLvl3" :
-				{
+				"dwellingUpLvl3" : {
 					"description" : "高级黑店允许你招募妖锐。",
 					"name" : "高级黑店",
 					"cost" : {
 						"gold" : 1500,
 						"wood" : 5
 					},
-					
+
 					"upgrades" : "dwellingLvl3"
 				},
-				"dwellingUpLvl4" :
-				{
+				"dwellingUpLvl4" : {
 					"description" : "高级空中楼阁允许你招募妖姬。",
 					"name" : "高级空中楼阁",
 					"cost" : {
@@ -1510,12 +1584,13 @@
 						"crystal" : 3,
 						"gems" : 3
 					},
-					"requires" : [ "special4" ],
-					
+					"requires" : [
+						"special4"
+					],
+
 					"upgrades" : "dwellingLvl4"
 				},
-				"dwellingUpLvl5" :
-				{
+				"dwellingUpLvl5" : {
 					"description" : "高级寒霜洞窟允许你招募控蜂白猿。",
 					"name" : "高级寒霜洞窟",
 					"cost" : {
@@ -1523,11 +1598,10 @@
 						"ore" : 5,
 						"crystal" : 5
 					},
-					
+
 					"upgrades" : "dwellingLvl5"
 				},
-				"dwellingUpLvl6" :
-				{
+				"dwellingUpLvl6" : {
 					"description" : "高级贪兽石像允许你招募饕餮。",
 					"name" : "高级贪兽石像",
 					"cost" : {
@@ -1535,11 +1609,10 @@
 						"ore" : 5,
 						"sulfur" : 5
 					},
-					
+
 					"upgrades" : "dwellingLvl6"
 				},
-				"dwellingUpLvl7" :
-				{
+				"dwellingUpLvl7" : {
 					"description" : "高级先祖祭坛允许你招募刑天。",
 					"name" : "高级先祖祭坛",
 					"cost" : {
@@ -1548,11 +1621,10 @@
 						"mercury" : 20,
 						"ore" : 10
 					},
-					
+
 					"upgrades" : "dwellingLvl7"
 				}
 			}
 		}
 	}
 }
-

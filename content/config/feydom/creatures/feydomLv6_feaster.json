@@ -1,125 +1,179 @@
 {
-	"feydomLv6_feaster":
-	{
-		"name" :
-		{
+	"feydomLv6_feaster" : {
+		"name" : {
 			"plural" : "贪兽",
 			"singular" : "贪兽"
 		},
 		"description" : "{技能说明}：\n{伤怒力涌}贪兽受到攻击或反击后，攻击力将上升1点,可无限叠加。叠加的攻击力可被魔法驱散，而技能一直有效。",
 		"hasDoubleWeek" : true,
-		"advMapAmount" :
-		{
-			 "max" : 12,
-			 "min" : 5
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 5
 		},
 		"faction" : "feydom",
 		"aiValue" : 2087,
 		"fightValue" : 1753,
 		"level" : 6,
 		"attack" : 13,
-		"damage" :
-		{
-			 "max" : 20,
-			 "min" : 14
+		"damage" : {
+			"max" : 20,
+			"min" : 14
 		},
 		"defense" : 16,
 		"hitPoints" : 100,
 		"speed" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 800
 		},
 		"growth" : 2,
 		"horde" : 1,
 		"doubleWide" : true,
-		"upgrades":
-		[
+		"upgrades" : [
 			"feydomLv6Up_devourer"
 		],
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "feydom/creatures/battle/feydomLv6_battle.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "feydom/creatures/map/feydomLv6_map.def",
 			"iconSmall" : "feydom/creatures/iconSmall/feydomLv6_small.bmp",
 			"iconLarge" : "feydom/creatures/iconLarge/feydomLv6_large.bmp",
 			"timeBetweenFidgets" : 1
 		},
-		"sound" :
-		{
-			"attack": "RUSTATTK.wav",
-			"defend": "RUSTDFND.wav",
-			"killed": "RUSTKILL.wav",
-			"move": "HHNDMOVE.wav",
-			"wince": "RUSTWNCE.wav"
+		"sound" : {
+			"attack" : "RUSTATTK.wav",
+			"defend" : "RUSTDFND.wav",
+			"killed" : "RUSTKILL.wav",
+			"move" : "HHNDMOVE.wav",
+			"wince" : "RUSTWNCE.wav"
 		},
-        "abilities" :
-		{
-            "feySpellLv6b" : 
-            {
+		"abilities" : {
+			"feySpellLv6b" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.feydomSpellLv6b",
 				"val" : 0
 			},
-			"vendetta" :
-		    {
-		    	"type": "SPELL_AFTER_ATTACK",
-			    "subtype": "spell.feydomSpellLv6a",
-			    "val": 100,
-				"addInfo": [0, 0],
-			    "propagator" : "BATTLE_WIDE"
-		    }
+			"vendetta" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.feydomSpellLv6a",
+				"val" : 100,
+				"addInfo" : [
+					0,
+					0
+				],
+				"propagator" : "BATTLE_WIDE"
+			}
 		},
-        "stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
-			},	
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
-			},	
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			}
 		]
 	}

@@ -1,70 +1,66 @@
 {
-    "feydomHero54_ladyFox" :
-    {
-        "class" : "feydomHeroClass_primofey",
-        "female" : true,
-        "special" : false,
-        "spellbook": [ "hypnotize" ],
-        "texts" :
-        {
-            "name" : "苏妲己",
-            "biography" : "商纣王帝辛的宠妃，凭借倾国容貌与才艺深得纣王专宠‌，受女娲指派祸乱商朝‌。",
-            "specialty" :
-            {
-                "description" : "使用蛊惑人心魔法时效果大增。",
-                "tooltip" : "特长蛊惑人心",
-                "name" : "蛊惑人心"
-            }
-        },
+	"feydomHero54_ladyFox" : {
+		"class" : "feydomHeroClass_primofey",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"hypnotize"
+		],
+		"texts" : {
+			"name" : "苏妲己",
+			"biography" : "商纣王帝辛的宠妃，凭借倾国容貌与才艺深得纣王专宠‌，受女娲指派祸乱商朝‌。",
+			"specialty" : {
+				"description" : "使用蛊惑人心魔法时效果大增。",
+				"tooltip" : "特长蛊惑人心",
+				"name" : "蛊惑人心"
+			}
+		},
 
-        "images" :
-        {
-            "specialtySmall" : "feydom/heroes/ladyFox/specialty_small.bmp",
-            "specialtyLarge" : "feydom/heroes/ladyFox/specialty_large.bmp",
-            "large" : "feydom/heroes/ladyFox/portrait_large.png",
-            "small" : "feydom/heroes/ladyFox/portrait_small.png"
-        },
+		"images" : {
+			"specialtySmall" : "feydom/heroes/ladyFox/specialty_small.bmp",
+			"specialtyLarge" : "feydom/heroes/ladyFox/specialty_large.bmp",
+			"large" : "feydom/heroes/ladyFox/portrait_large.png",
+			"small" : "feydom/heroes/ladyFox/portrait_small.png"
+		},
 
-        "army" :
-        [
-            {
-                "creature" : "feydomLv1_wildRoot",
-                "max" : 28,
-                "min" : 20
-            },
-            {
-                "creature" : "feydomLv2_crowArcher",
-                "max" : 7,
-                "min" : 5
-            },
-            {
-                "creature" : "feydomLv3_feyman",
-                "max" : 4,
-                "min" : 3
-            }
-        ],
+		"army" : [
+			{
+				"creature" : "feydomLv1_wildRoot",
+				"max" : 28,
+				"min" : 20
+			},
+			{
+				"creature" : "feydomLv2_crowArcher",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "feydomLv3_feyman",
+				"max" : 4,
+				"min" : 3
+			}
+		],
 
-        "skills" :
-        [
-            {
-                "level" : "basic",
-                "skill" : "wisdom"
-            },
-            {
-                "level" : "basic",
-                "skill" : "diplomacy"
-            }
-        ],
-    
-        "specialty" : {
-            "bonuses" : {
-                "hypnotize" : {
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"hypnotize" : {
 					"subtype" : "spell.hypnotize",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 5
 				}
-            }
-        }
-    }
+			}
+		}
+	}
 }

@@ -1,51 +1,64 @@
 {
-	"feydomSpellLv7" : 
-	{
-		"type": "ability",	"targetType" : "CREATURE",
+	"feydomSpellLv7" : {
+		"type" : "ability",
+		"targetType" : "CREATURE",
 		"name" : "妖魂共鸣",
-		"school": {"air":false, "earth":false, "fire":false, "water":false},
-		"level": 1, "power": 1, "defaultGainChance": 0, 		
-		"gainChance":{},"counters": {},		
-		
-		"graphics":	{
-			"iconEffect": "feydom/spells/feydomSpellLv7Effect"
-		},			
-
-		"animation":{
-			"affect":[ {
-				"effectName" : "bloodlust"
-			} ]
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"sounds": {"cast": "MIRTH"},
+		"level" : 1,
+		"power" : 1,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"counters" : {},
+
+		"graphics" : {
+			"iconEffect" : "feydom/spells/feydomSpellLv7Effect"
+		},
+
+		"animation" : {
+			"affect" : [
+				{
+					"effectName" : "bloodlust"
+				}
+			]
+		},
+		"sounds" : {
+			"cast" : "MIRTH"
+		},
 		"levels" : {
-			"base":{
-				"description": "{妖魂共鸣}\r\n\r\n有此技能的生物受英雄和宝物对攻击力、防御力、速度的加成效果增加。",
-				"power": 1,
-				"cost": 0,
-				"range": "0",
-				"targetModifier":{"smart":true},
+			"base" : {
+				"description" : "{妖魂共鸣}\r\n\r\n有此技能的生物受英雄和宝物对攻击力、防御力、速度的加成效果增加。",
+				"power" : 1,
+				"cost" : 0,
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				},
 				"effects" : {
 					"feySpellLv7" : {
 						"type" : "RECEPTIVE",
 						"duration" : "ONE_BATTLE"
 					}
-				}	
+				}
 			},
-			"none":{},
-			"basic":{
-				
-			},
-			"advanced":{},"expert":{}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		},
-		"targetCondition" : {"allOf" : {},"noneOf" : {},"anyOf" : {	
-		
-		
-			
-		}},		
+		"targetCondition" : {
+			"allOf" : {},
+			"noneOf" : {},
+			"anyOf" : {}
+		},
 		"flags" : {
-			"special": true,
+			"special" : true,
 			"nonMagical" : true,
-			"positive": true
+			"positive" : true
 		}
 	}
 }

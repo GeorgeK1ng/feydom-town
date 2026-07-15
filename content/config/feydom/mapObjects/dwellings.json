@@ -3,85 +3,140 @@
 		"types" : {
 			"feydomDwellingLv1" : {
 				"name" : "骸骨苗床",
-				"sounds": {},
-				"creatures" : [[ "feydomLv1_wildRoot" ]],
+				"sounds" : {},
+				"creatures" : [
+					[
+						"feydomLv1_wildRoot"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "feydom/mapObject/feydomDwellingLv1.def",
-						"mask" : [ "VVV", "VBB", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						]
 					}
 				}
 			},
 			"feydomDwellingLv2" : {
 				"name" : "红木亭",
-				"sounds": {},
-				"creatures" : [[ "feydomLv2_crowArcher" ]],
+				"sounds" : {},
+				"creatures" : [
+					[
+						"feydomLv2_crowArcher"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "feydom/mapObject/feydomDwellingLv2.def",
-						"mask" : [ "VVV","VBB", "VBA" ]
-
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						]
 					}
 				}
 			},
 			"feydomDwellingLv3" : {
 				"name" : "黑店",
-				"sounds": {},
-				"creatures" : [[ "feydomLv3_feyman" ]],
+				"sounds" : {},
+				"creatures" : [
+					[
+						"feydomLv3_feyman"
+					]
+				],
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "feydom/mapObject/feydomDwellingLv3.def",
-						"mask" : [ "VVV", "VBB", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						]
 					}
 				}
 			},
 			"feydomDwellingLv4" : {
 				"name" : "空中楼阁",
-				"sounds": {},
-				"creatures" : [[ "feydomLv4_feymaid" ]],
+				"sounds" : {},
+				"creatures" : [
+					[
+						"feydomLv4_feymaid"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "feydom/mapObject/feydomDwellingLv4.def",
-						"mask" : [ "VVV", "VBB", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						]
 					}
 				}
 			},
 			"feydomDwellingLv5" : {
 				"name" : "寒霜洞窟",
-				"sounds": {},
-				"creatures" : [[ "feydomLv5_snowApe" ]],
+				"sounds" : {},
+				"creatures" : [
+					[
+						"feydomLv5_snowApe"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "feydom/mapObject/feydomDwellingLv5.def",
-						"mask" : [ "VVV", "VBB", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						]
 					}
 				}
 			},
 			"feydomDwellingLv6" : {
 				"name" : "贪兽石像",
-				"sounds": {},
-				"creatures" : [[ "feydomLv6_feaster" ]],
+				"sounds" : {},
+				"creatures" : [
+					[
+						"feydomLv6_feaster"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "feydom/mapObject/feydomDwellingLv6.def",
-						"mask" : [ "VVV", "VBB", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						]
 					}
 				}
 			},
 			"feydomDwellingLv7" : {
 				"name" : "先祖祭坛",
-				"sounds": {},
-				"creatures" : [[ "feydomLv7_headless" ]],
+				"sounds" : {},
+				"creatures" : [
+					[
+						"feydomLv7_headless"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "feydom/mapObject/feydomDwellingLv7.def",
-						"mask" : [ "VVV", "VBB", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

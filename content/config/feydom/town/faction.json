@@ -1,7 +1,7 @@
 {
 	"feydom" : {
 		"alignment" : "evil",
-		"creatureBackground" : { 
+		"creatureBackground" : {
 			"120px" : "feydom/creatureBackground/feydom_creature_background_120px",
 			"130px" : "feydom/creatureBackground/feydom_creature_background_130px"
 		},
@@ -10,39 +10,143 @@
 		"nativeTerrain" : "rough",
 		"boat" : "boatCastle",
 		"town" : {
-			"musicTheme" : ["music/feydom/feydomtown.mp3"],//need more work here
+			"musicTheme" : [
+				"music/feydom/feydomtown.mp3"
+			], //need more work here
 			"defaultTavern" : 5,
 			"tavernVideo" : "TAVERN.BIK",
 			"guildBackground" : "TPMAGE.bmp",
-			"townBackground": "feydom/town/town_background.png",
-			"guildWindow": "feydom/town/guild_window.bmp",
-			"hallBackground": "feydom/town/hall_background.png",
-			"hallSlots":
-			[
-				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
-				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special1" ], [ "special2" ] ],
-				[ [ "special3" ], [ "horde1", "horde1Upgr" ], [ "horde2", "horde2Upgr" ], [ "special4" ] ],
-				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
-				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			"townBackground" : "feydom/town/town_background.png",
+			"guildWindow" : "feydom/town/guild_window.bmp",
+			"hallBackground" : "feydom/town/hall_background.png",
+			"hallSlots" : [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4",
+						"mageGuild5"
+					],
+					[
+						"special1"
+					],
+					[
+						"special2"
+					]
+				],
+				[
+					[
+						"special3"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					],
+					[
+						"horde2",
+						"horde2Upgr"
+					],
+					[
+						"special4"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					]
+				]
 			],
-			"creatures" :
-			[
-				["feydomLv1_wildRoot", "feydomLv1Up_evilRoot"],
-				["feydomLv2_crowArcher", "feydomLv2Up_crowHunter"],
-				["feydomLv3_feyman", "feydomLv3Up_feyBlade"],
-				["feydomLv4_feymaid", "feydomLv4Up_feymaidWitch"],
-				["feydomLv5_snowApe", "feydomLv5Up_ancientApe"],
-				["feydomLv6_feaster", "feydomLv6Up_devourer"],
-				["feydomLv7_headless", "feydomLv7Up_battleBorn"]
+			"creatures" : [
+				[
+					"feydomLv1_wildRoot",
+					"feydomLv1Up_evilRoot"
+				],
+				[
+					"feydomLv2_crowArcher",
+					"feydomLv2Up_crowHunter"
+				],
+				[
+					"feydomLv3_feyman",
+					"feydomLv3Up_feyBlade"
+				],
+				[
+					"feydomLv4_feymaid",
+					"feydomLv4Up_feymaidWitch"
+				],
+				[
+					"feydomLv5_snowApe",
+					"feydomLv5Up_ancientApe"
+				],
+				[
+					"feydomLv6_feaster",
+					"feydomLv6Up_devourer"
+				],
+				[
+					"feydomLv7_headless",
+					"feydomLv7Up_battleBorn"
+				]
 			],
 			"moatAbility" : "strongholdMoat",
-			"horde" : [1,3],
+			"horde" : [
+				1,
+				3
+			],
 			"mageGuild" : 5,
 			"primaryResource" : "mercury",
 
 			"buildingsIcons" : "feydom/town/townHall_icon.def",
-			"icons" :
-			{
+			"icons" : {
 				"village" : {
 					"normal" : {
 						"small" : "feydom/town/townIcon/village_small_normal.bmp",
@@ -66,20 +170,63 @@
 			},
 			"mapObject" : {
 				"filters" : {
-					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
-					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
-					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+					"castle" : [
+						"allOf",
+						[
+							"castle"
+						],
+						[
+							"noneOf",
+							[
+								"capitol"
+							]
+						]
+					],
+					"citadel" : [
+						"allOf",
+						[
+							"citadel"
+						],
+						[
+							"noneOf",
+							[
+								"castle"
+							]
+						]
+					],
+					"fort" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"noneOf",
+							[
+								"citadel"
+							]
+						]
+					]
 				},
 				"templates" : {
-					"capitol" : { "animation" : "feydom/mapObject/feydom_capitol.def" },
-					"castle" : { "animation" : "feydom/mapObject/feydom_castle.def" },
-					"citadel" : { "animation" : "feydom/mapObject/feydom_citadel.def" },
-					"fort" : { "animation" : "feydom/mapObject/feydom_fort.def" },
-					"village" : { "animation" : "feydom/mapObject/feydom_village.def" }
+					"capitol" : {
+						"animation" : "feydom/mapObject/feydom_capitol.def"
+					},
+					"castle" : {
+						"animation" : "feydom/mapObject/feydom_castle.def"
+					},
+					"citadel" : {
+						"animation" : "feydom/mapObject/feydom_citadel.def"
+					},
+					"fort" : {
+						"animation" : "feydom/mapObject/feydom_fort.def"
+					},
+					"village" : {
+						"animation" : "feydom/mapObject/feydom_village.def"
+					}
 				}
 			},
-			"names" ://need more work
-			[
+			//need more work
+			"names" : [
 				"黑风山",
 				"黄风岭",
 				"骷髅山",
@@ -110,26 +257,25 @@
 				"黯黮林",
 				"饿鬼林",
 				"狂风林",
-				"霪雨林",
+				"霪雨林"
 			],
-			"tavern" :
-			{
-				"knight"       : 4,
-				"cleric"       : 3,
-				"ranger"       : 3,
-				"druid"        : 2,
-				"alchemist"    : 3,
-				"wizard"       : 2,
-				"demoniac"     : 4,
-				"heretic"      : 4,
-				"deathknight"  : 3,
-				"necromancer"  : 2,
-				"warlock"      : 4,
-				"overlord"     : 4,
-				"barbarian"    : 5,
-				"battlemage"   : 5,
-				"beastmaster"  : 5,
-				"witch"        : 4,
+			"tavern" : {
+				"knight" : 4,
+				"cleric" : 3,
+				"ranger" : 3,
+				"druid" : 2,
+				"alchemist" : 3,
+				"wizard" : 2,
+				"demoniac" : 4,
+				"heretic" : 4,
+				"deathknight" : 3,
+				"necromancer" : 2,
+				"warlock" : 4,
+				"overlord" : 4,
+				"barbarian" : 5,
+				"battlemage" : 5,
+				"beastmaster" : 5,
+				"witch" : 4,
 				"planeswalker" : 4,
 				"elementalist" : 3,
 				"feydomHeroClass_vanguard" : 6,

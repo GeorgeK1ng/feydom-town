@@ -1,69 +1,65 @@
 {
-    "feydomHero07_saintLion" :
-    {
-        "class" : "feydomHeroClass_vanguard",
-        "female" : false,
-        "special" : false,
-        "spellbook": [ "bloodlust" ],
-        "texts" :
-        {
-            "name" : "黑熊精",
-            "biography" : "原为黑风山黑风洞修炼成精的熊怪，别名熊罴怪、黑风怪，与观音院金池长老交好，常讲道参禅。",
-            "specialty" :
-            {
-                "description" : "为王国每天额外提供350个金币。",
-                "tooltip" : "特长+350个金币",
-                "name" : "+350个金币"
-            }
-        },
+	"feydomHero07_saintLion" : {
+		"class" : "feydomHeroClass_vanguard",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"bloodlust"
+		],
+		"texts" : {
+			"name" : "黑熊精",
+			"biography" : "原为黑风山黑风洞修炼成精的熊怪，别名熊罴怪、黑风怪，与观音院金池长老交好，常讲道参禅。",
+			"specialty" : {
+				"description" : "为王国每天额外提供350个金币。",
+				"tooltip" : "特长+350个金币",
+				"name" : "+350个金币"
+			}
+		},
 
-        "images" :
-        {
-            "specialtySmall" : "feydom/heroes/saintLion/specialty_small.png",
-            "specialtyLarge" : "feydom/heroes/saintLion/specialty_large.png",
-            "large" : "feydom/heroes/saintLion/portrait_large.png",
-            "small" : "feydom/heroes/saintLion/portrait_small.png"
-        },
+		"images" : {
+			"specialtySmall" : "feydom/heroes/saintLion/specialty_small.png",
+			"specialtyLarge" : "feydom/heroes/saintLion/specialty_large.png",
+			"large" : "feydom/heroes/saintLion/portrait_large.png",
+			"small" : "feydom/heroes/saintLion/portrait_small.png"
+		},
 
-        "army" :
-        [
-            {
-                "creature" : "feydomLv1_wildRoot",
-                "max" : 28,
-                "min" : 20
-            },
-            {
-                "creature" : "feydomLv2_crowArcher",
-                "max" : 7,
-                "min" : 5
-            },
-            {
-                "creature" : "feydomLv3_feyman",
-                "max" : 4,
-                "min" : 3
-            }
-        ],
+		"army" : [
+			{
+				"creature" : "feydomLv1_wildRoot",
+				"max" : 28,
+				"min" : 20
+			},
+			{
+				"creature" : "feydomLv2_crowArcher",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "feydomLv3_feyman",
+				"max" : 4,
+				"min" : 3
+			}
+		],
 
-        "skills" :
-        [
-            {
-                "level" : "basic",
-                "skill" : "tactics"
-            },
-            {
-                "level" : "basic",
-                "skill" : "logistics"
-            }
-        ],
-    
-        "specialty" : {
-            "bonuses" : {
-                "gold" : {
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
 					"subtype" : "resource.gold",
 					"type" : "GENERATE_RESOURCE",
 					"val" : 350
 				}
-            }
-        }
-    }
+			}
+		}
+	}
 }

@@ -1,10 +1,7 @@
 {
-	"feydom" :
-	{
-		"town" :
-		{
-			"guildSpells" :
-			{
+	"feydom" : {
+		"town" : {
+			"guildSpells" : {
 				"magicArrow" : 10,
 				"visions" : 10,
 				// Fire
@@ -77,9 +74,8 @@
 				"sorrow" : 30,
 				"townPortal" : 50,
 				"earthElemental" : 10,
-				"implosion" : 10,
+				"implosion" : 10
 			}
 		}
 	}
 }
-

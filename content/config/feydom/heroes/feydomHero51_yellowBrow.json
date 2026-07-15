@@ -1,72 +1,67 @@
 {
-    "feydomHero51_yellowBrow" :
-    {
-        "class" : "feydomHeroClass_primofey",
-        "female" : false,
-        "special" : false,
-        "spellbook": [ "blind" ],
-        "texts" :
-        {
-            "name" : "黄眉大王",
-            "biography" : "本为东来佛祖坐下司磬童子，盗取佛祖法宝后私下凡界，仿照西天大雷音寺修造小雷音寺并假冒如来佛祖身份居于寺中。",
-            "specialty" :
-            {
-                "description" : "根据英雄等级，所带领军队的原始攻击力每级+1%，宝物增加的英雄攻击力每级额外+1%。",
-                "tooltip" : "特长攻击加成",
-                "name" : "攻击加成"
-            }
-        },
+	"feydomHero51_yellowBrow" : {
+		"class" : "feydomHeroClass_primofey",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"blind"
+		],
+		"texts" : {
+			"name" : "黄眉大王",
+			"biography" : "本为东来佛祖坐下司磬童子，盗取佛祖法宝后私下凡界，仿照西天大雷音寺修造小雷音寺并假冒如来佛祖身份居于寺中。",
+			"specialty" : {
+				"description" : "根据英雄等级，所带领军队的原始攻击力每级+1%，宝物增加的英雄攻击力每级额外+1%。",
+				"tooltip" : "特长攻击加成",
+				"name" : "攻击加成"
+			}
+		},
 
-        "images" :
-        {
-            "specialtySmall" : "feydom/heroes/yellowBrow/specialty_small.png",
-            "specialtyLarge" : "feydom/heroes/yellowBrow/specialty_large.png",
-            "large" : "feydom/heroes/yellowBrow/portrait_large.png",
-            "small" : "feydom/heroes/yellowBrow/portrait_small.png"
-        },
+		"images" : {
+			"specialtySmall" : "feydom/heroes/yellowBrow/specialty_small.png",
+			"specialtyLarge" : "feydom/heroes/yellowBrow/specialty_large.png",
+			"large" : "feydom/heroes/yellowBrow/portrait_large.png",
+			"small" : "feydom/heroes/yellowBrow/portrait_small.png"
+		},
 
-        "army" :
-        [
-            {
-                "creature" : "feydomLv1_wildRoot",
-                "max" : 28,
-                "min" : 20
-            },
-            {
-                "creature" : "feydomLv2_crowArcher",
-                "max" : 7,
-                "min" : 5
-            },
-            {
-                "creature" : "feydomLv3_feyman",
-                "max" : 4,
-                "min" : 3
-            }
-        ],
+		"army" : [
+			{
+				"creature" : "feydomLv1_wildRoot",
+				"max" : 28,
+				"min" : 20
+			},
+			{
+				"creature" : "feydomLv2_crowArcher",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "feydomLv3_feyman",
+				"max" : 4,
+				"min" : 3
+			}
+		],
 
-        "skills" :
-        [
-            {
-                "level" : "basic",
-                "skill" : "tactics"
-            },
-            {
-                "level" : "basic",
-                "skill" : "intelligence"
-            }
-        ],
-    
-        "specialty" : {
-            "bonuses" : {
-                "attack":
-				{
-					"type": "PRIMARY_SKILL",
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"attack" : {
+					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack",
 					"val" : 1,
 					"updater" : "TIMES_HERO_LEVEL",
-					"valueType": "PERCENT_TO_BASE"
+					"valueType" : "PERCENT_TO_BASE"
 				}
-            }
-        }
-    }
+			}
+		}
+	}
 }

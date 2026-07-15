@@ -1,71 +1,67 @@
 {
-    "feydomHero58_jadeRabbit" :
-    {
-        "class" : "feydomHeroClass_primofey",
-        "female" : true,
-        "special" : false,
-        "spellbook": [ "magicArrow" ],
-        "texts" :
-        {
-            "name" : "玉兔精",
-            "biography" : "本是广寒月宫中捣药的玉兔，因受了素娥仙子一个耳光，怀恨在心。在素娥投胎转世为天竺公主之际下界为妖，伺机报复。",
-            "specialty" :
-            {
-                "description" : "在急救术上每级得到5%的额外奖励。",
-                "tooltip" : "特长急救术",
-                "name" : "急救术"
-            }
-        },
+	"feydomHero58_jadeRabbit" : {
+		"class" : "feydomHeroClass_primofey",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"magicArrow"
+		],
+		"texts" : {
+			"name" : "玉兔精",
+			"biography" : "本是广寒月宫中捣药的玉兔，因受了素娥仙子一个耳光，怀恨在心。在素娥投胎转世为天竺公主之际下界为妖，伺机报复。",
+			"specialty" : {
+				"description" : "在急救术上每级得到5%的额外奖励。",
+				"tooltip" : "特长急救术",
+				"name" : "急救术"
+			}
+		},
 
-        "images" :
-        {
-            "specialtySmall" : "feydom/heroes/jadeRabbit/specialty_small.bmp",
-            "specialtyLarge" : "feydom/heroes/jadeRabbit/specialty_large.bmp",
-            "large" : "feydom/heroes/jadeRabbit/portrait_large.png",
-            "small" : "feydom/heroes/jadeRabbit/portrait_small.png"
-        },
+		"images" : {
+			"specialtySmall" : "feydom/heroes/jadeRabbit/specialty_small.bmp",
+			"specialtyLarge" : "feydom/heroes/jadeRabbit/specialty_large.bmp",
+			"large" : "feydom/heroes/jadeRabbit/portrait_large.png",
+			"small" : "feydom/heroes/jadeRabbit/portrait_small.png"
+		},
 
-        "army" :
-        [
-            {
-                "creature" : "firstAidTent",
-                "max" : 1,
-                "min" : 1
-            },
-            {
-                "creature" : "feydomLv2_crowArcher",
-                "max" : 7,
-                "min" : 7
-            },
-            {
-                "creature" : "feydomLv3_feyman",
-                "max" : 5,
-                "min" : 4
-            }
-        ],
+		"army" : [
+			{
+				"creature" : "firstAidTent",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "feydomLv2_crowArcher",
+				"max" : 7,
+				"min" : 7
+			},
+			{
+				"creature" : "feydomLv3_feyman",
+				"max" : 5,
+				"min" : 4
+			}
+		],
 
-        "skills" :
-        [
-            {
-                "level" : "basic",
-                "skill" : "wisdom"
-            },
-            {
-                "level" : "basic",
-                "skill" : "firstAid"
-            }
-        ],
-    
-        "specialty" : {
-            "bonuses" : {
-                "firstAid" : {
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"firstAid" : {
 					"subtype" : "core:spell.firstAid",
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "SPECIFIC_SPELL_POWER",
 					"val" : 5,
 					"valueType" : "PERCENT_TO_BASE"
 				}
-            }
-        }
-    }
+			}
+		}
+	}
 }

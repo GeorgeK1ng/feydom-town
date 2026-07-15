@@ -1,65 +1,58 @@
 {
-    "feydomHero53_rakshasi" :
-    {
-        "class" : "feydomHeroClass_primofey",
-        "female" : true,
-        "special" : false,      
-        "spellbook" :
-        [
-            "haste"      
-        ],
-        "texts" :
-        {
-            "name" : "铁扇公主",
-            "biography" : "牛魔王之妻，居于翠云山芭蕉洞，育有一子红孩儿。曾与美猴王发生冲突，好在及时悔改未成大错，后来隐姓修行，终成正果。",
-            "specialty" :
-            {
-                "description" : "使用攻击加速魔法时效果大增。",
-                "tooltip" : "特长攻击加速",
-                "name" : "攻击加速"
-            }
-        },
+	"feydomHero53_rakshasi" : {
+		"class" : "feydomHeroClass_primofey",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"haste"
+		],
+		"texts" : {
+			"name" : "铁扇公主",
+			"biography" : "牛魔王之妻，居于翠云山芭蕉洞，育有一子红孩儿。曾与美猴王发生冲突，好在及时悔改未成大错，后来隐姓修行，终成正果。",
+			"specialty" : {
+				"description" : "使用攻击加速魔法时效果大增。",
+				"tooltip" : "特长攻击加速",
+				"name" : "攻击加速"
+			}
+		},
 
-        "images" :
-        {
-            "specialtySmall" : "feydom/heroes/rakshasi/specialty_small.bmp",
-            "specialtyLarge" : "feydom/heroes/rakshasi/specialty_large.bmp",
-            "large" : "feydom/heroes/rakshasi/portrait_large.png",
-            "small" : "feydom/heroes/rakshasi/portrait_small.png"
-        },
+		"images" : {
+			"specialtySmall" : "feydom/heroes/rakshasi/specialty_small.bmp",
+			"specialtyLarge" : "feydom/heroes/rakshasi/specialty_large.bmp",
+			"large" : "feydom/heroes/rakshasi/portrait_large.png",
+			"small" : "feydom/heroes/rakshasi/portrait_small.png"
+		},
 
-        "army" :
-        [
-            {
-                "creature" : "feydomLv1_wildRoot",
-                "max" : 28,
-                "min" : 20
-            },
-            {
-                "creature" : "feydomLv2_crowArcher",
-                "max" : 7,
-                "min" : 5
-            },
-            {
-                "creature" : "feydomLv3_feyman",
-                "max" : 4,
-                "min" : 3
-            }
-        ],
+		"army" : [
+			{
+				"creature" : "feydomLv1_wildRoot",
+				"max" : 28,
+				"min" : 20
+			},
+			{
+				"creature" : "feydomLv2_crowArcher",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "feydomLv3_feyman",
+				"max" : 4,
+				"min" : 3
+			}
+		],
 
-        "skills" :
-        [
-            {
-                "level" : "basic",
-                "skill" : "wisdom"
-            },
-            {
-                "level" : "basic",
-                "skill" : "airMagic"
-            }
-        ],
-    
-        "specialty" : {
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			}
+		],
+
+		"specialty" : {
 			"bonuses" : {
 				"haste" : {
 					"addInfo" : 0,
@@ -68,5 +61,5 @@
 				}
 			}
 		}
-    }
+	}
 }

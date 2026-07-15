@@ -1,99 +1,93 @@
 {
-	"feydomHeroClass_vanguard" : 
-	{
+	"feydomHeroClass_vanguard" : {
 		"name" : "先锋",
-		"animation" :
-		{
-			"battle" : 
-			{
+		"animation" : {
+			"battle" : {
 				"female" : "feydom/heroClasses/primofey_battle",
-				"male"   : "feydom/heroClasses/vanguard_battle"
+				"male" : "feydom/heroClasses/vanguard_battle"
 			}
-		},	
+		},
 		"mapObject" : {
 			"filters" : {
-				"male" : { "male" : true },
-				"female" : { "female" : true }
+				"male" : {
+					"male" : true
+				},
+				"female" : {
+					"female" : true
+				}
 			},
 			"templates" : {
-				"female" : 
-				{ 
+				"female" : {
 					"animation" : "feydom/heroClasses/primofey_map"
-				}, 
-				"male" : 
-				{ 
+				},
+				"male" : {
 					"animation" : "feydom/heroClasses/vanguard_map"
-				} 
-			} 
+				}
+			}
 		},
 		"commander" : "feydomCommander",
 		"faction" : "feydom",
 		"affinity" : "might",
-		"primarySkills" :
-		{
-			"attack"     : 0,
-			"defence"    : 2,
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 2,
 			"spellpower" : 1,
-			"knowledge"  : 2
+			"knowledge" : 2
 		},
-		"lowLevelChance" :
-		{
-			"attack"     : 30,
-			"defence"    : 40,
+		"lowLevelChance" : {
+			"attack" : 30,
+			"defence" : 40,
 			"spellpower" : 15,
-			"knowledge"  : 15
+			"knowledge" : 15
 		},
-		"highLevelChance" :
-		{
-			"attack"     : 30,
-			"defence"    : 30,
+		"highLevelChance" : {
+			"attack" : 30,
+			"defence" : 30,
 			"spellpower" : 20,
-			"knowledge"  : 20
+			"knowledge" : 20
 		},
-		"secondarySkills" :
-		{
-			"wisdom"       : 6,
-			"fireMagic"    : 2,
-			"airMagic"     : 4,
-			"waterMagic"   : 2,
-			"earthMagic"   : 4,
-			"tactics"      : 2,
-			"mysticism"    : 0,
-			"logistics"    : 8,
-			"offence"      : 10,
-			"archery"      : 6,
+		"secondarySkills" : {
+			"wisdom" : 6,
+			"fireMagic" : 2,
+			"airMagic" : 4,
+			"waterMagic" : 2,
+			"earthMagic" : 4,
+			"tactics" : 2,
+			"mysticism" : 0,
+			"logistics" : 8,
+			"offence" : 10,
+			"archery" : 6,
 			"intelligence" : 2,
-			"sorcery"      : 0,
-			"learning"     : 2,
-			"pathfinding"  : 6,
-			"armorer"      : 6,
-			"resistance"   : 6,
-			"firstAid"     : 2,
-			"scouting"     : 6,
-			"diplomacy"    : 0,
-			"navigation"   : 2,
-			"leadership"   : 8,
-			"luck"         : 2,
-			"ballistics"   : 6,
-			"estates"      : 2,
-			"scholar"      : 0,
-			"artillery"    : 4,
-			"eagleEye"     : 2,
-			"necromancy"   : 0
+			"sorcery" : 0,
+			"learning" : 2,
+			"pathfinding" : 6,
+			"armorer" : 6,
+			"resistance" : 6,
+			"firstAid" : 2,
+			"scouting" : 6,
+			"diplomacy" : 0,
+			"navigation" : 2,
+			"leadership" : 8,
+			"luck" : 2,
+			"ballistics" : 6,
+			"estates" : 2,
+			"scholar" : 0,
+			"artillery" : 4,
+			"eagleEye" : 2,
+			"necromancy" : 0
 		},
 		"defaultTavern" : 5,
-		"tavern" :
-		{
-			"castle"     : 3,
-			"rampart"    : 4,
-			"tower"      : 4,
-			"inferno"    : 4,
+		"tavern" : {
+			"castle" : 3,
+			"rampart" : 4,
+			"tower" : 4,
+			"inferno" : 4,
 			"necropolis" : 2,
-			"dungeon"    : 5,
+			"dungeon" : 5,
 			"stronghold" : 6,
-			"fortress"   : 6,
-			"conflux"    : 4,
-			"feydom"     : 7                  
+			"fortress" : 6,
+			"conflux" : 4,
+			"feydom" : 7
 		}
 	}
 }

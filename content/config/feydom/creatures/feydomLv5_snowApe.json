@@ -1,57 +1,52 @@
 {
-	"feydomLv5_snowApe":
-	{
-		"name" :
-		{
+	"feydomLv5_snowApe" : {
+		"name" : {
 			"plural" : "白猿",
 			"singular" : "白猿"
 		},
 		"description" : "",
 		"hasDoubleWeek" : true,
-		"advMapAmount" :
-		{
-			 "max" : 16,
-			 "min" : 8
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 8
 		},
 		"faction" : "feydom",
 		"aiValue" : 485,
 		"fightValue" : 485,
-        "level" : 5,
+		"level" : 5,
 		"attack" : 12,
-		"damage" :
-		{
-			 "max" : 15,
-			 "min" : 10
+		"damage" : {
+			"max" : 15,
+			"min" : 10
 		},
 		"defense" : 12,
 		"hitPoints" : 40,
 		"speed" : 5,
 		"shots" : 12,
-        "cost" :
-		{
+		"cost" : {
 			"gold" : 500
 		},
 		"growth" : 3,
 		"horde" : 2,
 		"doubleWide" : false,
-		"upgrades":
-		[
+		"upgrades" : [
 			"feydomLv5Up_ancientApe"
 		],
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "feydom/creatures/battle/feydomLv5_battle.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "feydom/creatures/map/feydomLv5_map.def",
 			"iconSmall" : "feydom/creatures/iconSmall/feydomLv5_small.bmp",
 			"iconLarge" : "feydom/creatures/iconLarge/feydomLv5_large.bmp",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
-				"projectile": "feydom/creatures/battle/projectile/apeRock.def",
+			"missile" : {
+				"projectile" : "feydom/creatures/battle/projectile/apeRock.def",
 				"attackClimaxFrame" : 6,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 55,
 					"upperY" : -72,
 					"middleX" : 66,
@@ -59,77 +54,134 @@
 					"lowerX" : 36,
 					"lowerY" : -38
 				},
-				"frameAngles" : [ 0 ]
+				"frameAngles" : [
+					0
+				]
 			}
 		},
-		"sound" :
-		{
-			"attack": "CCYCATTK.wav",
-			"defend": "CCYCDFND.wav",
-			"killed": "CCYCKILL.wav",
-			"move": "CCYCMOVE.wav",
-			"shoot": "CCYCSHOT.wav",
-			"wince": "CCYCWNCE.wav"
+		"sound" : {
+			"attack" : "CCYCATTK.wav",
+			"defend" : "CCYCDFND.wav",
+			"killed" : "CCYCKILL.wav",
+			"move" : "CCYCMOVE.wav",
+			"shoot" : "CCYCSHOT.wav",
+			"wince" : "CCYCWNCE.wav"
 		},
-		"abilities" :
-        {
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"noMeleePanelty" :
-			{
+			"noMeleePanelty" : {
 				"type" : "NO_MELEE_PENALTY"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
-			},	
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
-			},	
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				]
 			}
 		]
 	}

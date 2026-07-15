@@ -5,21 +5,19 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.01",
 	"modType" : "Town",
-	"chinese":
-	{
-		"name": "妖域",
-		"description": "新城镇妖域-东方秘境版"
+	"chinese" : {
+		"name" : "妖域",
+		"description" : "新城镇妖域-东方秘境版"
 	},
-	"russian": {
+	"russian" : {
 		"name" : "Царство Йокайев",
 		"description" : "Новый город царство йокайев",
 		"translations" : [
 			"translation/russian.json"
-		]	
+		]
 	},
 
-	"factions" :
-	[
+	"factions" : [
 		"config/feydom/town/buildings.json",
 		"config/feydom/town/faction.json",
 		"config/feydom/town/siege.json",
@@ -27,14 +25,12 @@
 		"config/feydom/town/structures.json",
 		"config/feydom/town/puzzle.json"
 	],
-	"heroClasses" :
-	[
+	"heroClasses" : [
 		"config/feydom/heroClasses/feydomHeroClass_vanguard.json",
 		"config/feydom/heroClasses/feydomHeroClass_primofey.json"
 	],
 
-	"heroes" :
-	[
+	"heroes" : [
 		"config/feydom/heroes/feydomHero01_feylordBull.json",
 		"config/feydom/heroes/feydomHero02_blueLion.json",
 		"config/feydom/heroes/feydomHero03_whiteElephant.json",
@@ -43,9 +39,9 @@
 		"config/feydom/heroes/feydomHero06_blueBull.json",
 		"config/feydom/heroes/feydomHero07_saintLion.json",
 		"config/feydom/heroes/feydomHero08_sixears.json",
-        "config/feydom/heroes/feydomHero09_gold.json",
-        "config/feydom/heroes/feydomHero10_silver.json",
-        "config/feydom/heroes/feydomHero11_yellowMouse.json",
+		"config/feydom/heroes/feydomHero09_gold.json",
+		"config/feydom/heroes/feydomHero10_silver.json",
+		"config/feydom/heroes/feydomHero11_yellowMouse.json",
 		"config/feydom/heroes/feydomHero12_leopard.json",
 		"config/feydom/heroes/feydomHero51_yellowBrow.json",
 		"config/feydom/heroes/feydomHero52_redKid.json",
@@ -54,10 +50,9 @@
 		"config/feydom/heroes/feydomHero55_ladyWhiteBone.json",
 		"config/feydom/heroes/feydomHero56_ladySpider.json",
 		"config/feydom/heroes/feydomHero57_ladyEarthFlow.json",
-		"config/feydom/heroes/feydomHero58_jadeRabbit.json",
+		"config/feydom/heroes/feydomHero58_jadeRabbit.json"
 	],
-	"creatures" :
-	[
+	"creatures" : [
 		"config/feydom/creatures/feydomLv0_monkey.json",
 		"config/feydom/creatures/feydomLv1_wildRoot.json",
 		"config/feydom/creatures/feydomLv1Up_evilRoot.json",
@@ -81,8 +76,7 @@
 		"config/feydom/creatures/feydomLv7Up.json",
 		"config/feydom/creatures/feydomCommander.json"
 	],
-	"spells" :
-	[
+	"spells" : [
 		"config/feydom/spells/feydomSpellLv7.json",
 		"config/feydom/spells/feydomSpellLv6.json",
 		"config/feydom/spells/feydomSpellLv6a.json",
@@ -92,5 +86,5 @@
 	],
 	"objects" : [
 		"config/feydom/mapObjects/dwellings.json"
-	 ]
+	]
 }

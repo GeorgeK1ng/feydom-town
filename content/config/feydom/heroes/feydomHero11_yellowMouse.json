@@ -1,69 +1,65 @@
 {
-    "feydomHero11_yellowMouse" :
-    {
-        "class" : "feydomHeroClass_primofey",
-        "female" : false,
-        "special" : false,
-        "spellbook": [ "disruptingRay" ],
-        "texts" :
-        {
-            "name" : "黄风大王",
-            "biography" : "本为灵山脚下的貂鼠，偷吃灯油致使佛堂昏暗无光，惧怕护法金刚捉拿而畏罪潜逃，流落凡界占山为王。",
-            "specialty" :
-            {
-                "description" : "使用毁灭之光魔法时效果大增。",
-                "tooltip" : "特长毁灭之光",
-                "name" : "毁灭之光"
-            }
-        },
+	"feydomHero11_yellowMouse" : {
+		"class" : "feydomHeroClass_primofey",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"disruptingRay"
+		],
+		"texts" : {
+			"name" : "黄风大王",
+			"biography" : "本为灵山脚下的貂鼠，偷吃灯油致使佛堂昏暗无光，惧怕护法金刚捉拿而畏罪潜逃，流落凡界占山为王。",
+			"specialty" : {
+				"description" : "使用毁灭之光魔法时效果大增。",
+				"tooltip" : "特长毁灭之光",
+				"name" : "毁灭之光"
+			}
+		},
 
-        "images" :
-        {
-            "specialtySmall" : "feydom/heroes/yellowMouse/specialty_small.bmp",
-            "specialtyLarge" : "feydom/heroes/yellowMouse/specialty_large.bmp",
-            "large" : "feydom/heroes/yellowMouse/portrait_large.png",
-            "small" : "feydom/heroes/yellowMouse/portrait_small.png"
-        },
+		"images" : {
+			"specialtySmall" : "feydom/heroes/yellowMouse/specialty_small.bmp",
+			"specialtyLarge" : "feydom/heroes/yellowMouse/specialty_large.bmp",
+			"large" : "feydom/heroes/yellowMouse/portrait_large.png",
+			"small" : "feydom/heroes/yellowMouse/portrait_small.png"
+		},
 
-        "army" :
-        [
-            {
-                "creature" : "feydomLv1_wildRoot",
-                "max" : 28,
-                "min" : 20
-            },
-            {
-                "creature" : "feydomLv2_crowArcher",
-                "max" : 7,
-                "min" : 5
-            },
-            {
-                "creature" : "feydomLv3_feyman",
-                "max" : 4,
-                "min" : 3
-            }
-        ],
+		"army" : [
+			{
+				"creature" : "feydomLv1_wildRoot",
+				"max" : 28,
+				"min" : 20
+			},
+			{
+				"creature" : "feydomLv2_crowArcher",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "feydomLv3_feyman",
+				"max" : 4,
+				"min" : 3
+			}
+		],
 
-        "skills" :
-        [
-            {
-                "level" : "basic",
-                "skill" : "wisdom"
-            },
-            {
-                "level" : "basic",
-                "skill" : "sorcery"
-            }
-        ],
-    
-        "specialty" : {
-            "bonuses" : {
-                "disruptingRay" : {
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"disruptingRay" : {
 					"addInfo" : -2,
 					"subtype" : "spell.disruptingRay",
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
 				}
-            }
-        }
-    }
+			}
+		}
+	}
 }
