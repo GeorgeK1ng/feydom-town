@@ -7,12 +7,12 @@
 			"magicArrow"
 		],
 		"texts" : {
-			"name" : "玉兔精",
-			"biography" : "本是广寒月宫中捣药的玉兔，因受了素娥仙子一个耳光，怀恨在心。在素娥投胎转世为天竺公主之际下界为妖，伺机报复。",
+			"name" : "Jade Rabbit Spirit",
+			"biography" : "The Jade Rabbit who pounded medicine in the Moon Palace of Guanghan. After Fairy Su'e slapped her, she nursed a grudge. When Su'e reincarnated as the princess of Tianzhu, the rabbit descended as a demon and waited for revenge.",
 			"specialty" : {
-				"description" : "在急救术上每级得到5%的额外奖励。",
-				"tooltip" : "特长急救术",
-				"name" : "急救术"
+				"description" : "Receives a 5% per level bonus to First Aid skill percentage.",
+				"tooltip" : "Specialty: First Aid",
+				"name" : "First Aid"
 			}
 		},
 

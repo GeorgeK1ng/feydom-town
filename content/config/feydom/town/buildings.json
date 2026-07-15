@@ -3,8 +3,8 @@
 		"town" : {
 			"buildings" : {
 				"mageGuild1" : {
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法",
-					"name" : "1级魔法行会",
+					"description" : "Visiting heroes may learn the spells kept within the Mage Guild.",
+					"name" : "Mage Guild Level 1",
 					"cost" : {
 						"wood" : 5,
 						"ore" : 5,
@@ -12,8 +12,8 @@
 					}
 				},
 				"mageGuild2" : {
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "2级魔法行会",
+					"description" : "Visiting heroes may learn the spells kept within the Mage Guild.",
+					"name" : "Mage Guild Level 2",
 					"cost" : {
 						"wood" : 5,
 						"mercury" : 4,
@@ -27,8 +27,8 @@
 					"upgrades" : "mageGuild1"
 				},
 				"mageGuild3" : {
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "3级魔法行会",
+					"description" : "Visiting heroes may learn the spells kept within the Mage Guild.",
+					"name" : "Mage Guild Level 3",
 					"cost" : {
 						"wood" : 5,
 						"mercury" : 6,
@@ -42,8 +42,8 @@
 					"upgrades" : "mageGuild2"
 				},
 				"mageGuild4" : {
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "4级魔法行会",
+					"description" : "Visiting heroes may learn the spells kept within the Mage Guild.",
+					"name" : "Mage Guild Level 4",
 					"cost" : {
 						"wood" : 5,
 						"mercury" : 8,
@@ -57,8 +57,8 @@
 					"upgrades" : "mageGuild3"
 				},
 				"mageGuild5" : {
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "5级魔法行会",
+					"description" : "Visiting heroes may learn the spells kept within the Mage Guild.",
+					"name" : "Mage Guild Level 5",
 					"cost" : {
 						"wood" : 5,
 						"mercury" : 10,
@@ -72,16 +72,16 @@
 					"upgrades" : "mageGuild4"
 				},
 				"tavern" : {
-					"name" : "酒馆",
-					"description" : "酒馆可提高驻军的士气。",
+					"name" : "Tavern",
+					"description" : "The Tavern increases the morale of defending troops.",
 					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					}
 				},
 				"fort" : {
-					"name" : "堡垒",
-					"description" : "堡垒可为你的城镇提供城墙。",
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
 					"cost" : {
 						"wood" : 20,
 						"ore" : 20,
@@ -89,8 +89,8 @@
 					}
 				},
 				"citadel" : {
-					"name" : "大本营",
-					"description" : "大本营不仅使生物的基本生长率提高50%，还能加强城镇的防御设施。",
+					"name" : "Citadel",
+					"description" : "The Citadel increases base creature growth by 50% and strengthens town defenses.",
 					"cost" : {
 						"ore" : 5,
 						"gold" : 2500
@@ -99,8 +99,8 @@
 					"upgrades" : "fort"
 				},
 				"castle" : {
-					"name" : "城堡",
-					"description" : "城堡可提供2座副箭塔以加强城镇的防御，而且还使生物的基本生长率加倍。",
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town defenses, and doubles base creature growth.",
 					"cost" : {
 						"wood" : 10,
 						"ore" : 10,
@@ -110,14 +110,14 @@
 					"upgrades" : "citadel"
 				},
 				"villageHall" : {
-					"name" : "议事堂",
-					"description" : "议事堂可以让你购买城镇建筑，并每天向你提供500个金币。",
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and provides your kingdom with 500 gold per day.",
 
 					"mode" : "auto"
 				},
 				"townHall" : {
-					"name" : "内政厅",
-					"description" : "内政厅可以让你购买城镇建筑，并每天向你提供1000个金币。",
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and provides your kingdom with 1000 gold per day.",
 					"cost" : {
 						"gold" : 2500
 					},
@@ -128,8 +128,8 @@
 					"upgrades" : "villageHall"
 				},
 				"cityHall" : {
-					"name" : "议会",
-					"description" : "议会可以让你购买城镇建筑并每天向你提供2000个金币。",
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and provides your kingdom with 2000 gold per day.",
 					"cost" : {
 						"gold" : 5000
 					},
@@ -149,8 +149,8 @@
 					"upgrades" : "townHall"
 				},
 				"capitol" : {
-					"name" : "国会",
-					"description" : "国会每天向你提供4000个金币。",
+					"name" : "Capitol",
+					"description" : "The Capitol provides your kingdom with 4000 gold per day.",
 					"cost" : {
 						"gold" : 10000
 					},
@@ -161,16 +161,16 @@
 					"upgrades" : "cityHall"
 				},
 				"marketplace" : {
-					"name" : "市场",
-					"description" : "市场可让你交换资源(你所拥有的市场越多，价格越便宜)。",
+					"name" : "Marketplace",
+					"description" : "The Marketplace allows you to trade resources (rates improve with each Marketplace you own).",
 					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					}
 				},
 				"resourceSilo" : {
-					"description" : "物资仓库每天为你额外提供1水银。",
-					"name" : "物资仓库",
+					"description" : "The Resource Silo provides you with 1 additional mercury each day.",
+					"name" : "Resource Silo",
 					"cost" : {
 						"ore" : 5,
 						"gold" : 5000
@@ -188,8 +188,8 @@
 					]
 				},
 				"blacksmith" : {
-					"description" : "铁匠铺可向你的军队提供急救帐篷。",
-					"name" : "铁匠铺",
+					"description" : "The Blacksmith provides your armies with First Aid Tents.",
+					"name" : "Blacksmith",
 					"cost" : {
 						"wood" : 5,
 						"gold" : 1000
@@ -197,8 +197,8 @@
 					"warMachine" : "firstAidTent"
 				},
 				"special1" : {
-					"description" : "只需支付少量费用，你就可以在宝物商店购买宝物。",
-					"name" : "宝物商店",
+					"description" : "For a small fee, you may purchase artifacts from the Artifact Merchants.",
+					"name" : "Artifact Merchants",
 					"cost" : {
 						"gold" : 10000
 					},
@@ -211,8 +211,8 @@
 					]
 				},
 				"horde1" : {
-					"description" : "醉鸦亭使暗鸦射手的产量每周增加4个。",
-					"name" : "醉鸦亭",
+					"description" : "The Drunken Crow Pavilion increases Dark Crow Archer production by 4 per week.",
+					"name" : "Drunken Crow Pavilion",
 					"requires" : [
 						"allOf",
 						[
@@ -228,8 +228,8 @@
 					}
 				},
 				"horde1Upgr" : {
-					"description" : "醉鸦亭使暗鸦射手和白鸦猎手的产量每周增加4个。",
-					"name" : "醉鸦亭",
+					"description" : "The Drunken Crow Pavilion increases Dark Crow Archer and White Crow Hunter production by 4 per week.",
+					"name" : "Drunken Crow Pavilion",
 					"requires" : [
 						"horde1"
 					],
@@ -240,8 +240,8 @@
 					"mode" : "auto"
 				},
 				"special2" : {
-					"name" : "金库",
-					"description" : "金库在每周一使金币数量+10%。",
+					"name" : "Treasury",
+					"description" : "The Treasury increases your gold reserves by 10% every Monday.",
 					"cost" : {
 						"wood" : 5,
 						"ore" : 10,
@@ -253,8 +253,8 @@
 					]
 				},
 				"special3" : {
-					"description" : "访问炼丹炉使英雄率领的部队本周末前在战斗外速度+5。\n{妖精本源}具有该技能的兵种接受的每个祝福魔法（仅限原版魔法），都能使其攻、防各+1。",
-					"name" : "炼丹炉",
+					"description" : "Visiting the Alchemy Furnace grants the hero's troops +5 speed outside combat until the end of the week.\n{Fey Nature} Creatures with this ability gain +1 Attack and +1 Defense for each blessing spell (original spells only) affecting them.",
+					"name" : "Alchemy Furnace",
 					"requires" : [
 						"blacksmith"
 					],
@@ -266,7 +266,7 @@
 						"visitMode" : "bonus",
 						"rewards" : [
 							{
-								"message" : "服下丹药后，你的部队在战斗外速度+5。丹药的效果只能持续一周，所以每周一你要带部队回来重新服药。",
+								"message" : "After taking the elixir, your troops gain +5 speed outside combat. The elixir lasts only one week, so return each Monday to dose your army again.",
 								"bonuses" : [
 									{
 										//"stacking" : "alchemyFurnace1",
@@ -301,8 +301,8 @@
 					}
 				},
 				"special4" : {
-					"description" : "远古祭祀场为魔法行会增加魔法。\n{妖精本源}具有该技能的兵种接受的每个祝福魔法（仅限原版魔法），都能使其攻、防各+1。",
-					"name" : "远古祭祀场",
+					"description" : "The Ancient Sacrificial Grounds adds spells to the Mage Guild.\n{Fey Nature} Creatures with this ability gain +1 Attack and +1 Defense for each blessing spell (original spells only) affecting them.",
+					"name" : "Ancient Sacrificial Grounds",
 					"type" : "library",
 					"cost" : {
 						"wood" : 5,
@@ -318,8 +318,8 @@
 					]
 				},
 				"horde2" : {
-					"description" : "妖星使妖女的产量每周增加2个。",
-					"name" : "妖星",
+					"description" : "The Fey Star increases Feymaid production by 2 per week.",
+					"name" : "Fey Star",
 					"requires" : [
 						"allOf",
 						[
@@ -335,8 +335,8 @@
 					}
 				},
 				"horde2Upgr" : {
-					"description" : "妖星使妖女和妖姬的产量每周增加2个。",
-					"name" : "妖星",
+					"description" : "The Fey Star increases Feymaid and Fey Witch production by 2 per week.",
+					"name" : "Fey Star",
 					"requires" : [
 						"horde2"
 					],
@@ -347,8 +347,8 @@
 					"mode" : "auto"
 				},
 				"grail" : {
-					"description" : "妖神金身使每周的生物产量提高50%，每天为你的王国额外提供5000个金币，并使所有己方妖域部队获得妖精本源能力，原先已有妖精本源能力的妖域部队效果翻倍。",
-					"name" : "妖神金身",
+					"description" : "The Golden Fey Idol increases weekly creature growth by 50%, provides your kingdom with 5000 additional gold each day, and grants Fey Nature to all friendly Feydom troops. Feydom troops that already have Fey Nature gain double its effect.",
+					"name" : "Golden Fey Idol",
 					"mode" : "grail",
 					"produce" : {
 						"gold" : 5000
@@ -1416,8 +1416,8 @@
 					]
 				},
 				"dwellingLvl1" : {
-					"description" : "骸骨苗床允许你招募芋精。",
-					"name" : "骸骨苗床",
+					"description" : "The Bone Seedbed allows you to recruit Wild Roots.",
+					"name" : "Bone Seedbed",
 					"cost" : {
 						"gold" : 1000
 					},
@@ -1426,8 +1426,8 @@
 					]
 				},
 				"dwellingLvl2" : {
-					"description" : "红木亭允许你招募暗鸦射手。",
-					"name" : "红木亭",
+					"description" : "The Redwood Pavilion allows you to recruit Dark Crow Archers.",
+					"name" : "Redwood Pavilion",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 10
@@ -1437,8 +1437,8 @@
 					]
 				},
 				"dwellingLvl3" : {
-					"description" : "黑店允许你招募妖卒。",
-					"name" : "黑店",
+					"description" : "The Black Market allows you to recruit Feymen.",
+					"name" : "Black Market",
 					"cost" : {
 						"gold" : 1500,
 						"wood" : 10
@@ -1457,8 +1457,8 @@
 					]
 				},
 				"dwellingLvl4" : {
-					"description" : "空中楼阁允许你招募妖女。",
-					"name" : "空中楼阁",
+					"description" : "The Sky Pavilion allows you to recruit Feymaids.",
+					"name" : "Sky Pavilion",
 					"cost" : {
 						"gold" : 2000,
 						"wood" : 5,
@@ -1484,8 +1484,8 @@
 					]
 				},
 				"dwellingLvl5" : {
-					"description" : "寒霜洞窟允许你招募白猿。",
-					"name" : "寒霜洞窟",
+					"description" : "The Frost Cavern allows you to recruit Snow Apes.",
+					"name" : "Frost Cavern",
 					"cost" : {
 						"gold" : 2500,
 						"ore" : 10,
@@ -1502,8 +1502,8 @@
 					]
 				},
 				"dwellingLvl6" : {
-					"description" : "贪兽石像允许你招募贪兽。",
-					"name" : "贪兽石像",
+					"description" : "The Feaster Idol allows you to recruit Feasters.",
+					"name" : "Feaster Idol",
 					"cost" : {
 						"gold" : 3000,
 						"ore" : 10,
@@ -1520,8 +1520,8 @@
 					]
 				},
 				"dwellingLvl7" : {
-					"description" : "先祖祭坛允许你招募妖王。",
-					"name" : "先祖祭坛",
+					"description" : "The Ancestral Altar allows you to recruit Headless Fiends.",
+					"name" : "Ancestral Altar",
 					"cost" : {
 						"gold" : 15000,
 						"wood" : 5,
@@ -1545,8 +1545,8 @@
 					]
 				},
 				"dwellingUpLvl1" : {
-					"description" : "高级骸骨苗床允许你招募魔芋精。",
-					"name" : "高级骸骨苗床",
+					"description" : "The Upgraded Bone Seedbed allows you to recruit Evil Roots.",
+					"name" : "Upg. Bone Seedbed",
 					"cost" : {
 						"gold" : 1000
 					},
@@ -1554,8 +1554,8 @@
 					"upgrades" : "dwellingLvl1"
 				},
 				"dwellingUpLvl2" : {
-					"description" : "高级红木亭允许你招募白鸦射手。",
-					"name" : "高级红木亭",
+					"description" : "The Upgraded Redwood Pavilion allows you to recruit White Crow Hunters.",
+					"name" : "Upg. Redwood Pavilion",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5
@@ -1564,8 +1564,8 @@
 					"upgrades" : "dwellingLvl2"
 				},
 				"dwellingUpLvl3" : {
-					"description" : "高级黑店允许你招募妖锐。",
-					"name" : "高级黑店",
+					"description" : "The Upgraded Black Market allows you to recruit Feyblades.",
+					"name" : "Upg. Black Market",
 					"cost" : {
 						"gold" : 1500,
 						"wood" : 5
@@ -1574,8 +1574,8 @@
 					"upgrades" : "dwellingLvl3"
 				},
 				"dwellingUpLvl4" : {
-					"description" : "高级空中楼阁允许你招募妖姬。",
-					"name" : "高级空中楼阁",
+					"description" : "The Upgraded Sky Pavilion allows you to recruit Fey Witches.",
+					"name" : "Upg. Sky Pavilion",
 					"cost" : {
 						"gold" : 2000,
 						"wood" : 5,
@@ -1591,8 +1591,8 @@
 					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" : {
-					"description" : "高级寒霜洞窟允许你招募控蜂白猿。",
-					"name" : "高级寒霜洞窟",
+					"description" : "The Upgraded Frost Cavern allows you to recruit Wasp-Tamer Apes.",
+					"name" : "Upg. Frost Cavern",
 					"cost" : {
 						"gold" : 2500,
 						"ore" : 5,
@@ -1602,8 +1602,8 @@
 					"upgrades" : "dwellingLvl5"
 				},
 				"dwellingUpLvl6" : {
-					"description" : "高级贪兽石像允许你招募饕餮。",
-					"name" : "高级贪兽石像",
+					"description" : "The Upgraded Feaster Idol allows you to recruit Taotie.",
+					"name" : "Upg. Feaster Idol",
 					"cost" : {
 						"gold" : 3000,
 						"ore" : 5,
@@ -1613,8 +1613,8 @@
 					"upgrades" : "dwellingLvl6"
 				},
 				"dwellingUpLvl7" : {
-					"description" : "高级先祖祭坛允许你招募刑天。",
-					"name" : "高级先祖祭坛",
+					"description" : "The Upgraded Ancestral Altar allows you to recruit Xingtian.",
+					"name" : "Upg. Ancestral Altar",
 					"cost" : {
 						"gold" : 15000,
 						"wood" : 10,

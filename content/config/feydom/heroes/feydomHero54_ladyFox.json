@@ -7,12 +7,12 @@
 			"hypnotize"
 		],
 		"texts" : {
-			"name" : "苏妲己",
-			"biography" : "商纣王帝辛的宠妃，凭借倾国容貌与才艺深得纣王专宠‌，受女娲指派祸乱商朝‌。",
+			"name" : "Su Daji",
+			"biography" : "The favored consort of King Zhou of Shang. With nation-toppling beauty and talent, she won the king's exclusive favor, and was sent by Nüwa to bring ruin upon the Shang dynasty.",
 			"specialty" : {
-				"description" : "使用蛊惑人心魔法时效果大增。",
-				"tooltip" : "特长蛊惑人心",
-				"name" : "蛊惑人心"
+				"description" : "Casts Hypnotize with increased effect.",
+				"tooltip" : "Specialty: Hypnotize",
+				"name" : "Hypnotize"
 			}
 		},
 

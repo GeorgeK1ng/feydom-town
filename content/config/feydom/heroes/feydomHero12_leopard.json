@@ -7,12 +7,12 @@
 			"lightningBolt"
 		],
 		"texts" : {
-			"name" : "申公豹",
-			"biography" : "申公豹乃元始天尊门下，后叛出阐教。性狡黠，善游说，蛊惑截教同门助纣伐周。因违誓身填北海之眼，终封执掌东海的分水将军。",
+			"name" : "Shen Gongbao",
+			"biography" : "A former disciple of the Primordial Lord of Heaven who later betrayed the Chan sect. Sly and persuasive, he lured Jie sect peers into helping Zhou fight the Shang. For breaking his oath he was cast into the North Sea Eye, and was finally enfeoffed as the Water-Dividing General of the East Sea.",
 			"specialty" : {
-				"description" : "使用霹雳闪电魔法时效果大增。",
-				"tooltip" : "特长霹雳闪电",
-				"name" : "霹雳闪电"
+				"description" : "Casts Lightning Bolt with increased effect.",
+				"tooltip" : "Specialty: Lightning Bolt",
+				"name" : "Lightning Bolt"
 			}
 		},
 

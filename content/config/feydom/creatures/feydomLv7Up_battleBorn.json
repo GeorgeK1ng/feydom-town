@@ -1,10 +1,10 @@
 {
 	"feydomLv7Up_battleBorn" : {
 		"name" : {
-			"plural" : "刑天",
-			"singular" : "刑天"
+			"plural" : "Xingtian",
+			"singular" : "Xingtian"
 		},
-		"description" : "{技能说明}：\n{妖魂共鸣}刑天受英雄和宝物对攻击力、防御力、速度的加成效果+50%，该技能不受驱散效果影响。\n{妖精本源}刑天接受的每个祝福魔法（仅限原版魔法），都能使其攻、防各+1。",
+		"description" : "{Ability Description}:\n{Fey-Soul Resonance} Xingtian receives 50% more Attack, Defense, and Speed from hero and artifact bonuses. This ability cannot be dispelled.\n{Fey Nature} Xingtian gains +1 Attack and +1 Defense for each blessing spell (original spells only) affecting it.",
 		"hasDoubleWeek" : true,
 		"advMapAmount" : {
 			"max" : 8,

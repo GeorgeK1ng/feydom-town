@@ -7,12 +7,12 @@
 			"bloodlust"
 		],
 		"texts" : {
-			"name" : "黑熊精",
-			"biography" : "原为黑风山黑风洞修炼成精的熊怪，别名熊罴怪、黑风怪，与观音院金池长老交好，常讲道参禅。",
+			"name" : "Black Bear Spirit",
+			"biography" : "A bear spirit cultivated in Black Wind Mountain's Black Wind Cave, also known as the Black Bear Monster and Black Wind Monster. He was close to Elder Jinchi of Guanyin Monastery and often discussed doctrine and meditation.",
 			"specialty" : {
-				"description" : "为王国每天额外提供350个金币。",
-				"tooltip" : "特长+350个金币",
-				"name" : "+350个金币"
+				"description" : "Provides your kingdom with 350 additional gold each day.",
+				"tooltip" : "Specialty: +350 Gold",
+				"name" : "+350 Gold"
 			}
 		},
 

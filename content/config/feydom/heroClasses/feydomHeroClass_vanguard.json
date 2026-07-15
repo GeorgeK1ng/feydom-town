@@ -1,6 +1,6 @@
 {
 	"feydomHeroClass_vanguard" : {
-		"name" : "先锋",
+		"name" : "Vanguard",
 		"animation" : {
 			"battle" : {
 				"female" : "feydom/heroClasses/primofey_battle",

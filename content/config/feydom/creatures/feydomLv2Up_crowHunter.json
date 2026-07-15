@@ -1,10 +1,10 @@
 {
 	"feydomLv2Up_crowHunter" : {
 		"name" : {
-			"plural" : "白鸦猎手",
-			"singular" : "白鸦猎手"
+			"plural" : "White Crow Hunter",
+			"singular" : "White Crow Hunter"
 		},
-		"description" : "{技能说明}：\n{破魔免箭}白鸦猎手在远程攻击后，将对攻击目标施法，破除目标的魔法免疫能力。",
+		"description" : "{Ability Description}:\n{Wardbreaking Shot} White Crow Hunter casts a spell on its target after ranged attacks, removing the target's magic immunity.",
 		"hasDoubleWeek" : true,
 		"advMapAmount" : {
 			"max" : 25,

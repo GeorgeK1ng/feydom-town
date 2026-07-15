@@ -2,7 +2,7 @@
 	"feydomSpellLv7" : {
 		"type" : "ability",
 		"targetType" : "CREATURE",
-		"name" : "妖魂共鸣",
+		"name" : "Fey-Soul Resonance",
 		"school" : {
 			"air" : false,
 			"earth" : false,
@@ -31,7 +31,7 @@
 		},
 		"levels" : {
 			"base" : {
-				"description" : "{妖魂共鸣}\r\n\r\n有此技能的生物受英雄和宝物对攻击力、防御力、速度的加成效果增加。",
+				"description" : "{Fey-Soul Resonance}\r\n\r\nCreatures with this ability receive increased Attack, Defense, and Speed bonuses from heroes and artifacts.",
 				"power" : 1,
 				"cost" : 0,
 				"range" : "0",

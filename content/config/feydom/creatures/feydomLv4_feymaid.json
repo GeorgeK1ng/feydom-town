@@ -1,10 +1,10 @@
 {
 	"feydomLv4_feymaid" : {
 		"name" : {
-			"plural" : "妖女",
-			"singular" : "妖女"
+			"plural" : "Feymaid",
+			"singular" : "Feymaid"
 		},
-		"description" : "{技能说明}：\n{妖精本源}妖女接受的每个祝福魔法（仅限原版魔法），都能使其攻、防各+1。\n妖女施放初级转世重生魔法，战后不保留被复活单位。",
+		"description" : "{Ability Description}:\n{Fey Nature} Feymaid gains +1 Attack and +1 Defense for each blessing spell (original spells only) affecting it.\nFeymaid casts Basic Resurrection; resurrected units do not remain after combat.",
 		"hasDoubleWeek" : true,
 		"advMapAmount" : {
 			"max" : 20,

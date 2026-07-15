@@ -1,8 +1,8 @@
 {
 	"feydomLv2_crowArcher" : {
 		"name" : {
-			"plural" : "暗鸦射手",
-			"singular" : "暗鸦射手"
+			"plural" : "Dark Crow Archer",
+			"singular" : "Dark Crow Archer"
 		},
 		"description" : "",
 		"hasDoubleWeek" : true,

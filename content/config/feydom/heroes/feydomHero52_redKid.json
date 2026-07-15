@@ -7,12 +7,12 @@
 			"fireball"
 		],
 		"texts" : {
-			"name" : "红孩儿",
-			"biography" : "牛魔王与铁扇公主之子，名唤圣婴大王。虽孩童外表，却修为颇高，能使三昧真火，多次力战美猴王而不败。",
+			"name" : "Red Boy",
+			"biography" : "Son of the Bull Demon King and Princess Iron Fan, titled the Holy Infant King. Though childlike in appearance, his cultivation is profound; he wields Samadhi Fire and fought the Monkey King many times without defeat.",
 			"specialty" : {
-				"description" : "使火系魔法伤害+30%",
-				"tooltip" : "特长火系伤害+30%",
-				"name" : "三昧真火"
+				"description" : "Increases Fire Magic damage by 30%.",
+				"tooltip" : "Specialty: Fire Damage +30%",
+				"name" : "Samadhi Fire"
 			}
 		},
 

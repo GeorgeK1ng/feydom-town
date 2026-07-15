@@ -1,10 +1,10 @@
 {
 	"feydomLv6_feaster" : {
 		"name" : {
-			"plural" : "贪兽",
-			"singular" : "贪兽"
+			"plural" : "Feaster",
+			"singular" : "Feaster"
 		},
-		"description" : "{技能说明}：\n{伤怒力涌}贪兽受到攻击或反击后，攻击力将上升1点,可无限叠加。叠加的攻击力可被魔法驱散，而技能一直有效。",
+		"description" : "{Ability Description}:\n{Wounded Fury} Feaster gains +1 Attack after being attacked or retaliated against. This can stack without limit. The accumulated Attack can be dispelled, but the ability remains active.",
 		"hasDoubleWeek" : true,
 		"advMapAmount" : {
 			"max" : 12,

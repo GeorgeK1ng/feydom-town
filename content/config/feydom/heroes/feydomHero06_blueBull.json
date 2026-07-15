@@ -7,12 +7,12 @@
 			"frostRing"
 		],
 		"texts" : {
-			"name" : "独角兕大王",
-			"biography" : "本为太上老君坐骑，见饲牛童子误食仙丹陷入沉眠，便携家中珍宝下界为妖，自称独角兕大王。",
+			"name" : "Single-Horned Rhinoceros King",
+			"biography" : "Once the mount of the Grand Supreme Elderly Lord, he saw the cowherd boy fall asleep after eating an immortal pill, then carried the household treasures down to the mortal world and proclaimed himself the Single-Horned Rhinoceros King.",
 			"specialty" : {
-				"description" : "使用寒冰魔环魔法时效果大增。",
-				"tooltip" : "特长寒冰魔环",
-				"name" : "寒冰魔环"
+				"description" : "Casts Frost Ring with increased effect.",
+				"tooltip" : "Specialty: Frost Ring",
+				"name" : "Frost Ring"
 			}
 		},
 

@@ -1,7 +1,7 @@
 {
 	"feydomSpellFeyNature" : {
 		"type" : "ability",
-		"name" : "妖精本源",
+		"name" : "Fey Nature",
 		"school" : {
 			"air" : false,
 			"earth" : false,
@@ -34,7 +34,7 @@
 		},
 		"levels" : {
 			"base" : {
-				"description" : "{妖精本源}\r\n\r\n妖精总有一些隐藏技能，右键点击生物展示框来查看。",
+				"description" : "{Fey Nature}\r\n\r\nFey creatures always have a few hidden tricks. Right-click a creature portrait to view them.",
 				"power" : 1,
 				"cost" : 0,
 				"range" : "0",

@@ -7,12 +7,12 @@
 			"stoneSkin"
 		],
 		"texts" : {
-			"name" : "六牙白象",
-			"biography" : "本为普贤菩萨坐骑，下凡后盘踞狮驼岭，是青毛狮王，金翅大鹏的结拜兄弟。",
+			"name" : "Six-Tusked Elephant",
+			"biography" : "Once the mount of Samantabhadra, he descended to the mortal world and occupied Lion-Camel Ridge, becoming sworn brother to Azure Lion King and Golden-Winged Roc.",
 			"specialty" : {
-				"description" : "使用护体石肤魔法时效果大增。",
-				"tooltip" : "特长护体石肤",
-				"name" : "护体石肤"
+				"description" : "Casts Stone Skin with increased effect.",
+				"tooltip" : "Specialty: Stone Skin",
+				"name" : "Stone Skin"
 			}
 		},
 

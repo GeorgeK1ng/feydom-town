@@ -7,12 +7,12 @@
 			"blind"
 		],
 		"texts" : {
-			"name" : "黄眉大王",
-			"biography" : "本为东来佛祖坐下司磬童子，盗取佛祖法宝后私下凡界，仿照西天大雷音寺修造小雷音寺并假冒如来佛祖身份居于寺中。",
+			"name" : "Yellow Brow King",
+			"biography" : "Once the chime-bearing boy beneath Buddha Maitreya, he stole his master's treasures and slipped down to the mortal realm. There he built Little Thunderclap Monastery in imitation of the Great Thunderclap Monastery and dwelt within, masquerading as the Tathagata.",
 			"specialty" : {
-				"description" : "根据英雄等级，所带领军队的原始攻击力每级+1%，宝物增加的英雄攻击力每级额外+1%。",
-				"tooltip" : "特长攻击加成",
-				"name" : "攻击加成"
+				"description" : "Based on hero level, the army's base Attack is increased by +1% per level; Attack granted by artifacts is increased by an additional +1% per level.",
+				"tooltip" : "Specialty: Attack Bonus",
+				"name" : "Attack Bonus"
 			}
 		},
 

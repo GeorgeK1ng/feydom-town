@@ -2,7 +2,7 @@
 	"feydomSpellLv6" : {
 		"type" : "ability",
 		"targetType" : "CREATURE",
-		"name" : "饕餮受击，受击饕餮攻+3",
+		"name" : "TaotieTaotie is struck; struck Taotie gets Attack +3",
 		"school" : {
 			"air" : false,
 			"earth" : false,
@@ -31,7 +31,7 @@
 		},
 		"levels" : {
 			"base" : {
-				"description" : "受到攻击后攻击力加1.",
+				"description" : "Attack increases by 1 after being attacked.",
 				"cost" : 0,
 				"power" : 1,
 				"range" : "0",
@@ -57,7 +57,7 @@
 			},
 			"none" : {},
 			"basic" : {
-				"description" : "受到攻击后攻击力加3.",
+				"description" : "Attack increases by 3 after being attacked.",
 				"cost" : 0,
 				"power" : 3,
 				"range" : "0",

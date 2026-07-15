@@ -7,12 +7,12 @@
 			"sorrow"
 		],
 		"texts" : {
-			"name" : "青毛狮王",
-			"biography" : "本为文殊菩萨坐骑，青狮巨口可吞十万天兵。下凡后盘踞狮驼岭，是六牙白象，金翅大鹏的结拜兄弟。",
+			"name" : "Azure Lion King",
+			"biography" : "Once the mount of Manjushri, the Azure Lion could swallow a hundred thousand heavenly soldiers in one gulp. After descending to the mortal world, he occupied Lion-Camel Ridge and became sworn brother to Six-Tusked Elephant and Golden-Winged Roc.",
 			"specialty" : {
-				"description" : "贪兽和饕餮速度+1，英雄每升一级贪兽和饕餮的生命值+1。",
-				"tooltip" : "特长贪兽",
-				"name" : "贪兽"
+				"description" : "Feasters and Taotie gain +1 speed; for every hero level, they also gain +1 hit point.",
+				"tooltip" : "Specialty: Feasters",
+				"name" : "Feaster"
 			}
 		},
 

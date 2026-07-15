@@ -1,10 +1,10 @@
 {
 	"feydomLv6Up_devourer" : {
 		"name" : {
-			"plural" : "饕餮",
-			"singular" : "饕餮"
+			"plural" : "Taotie",
+			"singular" : "Taotie"
 		},
-		"description" : "{技能说明}：\n{伤怒力涌}饕餮受到攻击或反击后，攻击力将上升3点,可无限叠加。叠加的攻击力可被魔法驱散，而技能一直有效。",
+		"description" : "{Ability Description}:\n{Wounded Fury} Taotie gains +3 Attack after being attacked or retaliated against. This can stack without limit. The accumulated Attack can be dispelled, but the ability remains active.",
 		"hasDoubleWeek" : true,
 		"advMapAmount" : {
 			"max" : 10,

@@ -2,7 +2,7 @@
 	"feydomSpellLv6b" : {
 		"type" : "ability",
 		"targetType" : "CREATURE",
-		"name" : "伤怒力涌",
+		"name" : "Wounded Fury",
 		"school" : {
 			"air" : false,
 			"earth" : false,
@@ -31,7 +31,7 @@
 		},
 		"levels" : {
 			"base" : {
-				"description" : "{伤怒力涌}\r\n\r\n有此技能的生物受到攻击或反击后，攻击力将上升。",
+				"description" : "{Wounded Fury}\r\n\r\nCreatures with this ability gain Attack after being attacked or retaliated against.",
 				"power" : 1,
 				"cost" : 0,
 				"range" : "0",

@@ -7,12 +7,12 @@
 			"disruptingRay"
 		],
 		"texts" : {
-			"name" : "黄风大王",
-			"biography" : "本为灵山脚下的貂鼠，偷吃灯油致使佛堂昏暗无光，惧怕护法金刚捉拿而畏罪潜逃，流落凡界占山为王。",
+			"name" : "Yellow Wind King",
+			"biography" : "A marten from beneath Spirit Mountain, he stole lamp oil and left the Buddha hall dim and dark. Fearing capture by the guardian vajras, he fled in guilt to the mortal realm and claimed a mountain as king.",
 			"specialty" : {
-				"description" : "使用毁灭之光魔法时效果大增。",
-				"tooltip" : "特长毁灭之光",
-				"name" : "毁灭之光"
+				"description" : "Casts Disrupting Ray with increased effect.",
+				"tooltip" : "Specialty: Disrupting Ray",
+				"name" : "Disrupting Ray"
 			}
 		},
 

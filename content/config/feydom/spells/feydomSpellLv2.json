@@ -2,7 +2,7 @@
 	"feydomSpellLv2" : {
 		"type" : "ability",
 		"targetType" : "CREATURE",
-		"name" : "破魔免箭",
+		"name" : "Wardbreaking Shot",
 		"school" : {
 			"air" : false,
 			"earth" : false,
@@ -31,7 +31,7 @@
 		},
 		"levels" : {
 			"base" : {
-				"description" : "破除目标的魔法抗性.",
+				"description" : "Removes the target's magic immunity.",
 				"cost" : 0,
 				"power" : 3,
 				"range" : "0",

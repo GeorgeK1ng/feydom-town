@@ -7,12 +7,12 @@
 			"airShield"
 		],
 		"texts" : {
-			"name" : "牛魔王",
-			"biography" : "本是一头白色巨牛，修炼成精，能谋善战，力大无穷，尊号大力王。现与玉面公主同居于积雷山摩云洞，另有原配夫人铁扇公主为其育有一子，名唤红孩儿。",
+			"name" : "Bull Demon King",
+			"biography" : "Once a great white bull, he cultivated himself into a demon of cunning strategy and boundless strength, honored as the Great Strength King. He now dwells with Princess Jade Face in Thunderhoard Mountain's Cloud-Scraping Cave; his first wife, Princess Iron Fan, bore him a son named Red Boy.",
 			"specialty" : {
-				"description" : "所有兵种生命加10%。",
-				"tooltip" : "特长生命值+10%",
-				"name" : "法天象地"
+				"description" : "All creatures gain +10% hit points.",
+				"tooltip" : "Specialty: +10% hit points",
+				"name" : "Heavenly Giant Form"
 			}
 		},
 
