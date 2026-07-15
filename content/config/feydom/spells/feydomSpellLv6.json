@@ -2,7 +2,7 @@
 	"feydomSpellLv6" : {
 		"type" : "ability",
 		"targetType" : "CREATURE",
-		"name" : "TaotieTaotie is struck; struck Taotie gets Attack +3",
+		"name" : "Taotie is struck; struck Taotie gets Attack +3",
 		"school" : {
 			"air" : false,
 			"earth" : false,

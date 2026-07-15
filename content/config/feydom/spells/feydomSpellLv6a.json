@@ -2,7 +2,7 @@
 	"feydomSpellLv6a" : {
 		"type" : "ability",
 		"targetType" : "CREATURE",
-		"name" : "FeasterFeaster is struck; struck Feaster gets Attack +1",
+		"name" : "Feaster is struck; struck Feaster gets Attack +1",
 		"school" : {
 			"air" : false,
 			"earth" : false,
